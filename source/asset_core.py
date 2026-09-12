@@ -288,6 +288,6 @@ def setup_preview(azimuth=35,elevation=25,width=1400,height=1050,white=False):
 
 def save_asset(asset_id,render=True):
  s=bpy.context.scene;out=os.path.join(ROOT,'assets',asset_id);os.makedirs(out,exist_ok=True)
- s.render.filepath=os.path.join(out,'preview.png');bpy.ops.wm.save_as_mainfile(filepath=os.path.join(out,asset_id+'.blend'),compress=True)
+ s.render.filepath='//preview.png';bpy.ops.wm.save_as_mainfile(filepath=os.path.join(out,asset_id+'.blend'),compress=True,relative_remap=False)
  print('ASSET_SAVED',asset_id,flush=True)
  if render:bpy.ops.render.render(write_still=True)
