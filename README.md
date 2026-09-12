@@ -5,6 +5,8 @@ sequence. Buildings are modeled individually from production references, then
 assembled with a shared camera and lighting rig.
 
 [Explore the live comparison](https://silicon-valley-hunk.hunk.851.sh/)
+· [Watch the animated intro](https://silicon-valley-hunk.hunk.851.sh/#animated-intro)
+· [Animation files and rendering](animation/README.md)
 · [Reconstruction workflow](docs/workflow.md)
 · [Remaining differences](source/matching_status.json)
 
@@ -30,6 +32,8 @@ Use **Blender 4.5 LTS**. Other Blender releases have not been validated.
 
 | File | Purpose |
 | --- | --- |
+| `animation/intro.blend` | Self-contained animated intro: camera, construction, changing signs, cranes and traffic |
+| `animation/intro.mp4` | 10.886-second, 1080p rendered animation at 24000/1001 fps; silent |
 | `city_measured_standalone.blend` | Complete editable city with embedded building collections and no external libraries |
 | `city_measured.blend` | Working city linked to the individual files in `assets/` |
 | `assets/<building>/<building>.blend` | An individual editable building |
@@ -37,8 +41,10 @@ Use **Blender 4.5 LTS**. Other Blender releases have not been validated.
 | `renders/city_measured.png` | City rendered with the reference lighting |
 | `renders/city_measured_sunrise.png` | Low-sun lighting variation |
 
-Frame 60 is the reference lighting; frame 1 is sunrise. The timeline animates
-lighting only. Modeling uses Blender's Python API, native meshes and Cycles.
+In the static city files, frame 60 is the reference lighting and frame 1 is sunrise;
+their timeline animates lighting only. The separate `animation/intro.blend` contains
+the complete 261-frame moving shot. Modeling uses Blender's Python API, native
+meshes and Cycles; the animated scene was built through Blender MCP.
 
 ## Rebuild
 
@@ -99,7 +105,8 @@ python -m http.server 8000
 
 Open `http://localhost:8000/measured_review.html`. The page provides paired
 source/model views, adjustable overlays, outline diagnostics, per-building
-issues and both city lighting renders. Use the live Hunk page to view the
+issues, the rendered intro and both city lighting renders. The movie section
+appears when `animation/intro.mp4` and its poster are present. Use the live Hunk page to view the
 published comparison without downloading reference material.
 
 The downloader retrieves the exact 1280 × 720 working master, verified by SHA-256.
@@ -116,6 +123,6 @@ The original sequence and production designs are by
 Third-party imagery, designs and brand artwork retain their original rights;
 see [third-party notices](THIRD_PARTY_NOTICES.md).
 
-Blender scenes, previews and renders use Git LFS. Keep commits focused on a
+Blender scenes, previews, renders and videos use Git LFS. Keep commits focused on a
 building or a coherent pipeline change, with the corresponding measurements
 and generated assets together.

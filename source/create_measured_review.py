@@ -40,6 +40,19 @@ function setCityLight(mode){const sunrise=mode==='sunrise',src=sunrise?'renders/
 ['reference','sunrise'].forEach(m=>$('light-'+m).addEventListener('click',()=>setCityLight(m)));
 '''
 page=page.replace('</script></body>',light_script+'</script></body>')
+if all((R/'animation'/name).is_file() for name in ('intro.mp4','poster.png')):
+ movie='''<section id="animated-intro" class="movie">
+<div class="kicker">THE MOVING SHOT</div><h2>The town comes to life.</h2>
+<p>A 10.886-second Blender reconstruction of the season-one intro, with a measured camera move, rising title buildings, changing signs, cranes and traffic.</p>
+<figure><video id="intro-video" controls playsinline loop preload="metadata" poster="animation/poster.png" aria-label="Silicon Valley intro reconstructed in Blender">
+<source src="animation/intro.mp4" type="video/mp4">Your browser cannot play this video. <a href="animation/intro.mp4">Download the MP4.</a></video>
+<figcaption>Blender / Cycles · 1920 × 1080 · 23.976 fps · silent</figcaption></figure>
+<div class="intro-links"><a href="animation/intro.mp4" download>Download video</a><a href="https://github.com/851-labs/silicon-valley-city/tree/main/animation">Editable Blender scene and source ↗</a><a href="#city-checkpoint">Compare the city</a></div>
+<p class="meta">Geometry and secondary motion remain under comparison. The building studies below document the remaining differences from the production reference.</p></section>'''
+ page=page.replace('<main>','<main>'+movie,1)
+ page=page.replace('<div class="intro-links">','<div class="intro-links"><a href="#animated-intro">Watch the intro</a>',1)
+ page=page.replace('</style>','''.movie{padding-bottom:38px;margin-bottom:38px;border-bottom:1px solid #d1d4c5;scroll-margin-top:24px}.movie h2{font-size:clamp(28px,3vw,44px);letter-spacing:-1px;margin:12px 0}.movie figure{margin:24px 0 12px}.movie video{display:block;width:100%;aspect-ratio:16/9;background:#151d17;border-radius:5px}.movie figcaption{font-size:12px;color:#637366;margin-top:10px}.movie .meta{margin-top:20px}</style>''',1)
+ page=page.replace("if(initialHash==='city-checkpoint'){history.replaceState(null,'','#city-checkpoint');document.getElementById('city-checkpoint').scrollIntoView()}","if(['city-checkpoint','animated-intro'].includes(initialHash)){history.replaceState(null,'','#'+initialHash);document.getElementById(initialHash).scrollIntoView()}")
 instances=json.load(open(R/'source/city_placements_measured.json'))
 page=page.replace('__INSTANCES__',str(len(instances)))
 pending=' · '.join(k.replace('_',' ').title() for k in ledger['assets'] if k not in order)

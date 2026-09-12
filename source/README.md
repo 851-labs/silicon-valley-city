@@ -22,6 +22,19 @@
 `--measured-checkpoint` after Blender's `--` separator for the current delivery.
 The wrapper supplies these flags automatically.
 
+## Animated intro
+
+- `analyze_intro.py`: optional SIFT measurements of the reference camera path.
+- `intro_camera.json`: camera observations, fit and final hold.
+- `intro_timing.json`: editable event and construction timings.
+- `build_intro.py`: staged Blender MCP / background builder using the standalone city.
+- `validate_intro.py`: saved animation, camera projection and construction checks.
+- `render_intro.py`: Cycles frame renderer with selected-frame and resume options.
+- `../tools/encode_intro.py`: validates the frame sequence and exports H.264 video.
+
+See [the animation guide](../animation/README.md) for commands, output files and
+the distinction between measured motion and inferred secondary details.
+
 ## Research and earlier revisions
 
 `prepare_*`, `trace_*`, `fit_*`, `refit_*`, `calibrate_camera.py` and
