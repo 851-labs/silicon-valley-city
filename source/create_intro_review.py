@@ -29,8 +29,8 @@ output{min-width:165px;font-variant-numeric:tabular-nums;font-size:14px}
 <h1>Compare the moving shot.</h1>
 <p>Play both versions together, slow them down, or step through individual frames. Building details and secondary motion remain under comparison.</p>
 <div class="pair">
-<figure><video id="source" preload="auto" playsinline muted aria-label="Original production reference"><source src="../references/season1_intro.mp4" type="video/mp4"></video><figcaption>Original production reference · yU+co / HBO</figcaption></figure>
-<figure><video id="model" preload="auto" playsinline muted aria-label="Blender reconstruction"><source src="intro.mp4" type="video/mp4"></video><figcaption>Blender reconstruction · identical elapsed time</figcaption></figure>
+<figure><video id="source" preload="auto" playsinline muted data-src="../references/season1_intro.mp4" aria-label="Original production reference"></video><figcaption>Original production reference · yU+co / HBO</figcaption></figure>
+<figure><video id="model" preload="auto" playsinline muted data-src="intro.mp4" aria-label="Blender reconstruction"></video><figcaption>Blender reconstruction · identical elapsed time</figcaption></figure>
 </div>
 <div class="controls">
 <button id="play">Play both</button><button id="previous" aria-label="Previous frame">← Frame</button><button id="next" aria-label="Next frame">Frame →</button><button id="restart">Restart</button>
@@ -42,7 +42,7 @@ output{min-width:165px;font-variant-numeric:tabular-nums;font-size:14px}
 <p class="muted"><a href="../measured_review.html">Individual building comparisons</a> · <a href="https://www.yuco.com/works/silicon-valley">Production credits and references</a></p>
 <script>
 const fps=24000/1001,total=261,$=id=>document.getElementById(id),model=$('model'),source=$('source');
-let ready=0,playing=false;
+let ready=0,playing=false;const mediaUrls=[];
 function currentFrame(){return Math.min(260,Math.max(0,Math.floor(model.currentTime*fps+1e-6)))}
 function display(){const frame=currentFrame();$('frame').value=frame;$('time').textContent=String(frame+1).padStart(3,'0')+' / 261 · '+(frame/fps).toFixed(3)+' s'}
 function pause(){playing=false;model.pause();source.pause();$('play').textContent='Play both'}
@@ -51,7 +51,10 @@ async function play(){if(ready<2)return;if(playing){pause();return}if(model.curr
 for(const video of [model,source]){
  video.addEventListener('loadedmetadata',()=>{ready++;if(ready===2){seek(5);$('status').textContent='Ready · use the frame control for exact still comparisons'}});
  video.addEventListener('error',()=>{pause();$('status').textContent='A video could not load. Serve this project from its root and check the local reference file.'});
+ // Blob URLs preserve seeking even on simple static servers without HTTP Range.
+ fetch(video.dataset.src).then(response=>{if(!response.ok)throw new Error(response.status+' '+video.dataset.src);return response.blob()}).then(blob=>{const url=URL.createObjectURL(blob);mediaUrls.push(url);video.src=url;video.load()}).catch(error=>{$('status').textContent='Could not load a comparison video: '+error.message});
 }
+window.addEventListener('pagehide',()=>mediaUrls.forEach(url=>URL.revokeObjectURL(url)));
 model.addEventListener('ended',pause);model.addEventListener('seeked',display);
 $('play').addEventListener('click',play);$('previous').addEventListener('click',()=>seek(currentFrame()-1));$('next').addEventListener('click',()=>seek(currentFrame()+1));$('restart').addEventListener('click',()=>seek(0));$('frame').addEventListener('input',event=>seek(Number(event.target.value)));
 $('speed').addEventListener('change',event=>{model.playbackRate=source.playbackRate=Number(event.target.value)});$('sound').addEventListener('change',event=>{source.muted=!event.target.checked});
