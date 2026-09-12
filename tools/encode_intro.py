@@ -48,8 +48,11 @@ def main():
         ffmpeg, '-hide_banner', '-loglevel', 'warning', '-xerror', '-y',
         '-framerate', FPS, '-start_number', '1',
         '-i', str(frames / 'frame_%04d.png'), '-frames:v', str(FRAME_COUNT),
+        '-vf', 'scale=in_range=full:out_range=tv:out_color_matrix=bt709',
         '-c:v', 'libx264', '-preset', 'slow', '-crf', '17',
-        '-pix_fmt', 'yuv420p', '-movflags', '+faststart', '-an', str(temporary),
+        '-pix_fmt', 'yuv420p', '-color_range', 'tv', '-colorspace', 'bt709',
+        '-color_primaries', 'bt709', '-color_trc', 'bt709',
+        '-movflags', '+faststart', '-an', str(temporary),
     ], check=True)
     probe = json.loads(subprocess.check_output([
         ffprobe, '-v', 'error', '-count_frames', '-select_streams', 'v:0',
@@ -57,6 +60,7 @@ def main():
     ]))['streams'][0]
     if (probe['codec_name'] != 'h264' or probe['pix_fmt'] != 'yuv420p'
             or probe['avg_frame_rate'] != FPS
+            or probe.get('color_space') != 'bt709'
             or int(probe['nb_read_frames']) != FRAME_COUNT
             or (probe['width'], probe['height']) != (spec['width'], spec['height'])):
         raise ValueError(f'Encoded video failed validation: {probe}')
@@ -70,6 +74,7 @@ def main():
         'duration_seconds': float(probe['duration']),
         'resolution': [probe['width'], probe['height']],
         'codec': probe['codec_name'], 'pixel_format': probe['pix_fmt'],
+        'color_space': probe['color_space'], 'color_range': probe['color_range'],
         'audio': False, 'scene_sha256': spec['scene_sha256'],
         'video_sha256': digest(output), 'bytes': output.stat().st_size,
         'render_samples': spec['samples'], 'render_device': spec['device'],
