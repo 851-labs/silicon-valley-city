@@ -1,0 +1,408 @@
+{
+  "west_solar": {
+    "camera": [
+      82.134,
+      26.377
+    ],
+    "changes": [
+      "Replaced framed glazing with solid aggregate masonry",
+      "Measured roof outline and corrected annex position",
+      "Six interrupted PV fields with tilted modules",
+      "Three-part low projecting entry and narrow joints"
+    ],
+    "remaining": "Original crop resolves only the front and left roof edges; masonry joint spacing is inferred."
+  },
+  "title_towers": {
+    "camera": [
+      47.134,
+      26.377
+    ],
+    "geometry_scale": [
+      0.535234688,
+      0.535234688,
+      0.48
+    ],
+    "changes": [
+      "Applied city proportions to the editable library asset",
+      "Retained traced individual roof outlines",
+      "Refined opaque window reveals and glass/stone separation",
+      "Replaced exposed Y parking ramps with a solid screen and three sloping glazed bands"
+    ],
+    "remaining": "The source does not resolve all rear elevations or internal parking ramps."
+  },
+  "youtube": {
+    "camera": [
+      47.134259,
+      26.377115
+    ],
+    "changes": [
+      "Upper slab and lobby fitted independently to the source corners",
+      "Measured thick cantilever and much deeper lobby recess",
+      "Historical vector glyphs and separate deep pale sign extrusion",
+      "Blue plaza reconstructed from its four visible corners"
+    ],
+    "remaining": "Under comparison: sign pose, facade density and exact slab levels require rendered verification.",
+    "geometry_scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "netscape": {
+    "camera": [
+      56,
+      27
+    ],
+    "changes": [
+      "Warped floor and fascia sections along the curved plan",
+      "Added vertical curvature to roof pool and parapet",
+      "Rebuilt arched sail lattice and rounded facade rims"
+    ],
+    "remaining": "Isolated production still includes a later LED board; the library retains original architecture without it."
+  },
+  "netscape_digg": {
+    "camera": [
+      42.531,
+      26.377
+    ],
+    "geometry_scale": [
+      1.047733268,
+      1.047733268,
+      0.86
+    ],
+    "changes": [
+      "Curved floor section and roof-level changes",
+      "Original Digg sign and measured canopy apex",
+      "Applied fitted proportions in the library"
+    ],
+    "remaining": "Rear service deck is partly hidden by the Digg sign."
+  },
+  "google": {
+    "camera": [
+      47.134259,
+      26.377115
+    ],
+    "geometry_scale": [
+      1,
+      1,
+      1
+    ],
+    "changes": [
+      "Fourteen independently measured stepped roof volumes",
+      "Seven separately measured service towers",
+      "PV fields fitted to observed corners with central party clearing",
+      "Curved western terrace, raised garden and traced bridge paths"
+    ],
+    "remaining": "Under active comparison: occluded roof contours, sign position and facade spacing require further verification."
+  },
+  "facebook": {
+    "camera": [
+      47.134259,
+      26.377115
+    ],
+    "geometry_scale": [
+      1,
+      1,
+      1
+    ],
+    "changes": [
+      "Nine independent roof outlines traced in the original frame",
+      "Module-specific orientations and courtyard gaps",
+      "Long louvered elevations and three-storey glazed ends",
+      "Copper roof equipment quadrilaterals and measured party deck"
+    ],
+    "remaining": "Awaiting rendered contour inspection; billboard typography and individual trees are not yet exact."
+  },
+  "apple": {
+    "camera": [
+      47.134,
+      26.377
+    ],
+    "changes": [
+      "Added broad outer masonry spandrel",
+      "Replaced ball trees with branching multi-lobed crowns",
+      "Rebalanced warm roof and cool glass"
+    ],
+    "remaining": "Planting positions are fitted visually, not individually tracked from the footage."
+  },
+  "twitter": {
+    "camera": [
+      47.134,
+      26.377
+    ],
+    "changes": [
+      "Thicker, fewer end-wall louvers",
+      "Pale raised roof parapets and denser roof blades",
+      "Fine masonry texture and improved planting"
+    ],
+    "remaining": "Rear connector proportions remain approximate."
+  },
+  "hooli": {
+    "camera": [
+      47.134,
+      26.377
+    ],
+    "geometry_scale": [
+      1.07,
+      1,
+      1.3
+    ],
+    "changes": [
+      "Applied original-frame vertical proportions",
+      "Refined brickwork and deep colonnade shadows",
+      "Added rooftop dish and mechanical fittings"
+    ],
+    "remaining": "The building carries different branding across intro versions; this uses the supplied Hooli wide frame."
+  },
+  "ebay": {
+    "camera": [
+      47.134,
+      26.377
+    ],
+    "geometry_scale": [
+      1.08,
+      1.44,
+      1.1
+    ],
+    "changes": [
+      "Replaced eight isolated PV squares with dense broken arrays",
+      "Rebuilt bent copper rooftop ducts and taller narrow mast",
+      "Applied measured wider roof proportions"
+    ],
+    "remaining": "Letter shapes are modeled typography rather than traced original outlines."
+  },
+  "intel": {
+    "camera": [
+      47.134,
+      26.377
+    ],
+    "changes": [
+      "Broader cream ribbons and quieter vertical divisions",
+      "Lower blue roof boxes and corrected logo elevation",
+      "Added tilted glazing and fine surface response"
+    ],
+    "remaining": "Intel lettering is a close typographic approximation."
+  },
+  "yahoo_oracle": {
+    "camera": [
+      47.134,
+      26.377
+    ],
+    "changes": [
+      "Separated PV rows and raised module supports",
+      "Refined fluted spandrels and cool glazing",
+      "Comparison now uses matching original roof-sign variant"
+    ],
+    "remaining": "Rear circulation core is only partially visible."
+  },
+  "myspace": {
+    "camera": [
+      47.134,
+      26.377
+    ],
+    "changes": [
+      "Broader darker horizontal facade bands",
+      "Split adjoining PV field around central service aisle",
+      "Layered roof trees and finer terrace shadows"
+    ],
+    "remaining": "Party attendees are small figurines, not identifiable production characters."
+  },
+  "energy_pod": {
+    "camera": [
+      47.134,
+      26.377
+    ],
+    "geometry_scale": [
+      0.86,
+      0.86,
+      0.93
+    ],
+    "changes": [
+      "Added a projecting cowl around the sliced pod roof",
+      "Refined corner-pier joints and roof equipment",
+      "Applied original-frame proportions to library"
+    ],
+    "remaining": "Pod surface curvature and small roof lettering remain approximate."
+  },
+  "adobe": {
+    "camera": [
+      47.134,
+      26.377
+    ],
+    "changes": [
+      "Denser vertical stone fins and wider transoms",
+      "Textured stepped masonry and roof vent risers",
+      "Warmer concrete with darker glass"
+    ],
+    "remaining": "The source crops the far-right elevation."
+  },
+  "hp": {
+    "camera": [
+      47.134,
+      26.377
+    ],
+    "changes": [
+      "Refined raised mechanical skylights and support frames",
+      "Improved facade surface response and helipad shading"
+    ],
+    "remaining": "An alternate intro variant, retained separately from Hooli."
+  },
+  "legacy_hp": {
+    "camera": [
+      47.134,
+      26.377
+    ],
+    "changes": [
+      "Narrower curtain-wall mullions",
+      "Roof lettering has deeper extrusion and contrasting edge shadows",
+      "Textured pale roof and recessed service equipment"
+    ],
+    "remaining": "Historical roof lettering uses a substituted font."
+  },
+  "historic_apple": {
+    "camera": [
+      47.134,
+      26.377
+    ],
+    "changes": [
+      "Deep window reveals and tilted-open awning panes",
+      "Rounded capsule Pets.com sign with heavier pedestals",
+      "Textured turquoise masonry"
+    ],
+    "remaining": "Rainbow Apple is a historical variant absent from the supplied wide frame."
+  },
+  "pets_com": {
+    "camera": [
+      47.134,
+      26.377
+    ],
+    "changes": [
+      "Inherited masonry, open-window and sign-pedestal corrections",
+      "Original variant excludes the rainbow Apple wall sign"
+    ],
+    "remaining": "Only two elevations are documented."
+  },
+  "paypal": {
+    "camera": [
+      47.134,
+      26.377
+    ],
+    "changes": [
+      "Broad horizontal masonry courses",
+      "Narrowed yellow recessed slots",
+      "Raised roof vents with fine louvers"
+    ],
+    "remaining": "Roof wordmark uses approximated typography."
+  },
+  "linkedin": {
+    "camera": [
+      47.134,
+      26.377
+    ],
+    "changes": [
+      "Broader solid parapets around stepped terraces",
+      "Inset roof PV field with service aisle",
+      "Recessed horizontal glazing and darker cornice shadow"
+    ],
+    "remaining": "Small source crop limits lettering detail."
+  },
+  "zynga": {
+    "camera": [
+      47.134,
+      26.377
+    ],
+    "changes": [
+      "Recessed smaller punched windows with deeper reveals",
+      "Reduced saturated window frequency",
+      "Refined roof party, planters and facade texture"
+    ],
+    "remaining": "Dog mark and figurines are approximations."
+  },
+  "white_corner_office": {
+    "camera": [
+      47.134,
+      26.377
+    ],
+    "changes": [
+      "Added central projecting piers and punched window rows",
+      "Quieter narrow glazing between pale bands",
+      "Refined roof coping and equipment"
+    ],
+    "remaining": "West side and rear are outside the wide-frame crop."
+  },
+  "stadium": {
+    "camera": [
+      47.134,
+      26.377
+    ],
+    "changes": [
+      "Replaced solid filled bowl with open annular structure",
+      "Sunken field and 22 rising seating terraces",
+      "Radial aisle steps and triangulated roof supports"
+    ],
+    "remaining": "Field and lower interior are inferred behind the canopy."
+  },
+  "security_tower": {
+    "camera": [
+      47.134,
+      26.377
+    ],
+    "changes": [
+      "Four broad upper storeys and thicker slab bands",
+      "Separated armored panels, seam ribs and service fittings",
+      "Warm pale concrete with blue inset glazing"
+    ],
+    "remaining": "Three city instances share the visible western module."
+  },
+  "framing_tower": {
+    "camera": [
+      47.134,
+      26.377
+    ],
+    "geometry_scale": [
+      1.15,
+      1.15,
+      0.9
+    ],
+    "changes": [
+      "Applied fitted vertical silhouette to library asset",
+      "Refined top piers and mechanical roof screen",
+      "Reduced uniform glazing brightness"
+    ],
+    "remaining": "Uppermost roof is partly outside the original crop."
+  },
+  "terrace_office": {
+    "camera": [
+      47.134,
+      26.377
+    ],
+    "changes": [
+      "Reduced PV coverage to separated stepped fields",
+      "Thicker pale fascia and shadowed horizontal windows",
+      "Added roof service housings and membrane margins"
+    ],
+    "remaining": "Repeated northern buildings use the same module at a lower height."
+  },
+  "small_offices": {
+    "camera": [
+      47.134,
+      26.377
+    ],
+    "changes": [
+      "Added open lower storey beneath the gabled office",
+      "Arched rear service windows",
+      "Thicker eaves, entrance braces and layered helipad"
+    ],
+    "remaining": "Lower floor is occluded in several production views."
+  },
+  "blue_sculpture": {
+    "camera": [
+      47.134,
+      26.377
+    ],
+    "changes": [
+      "Refined smooth folded surface edges and contact shading"
+    ],
+    "remaining": "Partially obscured small source object; exact folds are inferred."
+  }
+}

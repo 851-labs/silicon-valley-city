@@ -1,0 +1,379 @@
+{
+  "youtube": {
+    "materials": {
+      "youtube_roof": [
+        0.838563084602356,
+        0.8266235589981079,
+        0.7470688819885254
+      ],
+      "youtube_plaza": [
+        0.12022607773542404,
+        0.18492716550827026,
+        0.23800285160541534
+      ],
+      "youtube_glass": [
+        0.09237135946750641,
+        0.05423587188124657,
+        0.04068031162023544
+      ],
+      "youtube_slab": [
+        1.0,
+        1.0,
+        0.9286278486251831
+      ]
+    },
+    "probes": "source/photometric_probes.json",
+    "report": "matching/youtube_color_fit.json"
+  },
+  "west_solar": {
+    "materials": {
+      "roof_membrane": [
+        0.744780957698822,
+        0.6733996868133545,
+        0.5836694240570068
+      ],
+      "aggregate_concrete": [
+        0.3145633339881897,
+        0.30376559495925903,
+        0.26239657402038574
+      ],
+      "entry_stone": [
+        0.3740266263484955,
+        0.37682873010635376,
+        0.343544602394104
+      ],
+      "solar": [
+        0.22793139517307281,
+        0.27154478430747986,
+        0.39410513639450073
+      ]
+    },
+    "probes": "source/photometric_probes.json",
+    "report": "matching/west_solar_color_fit.json"
+  },
+  "ebay": {
+    "materials": {
+      "ebay_roof": [
+        0.8312137126922607,
+        0.6773002743721008,
+        0.5005742311477661
+      ],
+      "ebay_masonry": [
+        0.35169920325279236,
+        0.34730851650238037,
+        0.2883773148059845
+      ],
+      "ebay_copper": [
+        0.9073533415794373,
+        0.5169707536697388,
+        0.3317737579345703
+      ],
+      "solar": [
+        0.11746172606945038,
+        0.12441613525152206,
+        0.1384309083223343
+      ]
+    },
+    "probes": "source/photometric_probes.json",
+    "report": "matching/ebay_color_fit.json"
+  },
+  "hooli": {
+    "materials": {
+      "hooli_letter": [
+        0.5142528414726257,
+        0.517626166343689,
+        0.0016836095601320267
+      ],
+      "hooli_fascia": [
+        0.4397134482860565,
+        0.48032456636428833,
+        0.479571670293808
+      ],
+      "hooli_brick": [
+        0.5872272849082947,
+        0.22822296619415283,
+        0.1265988051891327
+      ],
+      "hooli_vent_cover": [
+        0.3372296392917633,
+        0.29483094811439514,
+        0.2604241967201233
+      ]
+    },
+    "probes": "source/photometric_probes.json",
+    "report": "matching/hooli_color_fit.json"
+  },
+  "terrace_office": {
+    "materials": {
+      "terrace_roof": [
+        0.6326107382774353,
+        0.5496057868003845,
+        0.44794192910194397
+      ],
+      "terrace_brick": [
+        0.4136233925819397,
+        0.14384734630584717,
+        0.04315643385052681
+      ],
+      "terrace_glass": [
+        0.04952005296945572,
+        0.06434882432222366,
+        0.07372985035181046
+      ],
+      "terrace_stone": [
+        0.4251006245613098,
+        0.3854715824127197,
+        0.3661366403102875
+      ],
+      "solar": [
+        0.09959033131599426,
+        0.09610617905855179,
+        0.10368555784225464
+      ]
+    },
+    "probes": "source/photometric_probes.json",
+    "report": "matching/terrace_office_color_fit.json"
+  },
+  "northeast_campus": {
+    "materials": {
+      "court_roof": [
+        0.2691749036312103,
+        0.355975866317749,
+        0.3214365243911743
+      ],
+      "court_stone": [
+        0.39262694120407104,
+        0.33063408732414246,
+        0.27371811866760254
+      ],
+      "court_grass": [
+        0.1893550306558609,
+        0.20100536942481995,
+        0.0010000000474974513
+      ],
+      "court_pale": [
+        0.4756503701210022,
+        0.42544233798980713,
+        0.39812424778938293
+      ]
+    },
+    "probes": "source/photometric_probes.json",
+    "report": "matching/northeast_campus_color_fit.json"
+  },
+  "framing_tower": {
+    "materials": {
+      "framed_glass": [
+        0.42751672863960266,
+        0.5883321762084961,
+        0.6225966215133667
+      ],
+      "framed_stone": [
+        0.5045878887176514,
+        0.48450207710266113,
+        0.39130014181137085
+      ]
+    },
+    "probes": "source/photometric_probes.json",
+    "report": "matching/framing_tower_color_fit.json"
+  },
+  "north_solar_office": {
+    "materials": {
+      "north_roof": [
+        0.8358770608901978,
+        0.7549273371696472,
+        0.6751932501792908
+      ],
+      "north_brick": [
+        0.5660296678543091,
+        0.37676331400871277,
+        0.28946420550346375
+      ],
+      "north_glass": [
+        0.09387362748384476,
+        0.07399799674749374,
+        0.04705149307847023
+      ],
+      "north_stone": [
+        0.21733739972114563,
+        0.18395568430423737,
+        0.14157763123512268
+      ]
+    },
+    "probes": "source/photometric_probes.json",
+    "report": "matching/north_solar_office_color_fit.json"
+  },
+  "yahoo_oracle": {
+    "materials": {
+      "paired_roof": [
+        0.7861968278884888,
+        0.694869339466095,
+        0.6256956458091736
+      ],
+      "paired_band": [
+        0.5794606804847717,
+        0.5332219004631042,
+        0.46195220947265625
+      ],
+      "paired_glass": [
+        0.26798105239868164,
+        0.3795432150363922,
+        0.4630381464958191
+      ]
+    },
+    "probes": "source/photometric_probes.json",
+    "report": "matching/yahoo_oracle_color_fit.json"
+  },
+  "myspace": {
+    "materials": {
+      "myspace_roof": [
+        0.782993733882904,
+        0.7120776772499084,
+        0.6429023146629333
+      ],
+      "myspace_band": [
+        0.3848913609981537,
+        0.32642337679862976,
+        0.3093717098236084
+      ],
+      "myspace_glass": [
+        0.15814271569252014,
+        0.23597215116024017,
+        0.27164220809936523
+      ],
+      "myspace_deck": [
+        0.217649444937706,
+        0.0896383747458458,
+        0.012379124760627747
+      ]
+    },
+    "probes": "source/photometric_probes.json",
+    "report": "matching/myspace_color_fit.json"
+  },
+  "adobe": {
+    "materials": {
+      "adobe_roof": [
+        0.3097488284111023,
+        0.2611573040485382,
+        0.2304525226354599
+      ],
+      "adobe_glass": [
+        0.10974044352769852,
+        0.254337877035141,
+        0.39145728945732117
+      ],
+      "adobe_red": [
+        0.7439661026000977,
+        0.03972556069493294,
+        0.007895266637206078
+      ]
+    },
+    "probes": "source/photometric_probes.json",
+    "report": "matching/adobe_color_fit.json"
+  },
+  "service_office": {
+    "materials": {
+      "service_wall": [
+        0.25920093059539795,
+        0.2619929611682892,
+        0.20894569158554077
+      ],
+      "service_roof": [
+        0.31283724308013916,
+        0.25817570090293884,
+        0.22150763869285583
+      ],
+      "service_dish": [
+        0.9706432819366455,
+        0.9051721096038818,
+        0.8738316297531128
+      ]
+    },
+    "probes": "source/photometric_probes.json",
+    "report": "matching/service_office_color_fit.json"
+  },
+  "facebook": {
+    "materials": {
+      "facebook_roof": [
+        0.7884216904640198,
+        0.609360933303833,
+        0.4722108244895935
+      ]
+    },
+    "probes": "source/photometric_probes.json",
+    "report": "matching/facebook_color_fit.json"
+  },
+  "google": {
+    "materials": {
+      "google_roof": [
+        0.7586310505867004,
+        0.6495718359947205,
+        0.5758561491966248
+      ]
+    },
+    "probes": "source/photometric_probes.json",
+    "report": "matching/google_color_fit.json"
+  },
+  "intel": {
+    "materials": {
+      "intel_roof": [
+        0.7590598464012146,
+        0.5574771761894226,
+        0.37105730175971985
+      ],
+      "intel_glass": [
+        0.10612896829843521,
+        0.14200977981090546,
+        0.16178816556930542
+      ],
+      "intel_spandrel": [
+        0.47194620966911316,
+        0.38088902831077576,
+        0.28392156958580017
+      ],
+      "intel_box_blue": [
+        0.13140520453453064,
+        0.2750086486339569,
+        0.46223917603492737
+      ]
+    },
+    "probes": "source/photometric_probes.json",
+    "report": "matching/intel_color_fit.json"
+  },
+  "twitter": {
+    "materials": {
+      "twitter_roof": [
+        0.3540659248828888,
+        0.3343693017959595,
+        0.3498615324497223
+      ],
+      "twitter_beam": [
+        0.39723527431488037,
+        0.47413739562034607,
+        0.5332086682319641
+      ]
+    },
+    "probes": "source/photometric_probes.json",
+    "report": "matching/twitter_color_fit.json"
+  },
+  "netscape_digg": {
+    "materials": {
+      "curved_roof": [
+        0.7372866272926331,
+        0.6409214735031128,
+        0.5787168741226196
+      ],
+      "curved_shell": [
+        0.45974358916282654,
+        0.4334977865219116,
+        0.4002116024494171
+      ],
+      "digg_sign_blue": [
+        0.026118658483028412,
+        0.08684995025396347,
+        0.17808455228805542
+      ]
+    },
+    "probes": "source/photometric_probes.json",
+    "report": "matching/netscape_digg_color_fit.json"
+  }
+}
