@@ -19,6 +19,12 @@ STATE={}
 
 def frame(t):return round(t*FPS)+1
 
+def video_point(pixel,index,z=0):
+ """Unproject a point measured in an exact 1920px source-video frame."""
+ t=min(index/FPS,CAM['hold_time']);k=CAM['start']['scale']+t*CAM['per_second']['scale']
+ tx,ty=[a+t*b for a,b in zip(CAM['start']['translation'],CAM['per_second']['translation'])]
+ return unproject(((pixel[0]/1.5-tx)/k,(pixel[1]/1.5-ty)/k),z)
+
 def key(ob,path,t,value,index=-1):
  if index>=0:getattr(ob,path)[index]=value
  else:setattr(ob,path,value)
@@ -105,7 +111,7 @@ def setup():
  s.use_nodes=True;n=s.node_tree.nodes;n.clear();links=s.node_tree.links
  layers=n.new('CompositorNodeRLayers');sat=n.new('CompositorNodeHueSat');sat.inputs['Saturation'].default_value=1.0
  fade=n.new('CompositorNodeMixRGB');fade.blend_type='MULTIPLY';fade.inputs[0].default_value=1
- for f,value in [(1,1),(250,1),(258,0),(261,0)]:fade.inputs[2].default_value=(value,value,value,1);fade.inputs[2].keyframe_insert(data_path='default_value',frame=f)
+ for f,value in [(1,0),(5,0),(6,1),(250,1),(258,0),(261,0)]:fade.inputs[2].default_value=(value,value,value,1);fade.inputs[2].keyframe_insert(data_path='default_value',frame=f)
  comp=n.new('CompositorNodeComposite');links.new(layers.outputs['Image'],sat.inputs['Image']);links.new(sat.outputs['Image'],fade.inputs[1]);links.new(fade.outputs[0],comp.inputs[0])
  s['intro_reference']='Season-one 261-frame source at 24000/1001 fps';s['intro_scope']='Native animated reconstruction; geometry and secondary motion remain under comparison.'
  print('INTRO_STAGE_SETUP',flush=True)
@@ -116,7 +122,11 @@ def build_height_group():
  group.interface.new_socket(name='Height',in_out='INPUT',socket_type='NodeSocketFloat')
  group.interface.new_socket(name='Geometry',in_out='OUTPUT',socket_type='NodeSocketGeometry')
  nodes=group.nodes;links=group.links;inp=nodes.new('NodeGroupInput');out=nodes.new('NodeGroupOutput');position=nodes.new('GeometryNodeInputPosition');sep=nodes.new('ShaderNodeSeparateXYZ');combine=nodes.new('ShaderNodeCombineXYZ');clamp=nodes.new('ShaderNodeMath');clamp.operation='MINIMUM';setpos=nodes.new('GeometryNodeSetPosition')
- links.new(position.outputs[0],sep.inputs[0]);links.new(sep.outputs['X'],combine.inputs['X']);links.new(sep.outputs['Y'],combine.inputs['Y']);links.new(sep.outputs['Z'],clamp.inputs[0]);links.new(inp.outputs['Height'],clamp.inputs[1]);links.new(clamp.outputs[0],combine.inputs['Z']);links.new(combine.outputs[0],setpos.inputs['Position']);links.new(inp.outputs['Geometry'],setpos.inputs['Geometry']);links.new(setpos.outputs[0],out.inputs[0])
+ delete=nodes.new('GeometryNodeDeleteGeometry');delete.domain='FACE';above=nodes.new('ShaderNodeMath');above.operation='GREATER_THAN'
+ links.new(position.outputs[0],sep.inputs[0]);links.new(sep.outputs['X'],combine.inputs['X']);links.new(sep.outputs['Y'],combine.inputs['Y']);links.new(sep.outputs['Z'],clamp.inputs[0]);links.new(inp.outputs['Height'],clamp.inputs[1]);links.new(clamp.outputs[0],combine.inputs['Z']);links.new(combine.outputs[0],setpos.inputs['Position'])
+ # Remove unbuilt faces before limiting the exposed course. Flattening all upper
+ # floors onto one plane creates overlapping surfaces and dark triangular artifacts.
+ links.new(sep.outputs['Z'],above.inputs[0]);links.new(inp.outputs['Height'],above.inputs[1]);links.new(above.outputs[0],delete.inputs['Selection']);links.new(inp.outputs['Geometry'],delete.inputs['Geometry']);links.new(delete.outputs['Geometry'],setpos.inputs['Geometry']);links.new(setpos.outputs[0],out.inputs[0])
  return group
 
 def titles():
@@ -152,25 +162,34 @@ def titles():
  A.part('Early title-site green');lawn=A.polygon('Early title-site grass',outline,-.078,.006,'grass',False)
  set_visible(lawn,0,True);set_visible(lawn,3.88,False)
  # Low pavilions occupy the future title plot before redevelopment.
- for i,(pix,w,d) in enumerate([((808,132),17,12),((869,108),19,12),((936,153),19,12),((885,204),17,12)]):
+ roofs=[[(1115,194),(1226,150),(1351,220),(1238,262)],[(1234,245),(1383,186),(1519,259),(1370,321)],[(1359,319),(1518,255),(1666,336),(1505,405)]]
+ for i,pixels in enumerate(roofs):
+  H=3.9;points=[video_point(p,48,H) for p in pixels];center=sum(points,Vector())/4
+  outline=[((p.x-center.x)*.94,(p.y-center.y)*.94) for p in points]
   def office():
-   A.box('Early site office', (0,0,1.8),(w,d,3.6),'intro_concrete')
-   for z in (1.0,2.3):
-    A.box('Low office glazing',(0,-d/2-.015,z),(w-.3,.035,.7),'intro_glass');A.box('Return glazing',(w/2+.015,0,z),(.035,d-.3,.7),'intro_glass')
-   A.box('Office pale flat roof',(0,0,3.68),(w+.4,d+.4,.20),'intro_white')
-  root=emit('Former title-site pavilion '+str(i+1),office);root.location=unproject(pix,0);scale_window(root,3.1+i*.18,3.65+i*.18,False,2)
+   A.polygon('Early site glazing',outline,0,H,'intro_glass')
+   for z in (.3,1.6,2.9):A.polygon('Office horizontal concrete band',[(x*1.015,y*1.015) for x,y in outline],z,.32,'intro_concrete')
+   A.polygon('Office pale flat roof',outline,H,.23,'intro_white')
+   if i!=1:
+    a,b,c,d=[Vector((x,y,H+.24)) for x,y in outline]
+    for row in range(3):
+     for column in range(6):
+      u0=.16+column*.11;u1=u0+.10;v0=.18+row*.21;v1=v0+.19
+      def at(u,v):return a.lerp(b,u).lerp(d.lerp(c,u),v)
+      A.mesh('Former campus photovoltaic module',[at(u0,v0),at(u1,v0),at(u1,v1),at(u0,v1)],[(0,1,2,3)],'solar',False)
+  root=emit('Former title-site pavilion '+str(i+1),office);root.location=(center.x,center.y,0);scale_window(root,3.50+i*.05,3.9+i*.05,False,2)
  print('INTRO_STAGE_TITLES',len(parts),flush=True)
 
 def brands():
  # YouTube grows from a small roof mark and a lower office to its late-shot height.
  col=asset('youtube');objects=list(col.objects);rig=group_objects('YouTube rising office',objects,col)
- for t,v in [(0,.65),(.9,.65),(3.15,1)]:key(rig,'scale',t,v,2)
+ for t,v in [(0,.70),(2.2,.70),(3.45,1)]:key(rig,'scale',t,v,2)
  linear(rig)
  sign=next(o for o in objects if o.type=='EMPTY' and o.name.startswith('YouTube vector sign'))
- for t,v in [(0,.26),(.9,.26),(2.3,1)]:key(sign,'scale',t,(v,v,v))
+ for t,v in [(0,.20),(2.2,.20),(3.45,1)]:key(sign,'scale',t,(v,v,v))
  linear(sign)
  for ob in objects:
-  if 'Google' in ob.name:set_visible(ob,0,False);set_visible(ob,2.2,True)
+  if 'Google' in ob.name:set_visible(ob,0,False);set_visible(ob,2.55,True)
  # Google emerges from the preceding SGI identity.
  col=asset('google');objects=[o for o in col.objects if 'Google' in o.name or 'Original Google roof lettering' in o.get('part','')]
  for ob in objects:set_visible(ob,0,False);set_visible(ob,2.1,True)
@@ -181,22 +200,19 @@ def brands():
  # Apple rainbow sign becomes the Pets.com roof sign.
  col=asset('pets_com')
  for ob in col.objects:
-  if 'billboard' in ob.get('part','').lower():set_visible(ob,0,False);set_visible(ob,1.4,True)
+  if 'billboard' in ob.get('part','').lower():set_visible(ob,0,False);set_visible(ob,.65,True)
  def rainbow():A.logo('apple',(0,0,0),9,.4,'intro_white',(math.pi/2,0,0),rainbow=True)
- root=emit('Historical rainbow Apple billboard',rainbow);root.location=unproject((295,352),7.9);scale_window(root,.75,1.4,False)
- # Digg replaces Netscape; the earlier Android roof figure leaves with it.
+ root=emit('Historical rainbow Apple billboard',rainbow);root.location=unproject((295,352),7.9)
+ # This moving reference has Android and Chrome throughout; Digg belongs to the wide-still variant.
  col=asset('netscape_digg')
  for ob in col.objects:
-  if 'billboard' in ob.get('part','').lower() or 'Digg board' in ob.name:set_visible(ob,0,False);set_visible(ob,1.85,True)
- def netscape():
-  A.box('Netscape blue sign backing',(0,.12,1.9),(17,.6,4.5),'intro_glass');A.text('Netscape sign','Netscape',(0,-.25,.45),3.2,'intro_white',width=16,depth=.07)
- root=emit('Netscape to Digg sign',netscape);root.location=unproject((455,367),6.5);scale_window(root,1.25,1.85,False)
+  if 'billboard' in ob.get('part','').lower() or 'Digg board' in ob.name:set_visible(ob,0,False)
  def android():
   A.box('Android torso',(0,0,3.7),(3.0,.55,3.2),'intro_android',bevel=.20)
   A.sphere('Android domed head',(0,0,5.5),(1.6,.42,1.15),'intro_android',24,12)
   for x in (-1,1):
    A.rod('Android antenna',(x*.72,0,6.0),(x*1.30,0,7.0),.10,'intro_android');A.rod('Android arm',(x*1.95,0,4.8),(x*1.95,0,2.6),.32,'intro_android');A.rod('Android leg',(x*.83,0,2.2),(x*.83,0,.4),.34,'intro_android');A.sphere('Android eye',(x*.57,-.42,5.57),(.12,.07,.12),'intro_white')
- root=emit('Early Android roof figure',android);root.location=unproject((475,312),11);scale_window(root,1.30,1.95,False)
+ root=emit('Early Android roof figure',android);root.location=video_point((226,843),120,6.7);root.rotation_euler.z=0;root.scale=(1.5,1.5,1.5)
  # Purple Myspace billboard transitions to the dark later identity.
  for m in bpy.data.materials:
   if m.name.startswith('myspace_sign'):
@@ -204,10 +220,80 @@ def brands():
    for t,color in [(0,(.12,.015,.48,1)),(2.85,(.12,.015,.48,1)),(3.6,(.045,.052,.054,1))]:shader.inputs['Base Color'].default_value=color;shader.inputs['Base Color'].keyframe_insert(data_path='default_value',frame=frame(t))
  # The circular Apple structure rises after the construction-field phase.
  root=instance('apple');scale_window(root,*TIMING['apple_ring'],True,2)
+ for ob in asset('apple').objects:
+  if ob.type=='MESH':set_visible(ob,0,False);set_visible(ob,5.24,True)
  cloth=instance('blue_sculpture')
- for t,v in [(0,.0001),(4.1,.0001),(4.7,1)]:key(cloth,'scale',t,(v,v,v))
+ for t,v in [(0,1),(1.65,1),(2.1,.0001),(3.85,.0001),(4.2,1)]:key(cloth,'scale',t,(v,v,v))
  linear(cloth)
  print('INTRO_STAGE_BRANDS',flush=True)
+
+def period_details():
+ """Reference-specific AOL signs, Chrome roundel and temporary camping field."""
+ A.COL=STATE['props']
+ def chrome():
+  vertices=[(0,-.06,0)]+[(3.2*math.cos(i*math.pi/48),-.06,3.2*math.sin(i*math.pi/48)) for i in range(96)]
+  for sector,color in enumerate(['intro_red','intro_green','intro_yellow']):
+   faces=[(0,1+i,1+(i+1)%96) for i in range(sector*32,(sector+1)*32)]
+   A.mesh('Chrome three-colour roundel',vertices,faces,color)
+  A.sphere('Chrome pale inner rim',(0,-.1,0),(1.48,.18,1.48),'intro_white',40,12)
+  A.sphere('Chrome blue centre',(0,-.27,0),(1.25,.12,1.25),'intro_cyan',40,12)
+ root=emit('Chrome facade identity',chrome);root.location=video_point((161,752),72,4.0)
+ for ob in asset('facebook').objects:
+  if 'billboard' in ob.get('part','').lower() or 'billboard' in ob.name.lower():set_visible(ob,0,False);set_visible(ob,6.25,True)
+ def aol():
+  A.polygon('AOL triangular symbol',[(-3,1),(3,1),(0,6.4)],0,.23,'intro_purple')
+  A.cylinder('AOL circular inset',(0,3.1,.26),1.75,.16,'intro_purple',48)
+  A.text('AOL historical wordmark','AOL',(0,-1.9,0),3.6,'intro_purple',width=8.5,rot=(0,0,0),depth=.19)
+ for i,(pixel,z,vertical) in enumerate([((913,76),8.8,True),((299,127),7.5,False)]):
+  root=emit('AOL campus symbol '+str(i+1),aol);root.location=video_point(pixel,72,z)
+  if vertical:root.rotation_euler.x=math.pi/2
+  scale_window(root,5.75+i*.07,6.30+i*.05,False)
+ field=[video_point(p,72,0) for p in [(1350,683),(1658,562),(1975,735),(1621,938)]]
+ A.part('Temporary construction-field lawn');A.polygon('Construction field green',[(p.x,p.y) for p in field],-.06,.018,'grass')
+ for i,pixel in enumerate([(1380,679),(1432,739),(1471,758),(1570,674),(1697,634),(1680,678),(1770,590),(1762,759),(1817,701),(1872,654),(1566,746),(1500,803)]):
+  color=['intro_red','intro_yellow','intro_cyan','intro_green'][i%4]
+  def tent():
+   A.mesh('Bright pitched camping tent',[(-1.5,-1,0),(1.5,-1,0),(0,-1,1.5),(-1.5,1,0),(1.5,1,0),(0,1,1.5)],[(0,1,2),(3,5,4),(0,2,5,3),(2,1,4,5)],color)
+   A.mesh('Tent doorway',[(-.4,-1.01,.03),(.4,-1.01,.03),(0,-1.01,.95)],[(0,1,2)],'intro_black')
+  root=emit('Temporary field tent '+str(i+1),tent);root.location=video_point(pixel,72,0);root.rotation_euler.z=i*.7;scale_window(root,4.8+i*.018,5.2+i*.018,False)
+ print('INTRO_STAGE_PERIOD_SIGNS_AND_FIELD',flush=True)
+
+def balloon_model():
+ """Ribbed fabric envelope and curved native-mesh face, measured at source frame 72."""
+ from mathutils.geometry import tessellate_polygon
+ verts=[];faces=[];n=64;rings=48
+ for j in range(rings+1):
+  phi=math.pi*j/rings;z=8.9*math.cos(phi)
+  taper=1-.20*max(0,-math.cos(phi))
+  for i in range(n):
+   theta=2*math.pi*i/n;seam=1+.009*math.cos(theta*16)
+   verts.append((6.9*math.sin(phi)*math.cos(theta)*taper*seam,6.4*math.sin(phi)*math.sin(theta)*taper*seam,z))
+ for j in range(rings):
+  for i in range(n):faces.append((j*n+i,j*n+(i+1)%n,(j+1)*n+(i+1)%n,(j+1)*n+i))
+ A.mesh('Ribbed purple balloon envelope',verts,faces,'intro_purple',False,True)
+ def patch(name,outline,mat,depth=.08):
+  points=[Vector((x,z,0)) for x,z in outline]
+  triangles=[tuple(points[p] if isinstance(p,int) else p for p in tri) for tri in tessellate_polygon([points])]
+  for _ in range(3):
+   refined=[]
+   for a,b,c in triangles:
+    ab=(a+b)/2;bc=(b+c)/2;ca=(c+a)/2;refined.extend([(a,ab,ca),(ab,b,bc),(ca,bc,c),(ab,bc,ca)])
+   triangles=refined
+  vs=[];fs=[]
+  for triangle in triangles:
+   ids=[]
+   for p in triangle:
+    x,z=p.x,p.y;taper=1-.20*max(0,-z/8.9)
+    y=-6.4*taper*math.sqrt(max(.01,1-(x/(6.9*taper))**2-(z/8.9)**2))-depth
+    ids.append(len(vs));vs.append((x,y,z))
+   fs.append(tuple(ids))
+  A.mesh(name,vs,fs,mat,False,True)
+ patch('Balloon pale masked face',[(-3.5,2.3),(-1.9,1.2),(0,2.1),(1.9,1.2),(3.5,2.3),(3.45,-.8),(2.9,-3.6),(1.6,-5.4),(0,-6),(-1.6,-5.4),(-2.9,-3.6),(-3.45,-.8)],'intro_white')
+ patch('Balloon forehead stripe',[(-2.8,3.7),(-1,4.5),(0,4.8),(1,4.5),(2.8,3.7),(1.5,3.4),(0,3.8),(-1.5,3.4)],'intro_white')
+ for side in (-1,1):patch('Balloon green eye',[(side*.4,-3.2),(side*2.1,-2.7),(side*1.75,-3.8),(side*.7,-3.9)],'intro_android',.14)
+ for z,w in [(-4.6,.82),(-5.12,.55)]:patch('Balloon dark mouth',[(-w,z+.08),(w,z+.08),(w*.7,z-.10),(-w*.7,z-.10)],'intro_purple',.14)
+ A.box('Balloon basket',(0,0,-10.9),(.8,.72,.72),'intro_brown')
+ for x,y in [(-.34,-.3),(.34,-.3),(.34,.3),(-.34,.3)]:A.rod('Basket suspension',(x*2,y*2,-8.5),(x,y,-10.5),.026,'intro_brown',5)
 
 def crane(name,pixel,height,length,phase):
  base=emit(name+' tower',lambda:None);base.location=unproject(pixel,0)
@@ -237,16 +323,9 @@ def props():
  A.COL=STATE['props']
  for i,(pixel,h,l) in enumerate([((840,167),31,24),((912,152),35,22),((984,228),28,22),((874,269),30,21),((1025,354),25,19),((1120,368),22,17)]):crane('Construction crane '+str(i+1),pixel,h,l,i*.73)
  # The purple balloon inflates, rises and collapses onto the measured cloth position.
- def balloon():
-  A.sphere('Purple balloon envelope',(0,0,0),(3.6,3.4,5.3),'intro_purple',40,28)
-  A.sphere('Pale face on balloon',(0,-2.94,-.1),(2.6,.65,3.05),'intro_white',32,20)
-  for x in (-1,1):A.sphere('Purple eyebrow',(x*1.1,-3.51,.75),(1.15,.20,.40),'intro_purple',16,10)
-  A.sphere('Purple mouth',(0,-3.53,-1.0),(1.15,.20,.45),'intro_purple',20,10)
-  A.box('Balloon basket',(0,0,-7.3),(1.55,1.35,1.15),'intro_brown')
-  for x,y in [(-.67,-.56),(.67,-.56),(.67,.56),(-.67,.56)]:A.rod('Basket suspension',(x*2,y*2,-4.2),(x,y,-6.8),.033,'intro_brown',5)
- root=emit('Purple balloon flight',balloon);p=unproject((983,451),0);root.location=p;root.rotation_euler.z=AZ-math.pi/4
- for t,z,v in [(0,1,.001),(1.85,1,.001),(2.55,16,1),(3.30,20,1),(3.85,17,.95),(4.25,9,.55),(4.65,.4,.001)]:
-  key(root,'location',t,z,2);key(root,'scale',t,(v,v,v))
+ root=emit('Purple balloon flight',balloon_model);p=video_point((1503,593),72,14);root.location=p;root.rotation_euler.z=AZ
+ for t,z,size in [(0,.2,(.001,.001,.001)),(1.55,.2,(.001,.001,.001)),(1.95,5,(1,1,.5)),(2.30,9.5,(1,1,1)),(2.70,16,(1,1,1)),(3.0,14,(1,1,1)),(3.3,11,(1,1,1)),(3.55,7,(1,1,.90)),(3.8,3,(1,1,.35)),(4.15,.2,(.001,.001,.001))]:
+  key(root,'location',t,z,2);key(root,'scale',t,size)
  linear(root)
  # Mobile articulated machines occupy the green ring construction site.
  for i,pixel in enumerate([(969,363),(1010,404),(1075,384),(1116,357),(1023,339),(939,401)]):
@@ -422,4 +501,4 @@ def finish():
  print('INTRO_SCENE_SAVED',str(ROOT/'animation/intro.blend'),flush=True)
 
 if __name__=='__main__':
- setup();titles();brands();props();traffic();shot_details();polish_motion();finish()
+ setup();titles();brands();period_details();props();traffic();shot_details();polish_motion();finish()
