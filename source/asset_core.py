@@ -148,7 +148,7 @@ def font(key):
  if key not in FONTS:
   filename={'regular':'Arial.ttf','bold':'Arial Bold.ttf','black':'Arial Black.ttf','narrow':'Arial Narrow Bold.ttf','serif':'Times New Roman Bold.ttf'}[key]
   path=os.path.join(os.environ.get('BLENDER_FONT_DIR','/System/Library/Fonts/Supplemental'),filename)
-  FONTS[key]=bpy.data.fonts.load(path,check_existing=True) if os.path.isfile(path) else bpy.data.fonts.get('Bfont')
+  FONTS[key]=bpy.data.fonts.load(path,check_existing=True) if os.path.isfile(path) else next((f for f in bpy.data.fonts if f.filepath=='<builtin>'),None)
  return FONTS[key]
 
 def text(name,body,loc,size,mat,fontkey='bold',width=None,rot=(pi/2,0,0),align='CENTER',depth=.06):
