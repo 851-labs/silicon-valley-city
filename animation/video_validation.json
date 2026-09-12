@@ -1,0 +1,27 @@
+{
+  "result": "PASS",
+  "frames": 261,
+  "fps": "24000/1001",
+  "duration_seconds": 10.885875,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "codec": "h264",
+  "pixel_format": "yuv420p",
+  "color_space": "bt709",
+  "color_range": "tv",
+  "audio": false,
+  "scene_sha256": "59c791855eedd0b06149148a0173603b98adce966b0106c593695afe9a054d64",
+  "video_sha256": "a7d029ba7b7fbca68b0ec9cdf1e86acf8baba9d0e577da44ba70185e48a26756",
+  "bytes": 15242694,
+  "render_samples": 16,
+  "render_device": "METAL",
+  "checks": [
+    "complete PNG sequence",
+    "matching scene hash",
+    "frame dimensions",
+    "decoded frame count",
+    "full MP4 decode"
+  ]
+}

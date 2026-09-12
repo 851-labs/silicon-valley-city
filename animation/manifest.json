@@ -1,0 +1,155 @@
+{
+  "frame_start": 1,
+  "frame_end": 261,
+  "fps": 23.976023976023978,
+  "duration": 10.885874999999999,
+  "title_buildings": [
+    {
+      "letter": "front_1_V",
+      "start": 5.45,
+      "end": 7.18,
+      "height": 14.750399589538574,
+      "world_center": [
+        -90.82791137695312,
+        86.37801361083984,
+        0.0
+      ]
+    },
+    {
+      "letter": "front_2_A",
+      "start": 5.35,
+      "end": 6.9,
+      "height": 14.750399589538574,
+      "world_center": [
+        -68.53218078613281,
+        86.24696350097656,
+        0.0
+      ]
+    },
+    {
+      "letter": "front_3_L",
+      "start": 5.52,
+      "end": 7.02,
+      "height": 14.750399589538574,
+      "world_center": [
+        -47.07752227783203,
+        86.27376556396484,
+        0.0
+      ]
+    },
+    {
+      "letter": "front_4_L",
+      "start": 5.66,
+      "end": 7.18,
+      "height": 14.750399589538574,
+      "world_center": [
+        -27.84850311279297,
+        83.02457427978516,
+        0.0
+      ]
+    },
+    {
+      "letter": "front_5_E",
+      "start": 5.45,
+      "end": 7.05,
+      "height": 14.750399589538574,
+      "world_center": [
+        -8.142019271850586,
+        85.53240966796875,
+        0.0
+      ]
+    },
+    {
+      "letter": "front_6_Y",
+      "start": 5.2,
+      "end": 7.12,
+      "height": 14.750399589538574,
+      "world_center": [
+        -2.6393051147460938,
+        93.66373443603516,
+        0.0
+      ]
+    },
+    {
+      "letter": "rear_1_S",
+      "start": 3.85,
+      "end": 5.9,
+      "height": 14.750399589538574,
+      "world_center": [
+        -94.60064697265625,
+        122.63630676269531,
+        0.0
+      ]
+    },
+    {
+      "letter": "rear_2_I",
+      "start": 3.95,
+      "end": 5.98,
+      "height": 14.750399589538574,
+      "world_center": [
+        -78.4027099609375,
+        122.67735290527344,
+        0.0
+      ]
+    },
+    {
+      "letter": "rear_3_L",
+      "start": 4.1,
+      "end": 6.18,
+      "height": 14.750399589538574,
+      "world_center": [
+        -62.88758850097656,
+        122.6046142578125,
+        0.0
+      ]
+    },
+    {
+      "letter": "rear_4_I",
+      "start": 4.18,
+      "end": 6.34,
+      "height": 14.750399589538574,
+      "world_center": [
+        -48.504825592041016,
+        122.63941192626953,
+        0.0
+      ]
+    },
+    {
+      "letter": "rear_5_C",
+      "start": 4.16,
+      "end": 6.58,
+      "height": 14.750399589538574,
+      "world_center": [
+        -32.173824310302734,
+        122.75796508789062,
+        0.0
+      ]
+    },
+    {
+      "letter": "rear_6_O",
+      "start": 4.2,
+      "end": 5.68,
+      "height": 14.750399589538574,
+      "world_center": [
+        -9.591392517089844,
+        122.95484161376953,
+        0.0
+      ]
+    },
+    {
+      "letter": "rear_7_N",
+      "start": 4.22,
+      "end": 5.58,
+      "height": 14.750399589538574,
+      "world_center": [
+        14.040115356445312,
+        123.46044158935547,
+        0.0
+      ]
+    }
+  ],
+  "moving_vehicles": 49,
+  "external_libraries": 0,
+  "camera": "Measured affine camera path from production still/video feature correspondences",
+  "status": "Animated reconstruction under visual comparison; secondary detail is inferred."
+}

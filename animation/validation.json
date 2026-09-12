@@ -1,0 +1,15 @@
+{
+  "result": "PASS",
+  "scope": "Animation structure, saved resources and camera projection; not a visual fidelity approval.",
+  "frames": 261,
+  "fps": 23.976023976023978,
+  "duration_seconds": 10.885874999999999,
+  "camera_max_projection_error_pixels_1280": 0.0010198630893653794,
+  "construction_controllers": 13,
+  "moving_vehicles": 49,
+  "external_libraries": 0,
+  "resolution": [
+    1920,
+    1080
+  ]
+}
