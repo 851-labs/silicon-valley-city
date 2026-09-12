@@ -1,0 +1,215 @@
+{
+  "reference": "original_wide.webp",
+  "anchor": [
+    1118,
+    84,
+    5.4
+  ],
+  "crop": [
+    1008,
+    0,
+    1280,
+    113
+  ],
+  "volumes": [
+    {
+      "name": "Three-cowl front wing",
+      "roof": [
+        [
+          1044,
+          43
+        ],
+        [
+          1076,
+          27
+        ],
+        [
+          1165,
+          69
+        ],
+        [
+          1118,
+          84
+        ]
+      ],
+      "height": 5.4,
+      "style": "solid",
+      "floors": 3
+    },
+    {
+      "name": "Western rear slab",
+      "roof": [
+        [
+          1023,
+          19
+        ],
+        [
+          1116,
+          -20
+        ],
+        [
+          1138,
+          -8
+        ],
+        [
+          1048,
+          30
+        ]
+      ],
+      "height": 7.0,
+      "style": "punched",
+      "floors": 4
+    },
+    {
+      "name": "Eastern garden pavilion",
+      "roof": [
+        [
+          1163,
+          54
+        ],
+        [
+          1230,
+          27
+        ],
+        [
+          1251,
+          40
+        ],
+        [
+          1183,
+          63
+        ]
+      ],
+      "height": 6.0,
+      "style": "slots",
+      "floors": 2
+    },
+    {
+      "name": "Eastern rear slab",
+      "roof": [
+        [
+          1216,
+          13
+        ],
+        [
+          1284,
+          -16
+        ],
+        [
+          1312,
+          -2
+        ],
+        [
+          1256,
+          23
+        ]
+      ],
+      "height": 7.0,
+      "style": "punched",
+      "floors": 4,
+      "roof_material": "court_pale"
+    },
+    {
+      "name": "Rear connecting gallery",
+      "roof": [
+        [
+          1166,
+          4
+        ],
+        [
+          1207,
+          -12
+        ],
+        [
+          1251,
+          10
+        ],
+        [
+          1210,
+          25
+        ]
+      ],
+      "height": 5.2,
+      "style": "glass",
+      "floors": 2
+    }
+  ],
+  "cowls": [
+    [
+      [
+        1055,
+        42
+      ],
+      [
+        1077,
+        35
+      ],
+      [
+        1096,
+        45
+      ],
+      [
+        1072,
+        51
+      ]
+    ],
+    [
+      [
+        1086,
+        56
+      ],
+      [
+        1104,
+        49
+      ],
+      [
+        1123,
+        60
+      ],
+      [
+        1101,
+        67
+      ]
+    ],
+    [
+      [
+        1120,
+        70
+      ],
+      [
+        1139,
+        63
+      ],
+      [
+        1155,
+        73
+      ],
+      [
+        1137,
+        80
+      ]
+    ]
+  ],
+  "lawn": [
+    [
+      1076,
+      25
+    ],
+    [
+      1141,
+      -3
+    ],
+    [
+      1239,
+      32
+    ],
+    [
+      1186,
+      64
+    ]
+  ],
+  "status": "Previously missing northeast courtyard campus: independently measured grey wings, open roof cowls, pale paths and planted central court. Rear limits extend beyond the source frame.",
+  "cowl_top": 6.0,
+  "cowl_bottom": 5.45,
+  "cowl_floor": 4.55
+}

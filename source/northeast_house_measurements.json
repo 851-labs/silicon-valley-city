@@ -1,0 +1,50 @@
+{
+  "reference": "original_wide.webp",
+  "anchor": [
+    998,
+    29,
+    3.3
+  ],
+  "crop": [
+    961,
+    0,
+    1051,
+    55
+  ],
+  "eaves": [
+    [
+      976,
+      20
+    ],
+    [
+      1022,
+      0
+    ],
+    [
+      1043,
+      10
+    ],
+    [
+      998,
+      29
+    ]
+  ],
+  "eave_height": 3.3,
+  "ridge": [
+    [
+      987,
+      16
+    ],
+    [
+      1032,
+      -4
+    ]
+  ],
+  "ridge_height": 4.7,
+  "chimney_top": [
+    1024,
+    6
+  ],
+  "chimney_height": 7.2,
+  "status": "Previously absent olive house beside the northeast courtyard. The visible roof ends are dark hipped planes; rear extents remain concealed."
+}

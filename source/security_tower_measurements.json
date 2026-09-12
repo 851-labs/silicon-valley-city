@@ -1,0 +1,81 @@
+{
+  "reference": "original_wide.webp",
+  "anchor": [
+    1195,
+    248,
+    22.0
+  ],
+  "crop": [
+    1145,
+    208,
+    1248,
+    351
+  ],
+  "roof": [
+    [
+      1155,
+      233
+    ],
+    [
+      1194,
+      211
+    ],
+    [
+      1235,
+      231
+    ],
+    [
+      1195,
+      248
+    ]
+  ],
+  "height": 22.0,
+  "shaft_bottom": 7.6,
+  "plinth_height": 7.0,
+  "plinth_ground": [
+    [
+      1155,
+      327
+    ],
+    [
+      1196,
+      305
+    ],
+    [
+      1238,
+      333
+    ],
+    [
+      1202,
+      351
+    ]
+  ],
+  "hatch": [
+    1211,
+    315
+  ],
+  "top_glass": [
+    0.08,
+    0.27,
+    0.24
+  ],
+  "status": "Eastern control tower: independently measured overhanging roof, four floors and tapered armored base.",
+  "plinth_top": [
+    [
+      1152,
+      303
+    ],
+    [
+      1193,
+      294
+    ],
+    [
+      1235,
+      310
+    ],
+    [
+      1199,
+      322
+    ]
+  ]
+}

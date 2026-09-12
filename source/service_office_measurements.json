@@ -1,0 +1,95 @@
+{
+  "reference": "original_wide.webp",
+  "anchor": [
+    477,
+    293,
+    4.9
+  ],
+  "crop": [
+    449,
+    260,
+    525,
+    320
+  ],
+  "height": 4.9,
+  "roof": [
+    [
+      459,
+      285
+    ],
+    [
+      499,
+      268
+    ],
+    [
+      516,
+      276
+    ],
+    [
+      477,
+      293
+    ]
+  ],
+  "front_edge": [
+    [
+      477,
+      293
+    ],
+    [
+      516,
+      276
+    ]
+  ],
+  "upper_windows": [
+    [
+      482,
+      297
+    ],
+    [
+      489,
+      294
+    ],
+    [
+      496,
+      291
+    ],
+    [
+      503,
+      288
+    ],
+    [
+      510,
+      285
+    ]
+  ],
+  "door_center": [
+    508,
+    300
+  ],
+  "canopy": [
+    [
+      482,
+      308
+    ],
+    [
+      501,
+      300
+    ],
+    [
+      505,
+      304
+    ],
+    [
+      487,
+      312
+    ]
+  ],
+  "canopy_height": 1.1,
+  "dish_center": [
+    489,
+    276
+  ],
+  "dish_height": 6.0,
+  "dish_radius": 1.45,
+  "status": "Small central service building absent from the preceding assembly, measured independently of Digg and the western pavilions."
+}

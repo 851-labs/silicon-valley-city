@@ -1,0 +1,66 @@
+{
+  "reference": "original_wide.webp",
+  "anchor": [
+    173,
+    164,
+    0.0
+  ],
+  "crop": [
+    126,
+    0,
+    268,
+    184
+  ],
+  "height": 43.5,
+  "volumes": [
+    {
+      "name": "Broad eastern office slab",
+      "ground": [
+        [
+          143,
+          144
+        ],
+        [
+          222,
+          108
+        ],
+        [
+          253,
+          123
+        ],
+        [
+          174,
+          159
+        ]
+      ],
+      "height": 43.5,
+      "step": 1.48,
+      "style": "broad"
+    },
+    {
+      "name": "Projecting western framed bay",
+      "ground": [
+        [
+          137,
+          152
+        ],
+        [
+          150,
+          146
+        ],
+        [
+          178,
+          159
+        ],
+        [
+          165,
+          166
+        ]
+      ],
+      "height": 34.8,
+      "step": 1.48,
+      "style": "pier"
+    }
+  ],
+  "status": "Roof extends beyond the chosen frame. Visible ground corners, narrower western bay and floor-band pitch are measured; unseen upper termination remains inferred."
+}

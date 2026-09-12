@@ -1,0 +1,38 @@
+{
+  "reference": "original_wide.webp",
+  "anchor": [
+    35.5,
+    50.5,
+    16.0
+  ],
+  "crop": [
+    0,
+    0,
+    151,
+    180
+  ],
+  "height": 16.0,
+  "outer_ellipse": {
+    "center": [
+      35.5,
+      50.5
+    ],
+    "radii": [
+      92,
+      39.0
+    ],
+    "rotation_degrees": -10
+  },
+  "inner_ellipse": {
+    "center": [
+      29.5,
+      44.5
+    ],
+    "radii": [
+      70.0,
+      23.5
+    ],
+    "rotation_degrees": -12
+  },
+  "status": "Visible annular roof and opening measured separately; western off-frame extent is extrapolated from the visible arcs."
+}

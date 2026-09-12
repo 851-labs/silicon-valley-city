@@ -1,0 +1,54 @@
+{
+  "reference": "original_wide.webp",
+  "anchor": [
+    43,
+    225,
+    17.6
+  ],
+  "crop": [
+    0,
+    134,
+    170,
+    314
+  ],
+  "height": 17.6,
+  "floors": 11,
+  "roof": [
+    [
+      -19,
+      201
+    ],
+    [
+      82,
+      158
+    ],
+    [
+      146,
+      181
+    ],
+    [
+      43,
+      225
+    ]
+  ],
+  "rear_roof": [
+    [
+      -35,
+      181
+    ],
+    [
+      78,
+      145
+    ],
+    [
+      87,
+      150
+    ],
+    [
+      -19,
+      193
+    ]
+  ],
+  "rear_height": 20.5,
+  "status": "Roof corners and observed ground line constrain the main body; eleven glazed facade courses and projecting perforated piers are visible."
+}
