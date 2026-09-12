@@ -1,0 +1,10 @@
+{
+  "scope": "White campus billboard glyph mask only; excludes building geometry, blue board, extrusion and shading.",
+  "baseline": [
+    678.9855871238315,
+    137.06955269234402
+  ],
+  "width_pixels": 60.713299413916744,
+  "height_pixels_per_svg_unit": 79.38154830338834,
+  "mask_iou": 0.6674431818181819
+}

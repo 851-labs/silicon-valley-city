@@ -1,0 +1,112 @@
+{
+  "reference": "original_wide.webp",
+  "anchor": [
+    1186,
+    208,
+    14.8
+  ],
+  "crop": [
+    1040,
+    80,
+    1280,
+    286
+  ],
+  "main_roof": [
+    [
+      1055,
+      151
+    ],
+    [
+      1179,
+      100
+    ],
+    [
+      1314,
+      158
+    ],
+    [
+      1186,
+      208
+    ]
+  ],
+  "roof_height": 14.8,
+  "fascia_bottom": 10.4,
+  "annex_roof": [
+    [
+      1190,
+      208
+    ],
+    [
+      1268,
+      177
+    ],
+    [
+      1330,
+      208
+    ],
+    [
+      1259,
+      237
+    ]
+  ],
+  "annex_height": 12.4,
+  "front_edge": [
+    [
+      1055,
+      151
+    ],
+    [
+      1186,
+      208
+    ]
+  ],
+  "beam_bottom": 8.6,
+  "beam_top": 10.4,
+  "columns": 9,
+  "vent_boxes": [
+    {
+      "roof": [
+        [
+          1130,
+          118
+        ],
+        [
+          1179,
+          100
+        ],
+        [
+          1227,
+          129
+        ],
+        [
+          1183,
+          147
+        ]
+      ],
+      "height": 17.5
+    },
+    {
+      "roof": [
+        [
+          1205,
+          151
+        ],
+        [
+          1248,
+          132
+        ],
+        [
+          1308,
+          162
+        ],
+        [
+          1266,
+          181
+        ]
+      ],
+      "height": 17.1
+    }
+  ],
+  "sign_base": 15.0,
+  "status": "Measured colonnaded front and stepped roof equipment, with an independently fitted deep Hooli wordmark. Far-right/rear limits are partly outside the frame."
+}

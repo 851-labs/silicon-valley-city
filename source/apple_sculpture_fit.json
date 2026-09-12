@@ -1,0 +1,10 @@
+{
+  "top_face_center": [
+    1059.947288999862,
+    362.19492838384645
+  ],
+  "logo_height": 15.857628332297901,
+  "rotation": 0.016199049113604817,
+  "silhouette_loss": 0.09284581662158375,
+  "target": "Bright top-face pixels only; this is not a whole-asset fidelity score."
+}

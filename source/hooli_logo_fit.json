@@ -1,0 +1,11 @@
+{
+  "baseline": [
+    1092.1152704881536,
+    151.1533016850048
+  ],
+  "screen_width": 106.98761438771531,
+  "depth": 2.245541764025823,
+  "stem_scale": 1.7183459873252989,
+  "mask_iou": 0.9167619641681395,
+  "method": "Original green silhouette compared against an extruded vector. This score excludes the building and materials."
+}

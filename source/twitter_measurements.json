@@ -1,0 +1,151 @@
+{
+  "reference": "original_wide.webp",
+  "anchor": [
+    732,
+    330,
+    6.65
+  ],
+  "crop": [
+    623,
+    190,
+    921,
+    395
+  ],
+  "pavilions": [
+    {
+      "name": "Front louvred pavilion",
+      "roof": [
+        [
+          699,
+          314
+        ],
+        [
+          763,
+          287
+        ],
+        [
+          797,
+          305
+        ],
+        [
+          734,
+          330
+        ]
+      ],
+      "height": 7.6,
+      "louvres": true,
+      "end_edges": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": "Rear stone pavilion",
+      "roof": [
+        [
+          662,
+          278
+        ],
+        [
+          704,
+          259
+        ],
+        [
+          738,
+          276
+        ],
+        [
+          696,
+          293
+        ]
+      ],
+      "height": 7.2,
+      "louvres": false,
+      "end_edges": [
+        0,
+        2
+      ]
+    }
+  ],
+  "blogger": {
+    "roof": [
+      [
+        662,
+        228
+      ],
+      [
+        717,
+        205
+      ],
+      [
+        782,
+        237
+      ],
+      [
+        726,
+        260
+      ]
+    ],
+    "height": 4.0,
+    "lantern_center": [
+      733,
+      237
+    ],
+    "lantern_radius": 3.5
+  },
+  "connectors": [
+    {
+      "roof": [
+        [
+          800,
+          311
+        ],
+        [
+          830,
+          298
+        ],
+        [
+          850,
+          308
+        ],
+        [
+          826,
+          322
+        ]
+      ],
+      "height": 3.6
+    },
+    {
+      "roof": [
+        [
+          827,
+          297
+        ],
+        [
+          859,
+          284
+        ],
+        [
+          886,
+          294
+        ],
+        [
+          858,
+          308
+        ]
+      ],
+      "height": 4.3
+    }
+  ],
+  "sign": {
+    "center": [
+      770,
+      289
+    ],
+    "center_height": 19.0,
+    "radius": 5.15,
+    "heading": -0.04,
+    "depth": 0.8
+  },
+  "status": "Independent pavilion roofs and ground levels measured in the original frame; studio YU13 supplies louvre, slot and window-box construction. Courtyard planting and partly occluded edges remain under comparison."
+}
