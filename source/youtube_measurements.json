@@ -1,0 +1,19 @@
+{
+ "reference":"original_wide.webp",
+ "detail_references":["YU25","YU16"],
+ "anchor":[637,333,19.0],
+ "crop":[567,270,707,453],
+ "roof":[[584,313],[639,289],[694,311],[637,333]],
+ "roof_height":19.0,
+ "roof_thickness":1.15,
+ "upper_glazing_bottom":10.75,
+ "cantilever_bottom":9.15,
+ "lobby_base":[[608,391],[638,378],[675,392],[642,407]],
+ "lobby_base_height":1.4,
+ "plaza":[[571,411],[633,382],[699,413],[635,442]],
+ "plaza_height":1.2,
+ "sign_baseline":[617,318],
+ "sign_base_height":21.4,
+ "sign_width":15.2,
+ "status":"Visible roof and slab corners measured; concealed rear lobby inferred from the studio model."
+}

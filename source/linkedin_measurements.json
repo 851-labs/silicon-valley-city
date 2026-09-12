@@ -1,0 +1,127 @@
+{
+  "reference": "original_wide.webp",
+  "anchor": [
+    82,
+    395,
+    9.5
+  ],
+  "crop": [
+    19,
+    327,
+    157,
+    461
+  ],
+  "volumes": [
+    {
+      "name": "Five-storey high western wing",
+      "height": 14.4,
+      "floors": 5,
+      "roof": [
+        [
+          29,
+          357
+        ],
+        [
+          79,
+          333
+        ],
+        [
+          105,
+          347
+        ],
+        [
+          56,
+          369
+        ]
+      ],
+      "band": 1.75
+    },
+    {
+      "name": "Three-storey branded terrace",
+      "height": 10.6,
+      "floors": 3,
+      "roof": [
+        [
+          62,
+          385
+        ],
+        [
+          107,
+          361
+        ],
+        [
+          131,
+          376
+        ],
+        [
+          82,
+          395
+        ]
+      ],
+      "band": 2.1
+    },
+    {
+      "name": "Low eastern terrace",
+      "height": 4.2,
+      "floors": 2,
+      "roof": [
+        [
+          91,
+          414
+        ],
+        [
+          139,
+          386
+        ],
+        [
+          153,
+          398
+        ],
+        [
+          104,
+          425
+        ]
+      ],
+      "band": 1.1
+    }
+  ],
+  "panels": [
+    [
+      [
+        35,
+        353
+      ],
+      [
+        78,
+        338
+      ],
+      [
+        84,
+        342
+      ],
+      [
+        42,
+        360
+      ]
+    ],
+    [
+      [
+        50,
+        356
+      ],
+      [
+        88,
+        342
+      ],
+      [
+        96,
+        348
+      ],
+      [
+        58,
+        364
+      ]
+    ]
+  ],
+  "status": "Three separately measured stepped roof masses, continuous ribbon glazing and historical roof lettering. Lowest facades partially screened by trees."
+}

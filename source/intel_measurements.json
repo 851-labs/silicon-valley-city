@@ -1,0 +1,158 @@
+{
+  "reference": "original_wide.webp",
+  "detail_references": [
+    "YU16",
+    "YU09"
+  ],
+  "anchor": [
+    514,
+    444,
+    10.2
+  ],
+  "crop": [
+    422,
+    379,
+    609,
+    521
+  ],
+  "volumes": [
+    {
+      "name": "Rear upper storey",
+      "height": 10.2,
+      "floors": 6,
+      "roof": [
+        [
+          469,
+          416
+        ],
+        [
+          517,
+          394
+        ],
+        [
+          589,
+          424
+        ],
+        [
+          546,
+          446
+        ]
+      ]
+    },
+    {
+      "name": "Broad lower wing",
+      "height": 7.0,
+      "floors": 4,
+      "roof": [
+        [
+          437,
+          428
+        ],
+        [
+          489,
+          405
+        ],
+        [
+          602,
+          459
+        ],
+        [
+          550,
+          482
+        ]
+      ],
+      "roof_evidence": "Eastern visible roof corner (602,459), front corner (550,482), and long pale edge through (470,444), (500,458), (530,473). Concealed rear corner follows the parallel rectangular plan."
+    }
+  ],
+  "boxes": [
+    {
+      "name": "Rear blue roof box",
+      "base": 10.2,
+      "height": 13.3,
+      "roof": [
+        [
+          513,
+          401
+        ],
+        [
+          541,
+          387
+        ],
+        [
+          570,
+          401
+        ],
+        [
+          541,
+          414
+        ]
+      ]
+    },
+    {
+      "name": "Intel logo roof box",
+      "base": 7.0,
+      "height": 10.2,
+      "roof": [
+        [
+          467,
+          422
+        ],
+        [
+          494,
+          410
+        ],
+        [
+          542,
+          432
+        ],
+        [
+          514,
+          445
+        ]
+      ]
+    },
+    {
+      "name": "Front blue roof box",
+      "base": 7.0,
+      "height": 9.5,
+      "roof": [
+        [
+          532,
+          455
+        ],
+        [
+          560,
+          442
+        ],
+        [
+          589,
+          454
+        ],
+        [
+          560,
+          468
+        ]
+      ]
+    }
+  ],
+  "logo_quad": [
+    [
+      477,
+      422
+    ],
+    [
+      493,
+      416
+    ],
+    [
+      533,
+      432
+    ],
+    [
+      516,
+      438
+    ]
+  ],
+  "status": "Two stepped principal wings and three raised roof boxes; ground outline partly hidden by avenue trees.",
+  "facade_observations": "Visible cream bands repeat about 7.5\u20138 image pixels on the eastern elevations, requiring six courses on the upper wing and four on the lower wing. Compare the rendered vertical phase and return elevations."
+}

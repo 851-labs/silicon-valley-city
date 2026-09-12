@@ -1,0 +1,64 @@
+{
+  "reference": "original_wide.webp",
+  "anchor": [
+    224,
+    361,
+    6.3
+  ],
+  "crop": [
+    196,
+    320,
+    288,
+    389
+  ],
+  "helipad": {
+    "height": 4.5,
+    "roof": [
+      [
+        205,
+        344
+      ],
+      [
+        242,
+        344
+      ],
+      [
+        242,
+        361
+      ],
+      [
+        205,
+        361
+      ]
+    ],
+    "circle_center": [
+      224,
+      353
+    ],
+    "radius": 3.1
+  },
+  "office": {
+    "eave_height": 7.0,
+    "rear_height": 8.8,
+    "roof": [
+      [
+        244,
+        329
+      ],
+      [
+        281,
+        329
+      ],
+      [
+        281,
+        346
+      ],
+      [
+        244,
+        345
+      ]
+    ],
+    "floor_height": 3.6
+  },
+  "status": "Two measured pavilions; open lower level beneath a single-pitch upper office and a separate two-storey helipad block."
+}

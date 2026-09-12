@@ -1,0 +1,47 @@
+{
+  "reference": "original_wide.webp",
+  "anchor": [
+    328,
+    345,
+    9.1
+  ],
+  "crop": [
+    264,
+    258,
+    403,
+    403
+  ],
+  "height": 9.1,
+  "roof": [
+    [
+      283,
+      325
+    ],
+    [
+      352,
+      301
+    ],
+    [
+      387,
+      318
+    ],
+    [
+      328,
+      345
+    ]
+  ],
+  "sign": {
+    "left": [
+      314,
+      316
+    ],
+    "right": [
+      357,
+      298
+    ],
+    "bottom_height": 12.8,
+    "height": 4.2,
+    "depth": 0.38
+  },
+  "status": "Measured masonry envelope and sign plane; return parapets and some ground-level openings occluded."
+}
