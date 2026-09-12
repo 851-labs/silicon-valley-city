@@ -30,6 +30,7 @@ The wrapper supplies these flags automatically.
 - `build_intro.py`: staged Blender MCP / background builder using the standalone city.
 - `validate_intro.py`: saved animation, camera projection and construction checks.
 - `render_intro.py`: Cycles frame renderer with selected-frame and resume options.
+- `create_intro_review.py`: local synchronized source/model player with frame stepping.
 - `../tools/encode_intro.py`: validates the frame sequence and exports H.264 video.
 
 See [the animation guide](../animation/README.md) for commands, output files and

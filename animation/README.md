@@ -58,6 +58,17 @@ For a local comparison with the original soundtrack, `tools/encode_intro.py
 --reference-audio` creates an additional ignored MP4 using the locally available
 reference audio. That soundtrack retains its original rights.
 
+For synchronized side-by-side playback, with slow motion and frame stepping:
+
+```sh
+python3 source/create_intro_review.py
+python3 -m http.server 8000
+```
+
+Open `http://localhost:8000/animation/compare.html`. This local review needs the
+reference clip at `references/season1_intro.mp4`; its provenance and checksum are
+recorded in `references/intro_manifest.json`.
+
 ## Comparison status
 
 This is an animated reconstruction, not a frame-perfect copy. The camera fit has
