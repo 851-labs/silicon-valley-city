@@ -1,0 +1,82 @@
+[
+  {
+    "anchor": [
+      367,
+      48
+    ],
+    "score": 1.0,
+    "coverage": 1.0
+  },
+  {
+    "anchor": [
+      431,
+      20
+    ],
+    "score": 0.9814,
+    "coverage": 0.396
+  },
+  {
+    "anchor": [
+      303,
+      76
+    ],
+    "score": 0.9082,
+    "coverage": 1.0
+  },
+  {
+    "anchor": [
+      352,
+      95
+    ],
+    "score": 0.4931,
+    "coverage": 1.0
+  },
+  {
+    "anchor": [
+      181,
+      22
+    ],
+    "score": 0.4846,
+    "coverage": 0.48
+  },
+  {
+    "anchor": [
+      328,
+      26
+    ],
+    "score": 0.4788,
+    "coverage": 0.648
+  },
+  {
+    "anchor": [
+      493,
+      35
+    ],
+    "score": 0.4593,
+    "coverage": 0.907
+  },
+  {
+    "anchor": [
+      664,
+      31
+    ],
+    "score": 0.4557,
+    "coverage": 0.812
+  },
+  {
+    "anchor": [
+      264,
+      55
+    ],
+    "score": 0.4309,
+    "coverage": 1.0
+  },
+  {
+    "anchor": [
+      429,
+      62
+    ],
+    "score": 0.4195,
+    "coverage": 1.0
+  }
+]

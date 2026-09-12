@@ -1,0 +1,767 @@
+{
+  "target": "Each visible building in original_wide.webp, using studio close-ups as additional geometric evidence.",
+  "acceptance": "Repeated visual comparison of equal camera/crop renders; no asset marked complete on the basis of successful rendering or self-projected anchors.",
+  "assets": {
+    "adobe": {
+      "status": "rebuild_under_comparison",
+      "reference": "YU11, Original wide frame",
+      "checks": {
+        "camera": true,
+        "silhouette": false,
+        "roof": false,
+        "facades": false,
+        "signs": false,
+        "details": false,
+        "lighting": false
+      },
+      "iterations": 4,
+      "unresolved": [
+        "Refine projecting bays and the broad continuous lower glazing",
+        "Match rooftop equipment sections and antenna thickness",
+        "Match blue facade reflections and horizontal rail colours",
+        "Review fitted artwork against the final extruded Blender render"
+      ],
+      "measurement_file": "source/adobe_measurements.json",
+      "comparison": "matching/adobe_comparison.jpg"
+    },
+    "apple": {
+      "status": "rebuild_under_comparison",
+      "reference": "YU14, YU18, Original wide frame",
+      "checks": {
+        "camera": true,
+        "silhouette": false,
+        "roof": false,
+        "facades": false,
+        "signs": false,
+        "details": false,
+        "lighting": false
+      },
+      "iterations": 1,
+      "unresolved": [
+        "Check annular terrace section against both source views",
+        "Refine ring boundary and facade height",
+        "Complete and colour-match courtyard planting",
+        "Verify separate leaf height and sculpture extrusion"
+      ],
+      "measurement_file": "source/apple_measurements.json",
+      "comparison": "matching/apple_comparison.jpg"
+    },
+    "blue_sculpture": {
+      "status": "rebuild_under_comparison",
+      "reference": "Original wide frame and studio details",
+      "checks": {
+        "camera": true,
+        "silhouette": false,
+        "roof": false,
+        "facades": false,
+        "signs": false,
+        "details": false,
+        "lighting": false
+      },
+      "iterations": 1,
+      "unresolved": [
+        "Compare major cloth crests and troughs",
+        "Refine white fabric patch boundaries",
+        "Fit blue and white cloth shading",
+        "Complete fabric hidden by surrounding trees"
+      ],
+      "measurement_file": "source/blue_sculpture_measurements.json",
+      "comparison": "matching/blue_sculpture_comparison.jpg"
+    },
+    "ebay": {
+      "status": "rebuild_under_comparison",
+      "reference": "YU24, YU16, YU02",
+      "checks": {
+        "camera": true,
+        "silhouette": false,
+        "roof": false,
+        "facades": false,
+        "signs": false,
+        "details": false,
+        "lighting": false
+      },
+      "iterations": 1,
+      "unresolved": [
+        "Correct sign extent and mast spike",
+        "Refine inferred PV modules and gaps",
+        "Match window bays and entrance position",
+        "Match materials and surroundings"
+      ],
+      "measurement_file": "source/ebay_measurements.json",
+      "comparison": "matching/ebay_comparison.jpg"
+    },
+    "energy_pod": {
+      "status": "rebuild_under_comparison",
+      "reference": "YU11, Original wide frame",
+      "checks": {
+        "camera": true,
+        "silhouette": false,
+        "roof": false,
+        "facades": false,
+        "signs": false,
+        "details": false,
+        "lighting": false
+      },
+      "iterations": 2,
+      "unresolved": [
+        "Refine sliced pod cowl and recessed glazing",
+        "Check pylon locations and contrasting glazed faces",
+        "Match curved EnergyPod letters and helicopter orientation",
+        "Fit roof hardware, glass bands and pale materials"
+      ],
+      "measurement_file": "source/energy_pod_measurements.json",
+      "comparison": "matching/energy_pod_comparison.jpg"
+    },
+    "facebook": {
+      "status": "rebuild_under_comparison",
+      "reference": "YU15, Original wide frame",
+      "checks": {
+        "camera": true,
+        "silhouette": false,
+        "roof": false,
+        "facades": false,
+        "signs": false,
+        "details": false,
+        "lighting": false
+      },
+      "iterations": 3,
+      "unresolved": [
+        "Check the historical vector wordmark in the final extruded render",
+        "Match the blue glazing, cream louvers and copper equipment colours",
+        "Replace procedural rooftop planting with source-located vegetation",
+        "Refine the Like relief, paving boundary and nearby tree placement"
+      ],
+      "measurement_file": "source/facebook_measurements.json",
+      "comparison": "matching/facebook_comparison.jpg"
+    },
+    "framing_tower": {
+      "status": "rebuild_under_comparison",
+      "reference": "Original wide frame and studio details",
+      "checks": {
+        "camera": true,
+        "silhouette": false,
+        "roof": false,
+        "facades": false,
+        "signs": false,
+        "details": false,
+        "lighting": false
+      },
+      "iterations": 2,
+      "unresolved": [
+        "Check the visible projecting-bay roof and upper extension",
+        "Refine broad horizontal facade ribbons",
+        "Complete glazing reflection variation",
+        "Upper tower termination is outside the frame"
+      ],
+      "measurement_file": "source/framing_tower_measurements.json",
+      "comparison": "matching/framing_tower_comparison.jpg"
+    },
+    "google": {
+      "status": "rebuild_under_comparison",
+      "reference": "YU27, YU16, YU02",
+      "checks": {
+        "camera": true,
+        "silhouette": false,
+        "roof": false,
+        "facades": false,
+        "signs": false,
+        "details": false,
+        "lighting": false
+      },
+      "iterations": 3,
+      "unresolved": [
+        "Refine roof outlines against close crops",
+        "Check roof intersections around deep Google sign",
+        "Match facade contrast and measured pier spacing",
+        "Complete rooftop hardware and greenery",
+        "Photometric match and city context"
+      ],
+      "measurement_file": "source/google_measurements.json",
+      "comparison": "matching/google_comparison.jpg"
+    },
+    "historic_apple": {
+      "status": "awaiting_measurement",
+      "reference": "YU09, Original wide frame",
+      "checks": {
+        "camera": false,
+        "silhouette": false,
+        "roof": false,
+        "facades": false,
+        "signs": false,
+        "details": false,
+        "lighting": false
+      },
+      "iterations": 0,
+      "unresolved": []
+    },
+    "hooli": {
+      "status": "rebuild_under_comparison",
+      "reference": "Original wide frame, YU18, YU14",
+      "checks": {
+        "camera": true,
+        "silhouette": false,
+        "roof": false,
+        "facades": false,
+        "signs": false,
+        "details": false,
+        "lighting": false
+      },
+      "iterations": 3,
+      "unresolved": [
+        "Refine front fascia profile and exact column positions",
+        "Refine finned roof enclosures and rear/annex limits",
+        "Check fitted lettering counters, placement and material response",
+        "Complete source-aligned foreground planting"
+      ],
+      "measurement_file": "source/hooli_measurements.json",
+      "comparison": "matching/hooli_comparison.jpg"
+    },
+    "hp": {
+      "status": "awaiting_measurement",
+      "reference": "YU18, Original wide frame",
+      "checks": {
+        "camera": false,
+        "silhouette": false,
+        "roof": false,
+        "facades": false,
+        "signs": false,
+        "details": false,
+        "lighting": false
+      },
+      "iterations": 0,
+      "unresolved": []
+    },
+    "intel": {
+      "status": "rebuild_under_comparison",
+      "reference": "YU09, YU16, YU02",
+      "checks": {
+        "camera": true,
+        "silhouette": false,
+        "roof": false,
+        "facades": false,
+        "signs": false,
+        "details": false,
+        "lighting": false
+      },
+      "iterations": 4,
+      "unresolved": [
+        "Resolve the upper/lower wing intersection and concealed rear roof boundary",
+        "Refine enclosure depths, visible facade returns and ground-level entrances",
+        "Refine the roof logo thickness, colour and glyph alignment",
+        "Match reflected glazing variation and source-located avenue trees"
+      ],
+      "measurement_file": "source/intel_measurements.json",
+      "comparison": "matching/intel_comparison.jpg"
+    },
+    "legacy_hp": {
+      "status": "rebuild_under_comparison",
+      "reference": "Original wide frame and studio details",
+      "checks": {
+        "camera": true,
+        "silhouette": false,
+        "roof": false,
+        "facades": false,
+        "signs": false,
+        "details": false,
+        "lighting": false
+      },
+      "iterations": 3,
+      "unresolved": [
+        "Fit the plaque and raised wordmark positions to source pixels",
+        "Match blue curtain-wall reflection and upper fin spacing",
+        "Replace simplified roof plant with the observed equipment",
+        "Resolve obscured lower facade and projecting bay heights"
+      ],
+      "measurement_file": "source/legacy_hp_measurements.json",
+      "comparison": "matching/legacy_hp_comparison.jpg"
+    },
+    "linkedin": {
+      "status": "rebuild_under_comparison",
+      "reference": "Original wide frame, YU16",
+      "checks": {
+        "camera": true,
+        "silhouette": false,
+        "roof": false,
+        "facades": false,
+        "signs": false,
+        "details": false,
+        "lighting": false
+      },
+      "iterations": 3,
+      "unresolved": [
+        "Check facade band heights and reflected glass colours",
+        "Refine PV module boundaries and cell density",
+        "Fit roof wordmark extrusion and surrounding landscape"
+      ],
+      "measurement_file": "source/linkedin_measurements.json",
+      "comparison": "matching/linkedin_comparison.jpg"
+    },
+    "myspace": {
+      "status": "rebuild_under_comparison",
+      "reference": "YU11, Original wide frame",
+      "checks": {
+        "camera": true,
+        "silhouette": false,
+        "roof": false,
+        "facades": false,
+        "signs": false,
+        "details": false,
+        "lighting": false
+      },
+      "iterations": 8,
+      "unresolved": [
+        "Refine individual raised rack edges, cell contrast and roof shadows",
+        "Refine party guests, rooftop planters and tree positions",
+        "Fit reflected glazing patterns and round stair bands",
+        "Verify sign depth and the detailed braced entrance"
+      ],
+      "measurement_file": "source/myspace_measurements.json",
+      "comparison": "matching/myspace_comparison.jpg"
+    },
+    "netscape": {
+      "status": "awaiting_measurement",
+      "reference": "YU20, YU09, YU16",
+      "checks": {
+        "camera": false,
+        "silhouette": false,
+        "roof": false,
+        "facades": false,
+        "signs": false,
+        "details": false,
+        "lighting": false
+      },
+      "iterations": 0,
+      "unresolved": []
+    },
+    "netscape_digg": {
+      "status": "rebuild_under_comparison",
+      "reference": "YU20, YU09, YU16",
+      "checks": {
+        "camera": true,
+        "silhouette": false,
+        "roof": false,
+        "facades": false,
+        "signs": false,
+        "details": false,
+        "lighting": false
+      },
+      "iterations": 7,
+      "unresolved": [
+        "Refine the open canopy arch, glass response and lattice shadows",
+        "Match individual floor outlines, rounded fascia sections and window ribbons",
+        "Refine the original Digg wordmark placement, sign depth and blue shading",
+        "Complete source terrace furniture, people and lower access"
+      ],
+      "measurement_file": "source/netscape_digg_measurements.json",
+      "comparison": "matching/netscape_digg_comparison.jpg"
+    },
+    "paypal": {
+      "status": "rebuild_under_comparison",
+      "reference": "YU09, Original wide frame",
+      "checks": {
+        "camera": true,
+        "silhouette": false,
+        "roof": false,
+        "facades": false,
+        "signs": false,
+        "details": false,
+        "lighting": false
+      },
+      "iterations": 3,
+      "unresolved": [
+        "Confirm service enclosure ramp and entrance projection",
+        "Refine raised wordmark plane and colour",
+        "Validate dark rooftop screens",
+        "Photometric match and surroundings"
+      ],
+      "measurement_file": "source/paypal_measurements.json",
+      "comparison": "matching/paypal_comparison.jpg"
+    },
+    "pets_com": {
+      "status": "rebuild_under_comparison",
+      "reference": "YU09, Original wide frame",
+      "checks": {
+        "camera": true,
+        "silhouette": false,
+        "roof": false,
+        "facades": false,
+        "signs": false,
+        "details": false,
+        "lighting": false
+      },
+      "iterations": 2,
+      "unresolved": [
+        "Window course elevations and casement details",
+        "Roof coping and projecting parapets",
+        "Photometric match and surroundings"
+      ],
+      "measurement_file": "source/pets_com_measurements.json",
+      "comparison": "matching/pets_com_comparison.jpg"
+    },
+    "security_tower": {
+      "status": "rebuild_under_comparison",
+      "reference": "YU11, Original wide frame",
+      "checks": {
+        "camera": true,
+        "silhouette": false,
+        "roof": false,
+        "facades": false,
+        "signs": false,
+        "details": false,
+        "lighting": false
+      },
+      "iterations": 3,
+      "unresolved": [
+        "Refine armored base top edge and sloping panels",
+        "Match floor-band widths and glazing response",
+        "Add measured base equipment and foreground planting"
+      ],
+      "measurement_file": "source/security_tower_measurements.json",
+      "comparison": "matching/security_tower_comparison.jpg"
+    },
+    "small_offices": {
+      "status": "rebuild_under_comparison",
+      "reference": "Original wide frame, YU09",
+      "checks": {
+        "camera": true,
+        "silhouette": false,
+        "roof": false,
+        "facades": false,
+        "signs": false,
+        "details": false,
+        "lighting": false
+      },
+      "iterations": 2,
+      "unresolved": [
+        "Refine roof overhangs and lower structure",
+        "Match helipad emblem and helicopter orientation",
+        "Match glazing and masonry colours"
+      ],
+      "measurement_file": "source/small_offices_measurements.json",
+      "comparison": "matching/small_offices_comparison.jpg"
+    },
+    "stadium": {
+      "status": "rebuild_under_comparison",
+      "reference": "Original wide frame and studio details",
+      "checks": {
+        "camera": true,
+        "silhouette": false,
+        "roof": false,
+        "facades": false,
+        "signs": false,
+        "details": false,
+        "lighting": false
+      },
+      "iterations": 4,
+      "unresolved": [
+        "Refine the notched outer roof edge and offset opening",
+        "Fit the interior truss depth and spacing",
+        "Match concourse wall steps and recessed ground entrances",
+        "Calibrate concrete, seating and shadow colours"
+      ],
+      "measurement_file": "source/stadium_measurements.json",
+      "comparison": "matching/stadium_comparison.jpg"
+    },
+    "terrace_office": {
+      "status": "rebuild_under_comparison",
+      "reference": "Original wide frame",
+      "checks": {
+        "camera": true,
+        "silhouette": false,
+        "roof": false,
+        "facades": false,
+        "signs": false,
+        "details": false,
+        "lighting": false
+      },
+      "iterations": 3,
+      "unresolved": [
+        "Recheck the four PV field corners and module tilt",
+        "Refine the offset floor plates and narrow brick-side slots",
+        "Add source glazing reflections and surrounding planting"
+      ],
+      "measurement_file": "source/terrace_office_measurements.json",
+      "comparison": "matching/terrace_office_comparison.jpg"
+    },
+    "title_towers": {
+      "status": "rebuild_under_comparison",
+      "reference": "YU30, YU18, Season 1 final frame",
+      "checks": {
+        "camera": true,
+        "silhouette": false,
+        "roof": false,
+        "facades": false,
+        "signs": false,
+        "details": false,
+        "lighting": false
+      },
+      "iterations": 3,
+      "unresolved": [
+        "Refine parking-screen ledge and inset window extents",
+        "Match curtain-wall reflections and stone/metal brightness",
+        "Verify floor bands, source-visible stairs and ground interfaces"
+      ],
+      "measurement_file": "source/title_towers_measurements.json",
+      "comparison": "matching/title_towers_comparison.jpg"
+    },
+    "twitter": {
+      "status": "rebuild_under_comparison",
+      "reference": "YU13, YU11, YU02",
+      "checks": {
+        "camera": true,
+        "silhouette": false,
+        "roof": false,
+        "facades": false,
+        "signs": false,
+        "details": false,
+        "lighting": false
+      },
+      "iterations": 5,
+      "unresolved": [
+        "Match pavilion slot positions, roof comb density and projecting window bays",
+        "Refine glazed connector roof shapes and guard transparency",
+        "Fit the water-garden outline, bridge section and planting",
+        "Refine rooftop lantern, Google artwork placement and circular Twitter sign"
+      ],
+      "measurement_file": "source/twitter_measurements.json",
+      "comparison": "matching/twitter_comparison.jpg"
+    },
+    "west_solar": {
+      "status": "rebuild_under_comparison",
+      "reference": "Original wide frame \u2022 pixels 157,364\u2013327,481, YU09 \u2022 earlier roof variant",
+      "checks": {
+        "camera": true,
+        "silhouette": false,
+        "roof": false,
+        "facades": false,
+        "signs": false,
+        "details": false,
+        "lighting": false
+      },
+      "iterations": 2,
+      "unresolved": [
+        "Refine solar tilt, cell scale and array gaps",
+        "Match entrance depth and annex cornice",
+        "Finish source-aligned planting",
+        "Recheck materials after shadow-direction fit"
+      ],
+      "measurement_file": "source/west_solar_measurements.json",
+      "comparison": "matching/west_solar_comparison.jpg"
+    },
+    "white_corner_office": {
+      "status": "rebuild_under_comparison",
+      "reference": "Original wide frame and studio details",
+      "checks": {
+        "camera": true,
+        "silhouette": false,
+        "roof": false,
+        "facades": false,
+        "signs": false,
+        "details": false,
+        "lighting": false
+      },
+      "iterations": 2,
+      "unresolved": [
+        "Refine deep pierced corner returns and middle pier positions",
+        "Fit pale rooftop, cyan glazing and roof equipment colours",
+        "Check roof plant and rear service-bar height"
+      ],
+      "measurement_file": "source/white_corner_office_measurements.json",
+      "comparison": "matching/white_corner_office_comparison.jpg"
+    },
+    "yahoo_oracle": {
+      "status": "rebuild_under_comparison",
+      "reference": "YU26, YU18, YU16",
+      "checks": {
+        "camera": true,
+        "silhouette": false,
+        "roof": false,
+        "facades": false,
+        "signs": false,
+        "details": false,
+        "lighting": false
+      },
+      "iterations": 6,
+      "unresolved": [
+        "Replace the jagged traced Yahoo Y with clean historical vector contours",
+        "Refine individual PV group corners, module pitch and tilt",
+        "Match broad window reflections and the core facade",
+        "Verify lower facade and ground connection behind the title"
+      ],
+      "measurement_file": "source/yahoo_oracle_measurements.json",
+      "comparison": "matching/yahoo_oracle_comparison.jpg"
+    },
+    "youtube": {
+      "status": "rebuild_under_comparison",
+      "reference": "YU25, YU22, YU13, YU02",
+      "checks": {
+        "camera": true,
+        "silhouette": false,
+        "roof": false,
+        "facades": false,
+        "signs": false,
+        "details": false,
+        "lighting": false
+      },
+      "iterations": 4,
+      "unresolved": [
+        "Glass upper floors and lobby need separate material fit",
+        "Slab shadow faces still too dark",
+        "Verify wordmark support posts and city shadowing"
+      ],
+      "measurement_file": "source/youtube_measurements.json",
+      "comparison": "matching/youtube_comparison.jpg"
+    },
+    "zynga": {
+      "status": "rebuild_under_comparison",
+      "reference": "Original wide frame and studio details",
+      "checks": {
+        "camera": true,
+        "silhouette": false,
+        "roof": false,
+        "facades": false,
+        "signs": false,
+        "details": false,
+        "lighting": false
+      },
+      "iterations": 2,
+      "unresolved": [
+        "Resolve intersecting facade pieces between stepped volumes",
+        "Refine window sizes, colour sequence and setback edges",
+        "Match rooftop guest poses and spa rim",
+        "Refine sign depth and corner radius"
+      ],
+      "measurement_file": "source/zynga_measurements.json",
+      "comparison": "matching/zynga_comparison.jpg"
+    },
+    "security_tower_west": {
+      "status": "rebuild_under_comparison",
+      "reference": "YU11, Original wide frame",
+      "checks": {
+        "camera": true,
+        "silhouette": false,
+        "roof": false,
+        "facades": false,
+        "signs": false,
+        "details": false,
+        "lighting": false
+      },
+      "iterations": 3,
+      "unresolved": [
+        "Refine armored base top edge and sloping panels",
+        "Match floor-band widths and glazing response",
+        "Add measured base equipment and foreground planting"
+      ],
+      "measurement_file": "source/security_tower_west_measurements.json",
+      "comparison": "matching/security_tower_west_comparison.jpg"
+    },
+    "security_tower_north": {
+      "status": "rebuild_under_comparison",
+      "reference": "YU11, Original wide frame",
+      "checks": {
+        "camera": true,
+        "silhouette": false,
+        "roof": false,
+        "facades": false,
+        "signs": false,
+        "details": false,
+        "lighting": false
+      },
+      "iterations": 3,
+      "unresolved": [
+        "Refine armored base top edge and sloping panels",
+        "Match floor-band widths and glazing response",
+        "Add measured base equipment and foreground planting"
+      ],
+      "measurement_file": "source/security_tower_north_measurements.json",
+      "comparison": "matching/security_tower_north_comparison.jpg"
+    },
+    "north_solar_office": {
+      "status": "rebuild_under_comparison",
+      "reference": "Original wide frame",
+      "checks": {
+        "camera": true,
+        "silhouette": false,
+        "roof": false,
+        "facades": false,
+        "signs": false,
+        "details": false,
+        "lighting": false
+      },
+      "iterations": 2,
+      "unresolved": [
+        "Recheck the six individually measured PV fields",
+        "Fit brick, spandrel and glass colours",
+        "Verify partly occluded northern-row placements"
+      ],
+      "measurement_file": "source/north_solar_office_measurements.json",
+      "comparison": "matching/north_solar_office_comparison.jpg"
+    },
+    "northeast_campus": {
+      "status": "rebuild_under_comparison",
+      "reference": "Original wide frame",
+      "checks": {
+        "camera": true,
+        "silhouette": false,
+        "roof": false,
+        "facades": false,
+        "signs": false,
+        "details": false,
+        "lighting": false
+      },
+      "iterations": 6,
+      "unresolved": [
+        "Fit the splayed cowls and recessed roof apertures to the source",
+        "Refine courtyard path widths, shelter, pool and circular disc",
+        "Rebuild the rear gallery and connecting entrance",
+        "Resolve facade details and contextual cast shadows"
+      ],
+      "measurement_file": "source/northeast_campus_measurements.json",
+      "comparison": "matching/northeast_campus_comparison.jpg"
+    },
+    "northeast_house": {
+      "status": "rebuild_under_comparison",
+      "reference": "Original wide frame",
+      "checks": {
+        "camera": true,
+        "silhouette": false,
+        "roof": false,
+        "facades": false,
+        "signs": false,
+        "details": false,
+        "lighting": false
+      },
+      "iterations": 2,
+      "unresolved": [
+        "Refine hipped roof ridge and eave overlap",
+        "Fit olive wall and dark roof colours",
+        "Measure the window frames and chimney cap",
+        "Review house occlusion by the adjacent courtyard building"
+      ],
+      "measurement_file": "source/northeast_house_measurements.json",
+      "comparison": "matching/northeast_house_comparison.jpg"
+    },
+    "service_office": {
+      "status": "rebuild_under_comparison",
+      "reference": "Original wide frame",
+      "checks": {
+        "camera": true,
+        "silhouette": false,
+        "roof": false,
+        "facades": false,
+        "signs": false,
+        "details": false,
+        "lighting": false
+      },
+      "iterations": 2,
+      "unresolved": [
+        "Fit the recessed roof, window spacing and facade colours",
+        "Verify satellite dish orientation and supporting mast",
+        "Refine entrance canopy depth and ground contact",
+        "Infer hidden elevations only where assembly requires them"
+      ],
+      "measurement_file": "source/service_office_measurements.json",
+      "comparison": "matching/service_office_comparison.jpg"
+    }
+  }
+}

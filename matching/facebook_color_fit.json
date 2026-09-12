@@ -1,0 +1,87 @@
+{
+  "asset": "facebook",
+  "method": "RGB response at fixed, documented reference image probes. Does not measure geometry or whole-image similarity.",
+  "passes": [
+    {
+      "facebook_roof": {
+        "base_color": [
+          0.949999988079071,
+          0.8600000143051147,
+          0.7599999904632568
+        ],
+        "probes": [
+          {
+            "pixel": [
+              560,
+              194
+            ],
+            "target_rgb": [
+              242,
+              218,
+              194
+            ],
+            "render_rgb": [
+              262.0,
+              252.2,
+              237.28
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "facebook_roof": {
+        "base_color": [
+          0.8075481057167053,
+          0.639021635055542,
+          0.5052726864814758
+        ],
+        "probes": [
+          {
+            "pixel": [
+              560,
+              194
+            ],
+            "target_rgb": [
+              242,
+              218,
+              194
+            ],
+            "render_rgb": [
+              244.86,
+              223.16,
+              200.62
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "facebook_roof": {
+        "base_color": [
+          0.7884216904640198,
+          0.609360933303833,
+          0.4722108244895935
+        ],
+        "probes": [
+          {
+            "pixel": [
+              560,
+              194
+            ],
+            "target_rgb": [
+              242,
+              218,
+              194
+            ],
+            "render_rgb": [
+              242.37,
+              218.79,
+              195.16
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

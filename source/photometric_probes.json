@@ -1,0 +1,899 @@
+{
+  "youtube": {
+    "youtube_roof": [
+      {
+        "pixel": [
+          674,
+          312
+        ],
+        "source_rgb": [
+          254,
+          251,
+          238
+        ]
+      }
+    ],
+    "youtube_plaza": [
+      {
+        "pixel": [
+          609,
+          419
+        ],
+        "source_rgb": [
+          115,
+          132,
+          142
+        ]
+      },
+      {
+        "pixel": [
+          640,
+          432
+        ],
+        "source_rgb": [
+          116,
+          136,
+          150
+        ]
+      }
+    ],
+    "youtube_glass": [
+      {
+        "pixel": [
+          620,
+          350
+        ],
+        "source_rgb": [
+          65,
+          59,
+          57
+        ]
+      },
+      {
+        "pixel": [
+          646,
+          391
+        ],
+        "source_rgb": [
+          51,
+          48,
+          47
+        ]
+      }
+    ],
+    "youtube_slab": [
+      {
+        "pixel": [
+          626,
+          373
+        ],
+        "source_rgb": [
+          94,
+          91,
+          88
+        ]
+      }
+    ]
+  },
+  "west_solar": {
+    "roof_membrane": [
+      {
+        "pixel": [
+          247,
+          409
+        ],
+        "source_rgb": [
+          239,
+          228,
+          213
+        ]
+      }
+    ],
+    "aggregate_concrete": [
+      {
+        "pixel": [
+          266,
+          454
+        ],
+        "source_rgb": [
+          94,
+          95,
+          92
+        ]
+      }
+    ],
+    "entry_stone": [
+      {
+        "pixel": [
+          240,
+          461
+        ],
+        "source_rgb": [
+          96,
+          99,
+          98
+        ]
+      }
+    ],
+    "solar": [
+      {
+        "pixel": [
+          240,
+          432
+        ],
+        "source_rgb": [
+          171,
+          181,
+          203
+        ]
+      },
+      {
+        "pixel": [
+          279,
+          386
+        ],
+        "source_rgb": [
+          165,
+          170,
+          191
+        ]
+      }
+    ]
+  },
+  "ebay": {
+    "ebay_roof": [
+      {
+        "pixel": [
+          648,
+          477
+        ],
+        "source_rgb": [
+          255,
+          233,
+          204
+        ]
+      }
+    ],
+    "ebay_masonry": [
+      {
+        "pixel": [
+          800,
+          559
+        ],
+        "source_rgb": [
+          100,
+          103,
+          99
+        ]
+      }
+    ],
+    "ebay_copper": [
+      {
+        "pixel": [
+          675,
+          514
+        ],
+        "source_rgb": [
+          183,
+          135,
+          105
+        ]
+      }
+    ],
+    "solar": [
+      {
+        "pixel": [
+          714,
+          540
+        ],
+        "source_rgb": [
+          119,
+          118,
+          125
+        ]
+      },
+      {
+        "pixel": [
+          767,
+          509
+        ],
+        "source_rgb": [
+          136,
+          136,
+          132
+        ]
+      }
+    ]
+  },
+  "hooli": {
+    "hooli_letter": [
+      {
+        "pixel": [
+          1127,
+          156
+        ],
+        "source_rgb": [
+          124,
+          127,
+          12
+        ]
+      },
+      {
+        "pixel": [
+          1151,
+          181
+        ],
+        "source_rgb": [
+          119,
+          123,
+          9
+        ]
+      }
+    ],
+    "hooli_fascia": [
+      {
+        "pixel": [
+          1103,
+          184
+        ],
+        "source_rgb": [
+          111,
+          115,
+          118
+        ]
+      }
+    ],
+    "hooli_brick": [
+      {
+        "pixel": [
+          1088,
+          216
+        ],
+        "source_rgb": [
+          86,
+          52,
+          40
+        ]
+      }
+    ],
+    "hooli_vent_cover": [
+      {
+        "pixel": [
+          1177,
+          118
+        ],
+        "source_rgb": [
+          176,
+          166,
+          156
+        ]
+      }
+    ]
+  },
+  "terrace_office": {
+    "terrace_roof": [
+      {
+        "pixel": [
+          1103,
+          583
+        ],
+        "source_rgb": [
+          227,
+          213,
+          194
+        ]
+      }
+    ],
+    "terrace_brick": [
+      {
+        "pixel": [
+          1106,
+          597
+        ],
+        "source_rgb": [
+          107,
+          69,
+          45
+        ]
+      }
+    ],
+    "terrace_glass": [
+      {
+        "pixel": [
+          1150,
+          595
+        ],
+        "source_rgb": [
+          53,
+          59,
+          64
+        ]
+      }
+    ],
+    "terrace_stone": [
+      {
+        "pixel": [
+          1148,
+          604
+        ],
+        "source_rgb": [
+          112,
+          110,
+          111
+        ]
+      }
+    ],
+    "solar": [
+      {
+        "pixel": [
+          1159,
+          580
+        ],
+        "source_rgb": [
+          121,
+          116,
+          115
+        ]
+      }
+    ]
+  },
+  "northeast_campus": {
+    "court_roof": [
+      {
+        "pixel": [
+          1107,
+          46
+        ],
+        "source_rgb": [
+          165,
+          182,
+          173
+        ]
+      }
+    ],
+    "court_stone": [
+      {
+        "pixel": [
+          1118,
+          98
+        ],
+        "source_rgb": [
+          108,
+          103,
+          98
+        ]
+      }
+    ],
+    "court_grass": [
+      {
+        "pixel": [
+          1170,
+          45
+        ],
+        "source_rgb": [
+          128,
+          130,
+          17
+        ],
+        "sun_visible": true
+      }
+    ],
+    "court_pale": [
+      {
+        "pixel": [
+          1185,
+          51
+        ],
+        "source_rgb": [
+          203,
+          193,
+          186
+        ]
+      }
+    ]
+  },
+  "north_solar_office": {
+    "north_roof": [
+      {
+        "pixel": [
+          408,
+          25
+        ],
+        "source_rgb": [
+          255,
+          243,
+          230
+        ]
+      }
+    ],
+    "north_brick": [
+      {
+        "pixel": [
+          390,
+          40
+        ],
+        "source_rgb": [
+          125,
+          108,
+          101
+        ]
+      }
+    ],
+    "north_glass": [
+      {
+        "pixel": [
+          390,
+          46
+        ],
+        "source_rgb": [
+          68,
+          63,
+          56
+        ]
+      }
+    ],
+    "north_stone": [
+      {
+        "pixel": [
+          390,
+          51
+        ],
+        "source_rgb": [
+          84,
+          80,
+          74
+        ]
+      }
+    ]
+  },
+  "framing_tower": {
+    "framed_glass": [
+      {
+        "pixel": [
+          204,
+          79
+        ],
+        "source_rgb": [
+          119,
+          133,
+          134
+        ]
+      },
+      {
+        "pixel": [
+          224,
+          53
+        ],
+        "source_rgb": [
+          118,
+          137,
+          147
+        ]
+      }
+    ],
+    "framed_stone": [
+      {
+        "pixel": [
+          166,
+          111
+        ],
+        "source_rgb": [
+          122,
+          123,
+          116
+        ]
+      }
+    ]
+  },
+  "yahoo_oracle": {
+    "paired_roof": [
+      {
+        "pixel": [
+          925,
+          19
+        ],
+        "source_rgb": [
+          249,
+          235,
+          223
+        ]
+      }
+    ],
+    "paired_band": [
+      {
+        "pixel": [
+          847,
+          47
+        ],
+        "source_rgb": [
+          130,
+          128,
+          124
+        ]
+      }
+    ],
+    "paired_glass": [
+      {
+        "pixel": [
+          847,
+          38
+        ],
+        "source_rgb": [
+          95,
+          108,
+          117
+        ]
+      },
+      {
+        "pixel": [
+          850,
+          54
+        ],
+        "source_rgb": [
+          99,
+          114,
+          125
+        ]
+      }
+    ]
+  },
+  "myspace": {
+    "myspace_roof": [
+      {
+        "pixel": [
+          818,
+          454
+        ],
+        "source_rgb": [
+          248,
+          237,
+          225
+        ],
+        "sun_visible": true,
+        "surface_normal": [
+          0,
+          0,
+          1
+        ]
+      }
+    ],
+    "myspace_band": [
+      {
+        "pixel": [
+          880,
+          504
+        ],
+        "source_rgb": [
+          106,
+          101,
+          102
+        ]
+      }
+    ],
+    "myspace_glass": [
+      {
+        "pixel": [
+          880,
+          496
+        ],
+        "source_rgb": [
+          87,
+          101,
+          99
+        ]
+      },
+      {
+        "pixel": [
+          875,
+          513
+        ],
+        "source_rgb": [
+          89,
+          102,
+          106
+        ]
+      }
+    ],
+    "myspace_deck": [
+      {
+        "pixel": [
+          735,
+          407
+        ],
+        "source_rgb": [
+          130,
+          90,
+          53
+        ]
+      }
+    ]
+  },
+  "adobe": {
+    "adobe_roof": [
+      {
+        "pixel": [
+          1224,
+          350
+        ],
+        "source_rgb": [
+          170,
+          158,
+          149
+        ],
+        "sun_visible": true,
+        "surface_normal": [
+          0,
+          0,
+          1
+        ]
+      }
+    ],
+    "adobe_glass": [
+      {
+        "pixel": [
+          1194,
+          502
+        ],
+        "source_rgb": [
+          67,
+          91,
+          105
+        ]
+      },
+      {
+        "pixel": [
+          1190,
+          498
+        ],
+        "source_rgb": [
+          72,
+          91,
+          108
+        ]
+      }
+    ],
+    "adobe_red": [
+      {
+        "pixel": [
+          1268,
+          387
+        ],
+        "source_rgb": [
+          148,
+          47,
+          33
+        ]
+      }
+    ]
+  },
+  "service_office": {
+    "service_wall": [
+      {
+        "pixel": [
+          465,
+          299
+        ],
+        "source_rgb": [
+          93,
+          96,
+          90
+        ]
+      }
+    ],
+    "service_roof": [
+      {
+        "pixel": [
+          480,
+          282
+        ],
+        "source_rgb": [
+          168,
+          154,
+          143
+        ]
+      }
+    ],
+    "service_dish": [
+      {
+        "pixel": [
+          489,
+          275
+        ],
+        "source_rgb": [
+          165,
+          162,
+          163
+        ]
+      }
+    ]
+  },
+  "facebook": {
+    "facebook_roof": [
+      {
+        "pixel": [
+          560,
+          194
+        ],
+        "source_rgb": [
+          242,
+          218,
+          194
+        ],
+        "surface_normal": [
+          0,
+          0,
+          1
+        ],
+        "sun_visible": true
+      }
+    ]
+  },
+  "google": {
+    "google_roof": [
+      {
+        "pixel": [
+          110,
+          483
+        ],
+        "source_rgb": [
+          238,
+          224,
+          211
+        ],
+        "surface_normal": [
+          0,
+          0,
+          1
+        ],
+        "sun_visible": true
+      }
+    ]
+  },
+  "intel": {
+    "intel_roof": [
+      {
+        "pixel": [
+          508,
+          407
+        ],
+        "source_rgb": [
+          244,
+          215,
+          182
+        ],
+        "surface_normal": [
+          0,
+          0,
+          1
+        ],
+        "sun_visible": true
+      }
+    ],
+    "intel_glass": [
+      {
+        "pixel": [
+          580,
+          482
+        ],
+        "source_rgb": [
+          66,
+          74,
+          80
+        ]
+      }
+    ],
+    "intel_spandrel": [
+      {
+        "pixel": [
+          580,
+          486
+        ],
+        "source_rgb": [
+          121,
+          113,
+          103
+        ]
+      }
+    ],
+    "intel_box_blue": [
+      {
+        "pixel": [
+          552,
+          418
+        ],
+        "source_rgb": [
+          71,
+          93,
+          114
+        ]
+      }
+    ]
+  },
+  "twitter": {
+    "twitter_roof": [
+      {
+        "pixel": [
+          693,
+          277
+        ],
+        "source_rgb": [
+          183,
+          178,
+          179
+        ],
+        "surface_normal": [
+          0,
+          0,
+          1
+        ],
+        "sun_visible": true
+      }
+    ],
+    "twitter_beam": [
+      {
+        "pixel": [
+          733,
+          251
+        ],
+        "source_rgb": [
+          190,
+          202,
+          209
+        ],
+        "surface_normal": [
+          0,
+          0,
+          1
+        ],
+        "sun_visible": true
+      }
+    ]
+  },
+  "netscape_digg": {
+    "curved_roof": [
+      {
+        "pixel": [
+          478,
+          328
+        ],
+        "source_rgb": [
+          243,
+          227,
+          214
+        ],
+        "surface_normal": [
+          0,
+          0,
+          1
+        ],
+        "sun_visible": true
+      }
+    ],
+    "curved_shell": [
+      {
+        "pixel": [
+          366,
+          410
+        ],
+        "source_rgb": [
+          120,
+          120,
+          120
+        ]
+      }
+    ],
+    "digg_sign_blue": [
+      {
+        "pixel": [
+          515,
+          350
+        ],
+        "source_rgb": [
+          39,
+          61,
+          85
+        ]
+      }
+    ]
+  }
+}

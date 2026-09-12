@@ -1,0 +1,101 @@
+{
+  "method": "Source-to-source normalized grey correlation inside the northern module roof outline. This locates a repeated source roof; it does not compare Blender geometry.",
+  "candidates": [
+    {
+      "anchor": [
+        1278,
+        121
+      ],
+      "score": 0.8081584422950846,
+      "coverage": 0.5792479771537363
+    },
+    {
+      "anchor": [
+        1278,
+        122
+      ],
+      "score": 0.7904717078201906,
+      "coverage": 0.5792479771537363
+    },
+    {
+      "anchor": [
+        1279,
+        122
+      ],
+      "score": 0.7879699800673213,
+      "coverage": 0.5592574964302713
+    },
+    {
+      "anchor": [
+        1279,
+        121
+      ],
+      "score": 0.7827760077664064,
+      "coverage": 0.5592574964302713
+    },
+    {
+      "anchor": [
+        1277,
+        121
+      ],
+      "score": 0.7712635626707862,
+      "coverage": 0.5987624940504521
+    },
+    {
+      "anchor": [
+        1280,
+        122
+      ],
+      "score": 0.7449299319595671,
+      "coverage": 0.5387910518800572
+    },
+    {
+      "anchor": [
+        1280,
+        121
+      ],
+      "score": 0.7219537077005544,
+      "coverage": 0.5387910518800572
+    },
+    {
+      "anchor": [
+        1277,
+        122
+      ],
+      "score": 0.7178287015775566,
+      "coverage": 0.5987624940504521
+    },
+    {
+      "anchor": [
+        1279,
+        120
+      ],
+      "score": 0.6982570510598785,
+      "coverage": 0.5592574964302713
+    },
+    {
+      "anchor": [
+        1276,
+        121
+      ],
+      "score": 0.697502758989924,
+      "coverage": 0.6178010471204188
+    },
+    {
+      "anchor": [
+        1278,
+        120
+      ],
+      "score": 0.6910588857993684,
+      "coverage": 0.5792479771537363
+    },
+    {
+      "anchor": [
+        1281,
+        122
+      ],
+      "score": 0.6865221562721728,
+      "coverage": 0.518324607329843
+    }
+  ]
+}

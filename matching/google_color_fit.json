@@ -1,0 +1,87 @@
+{
+  "asset": "google",
+  "method": "RGB response at fixed, documented reference image probes. Does not measure geometry or whole-image similarity.",
+  "passes": [
+    {
+      "google_roof": {
+        "base_color": [
+          0.949999988079071,
+          0.8600000143051147,
+          0.7599999904632568
+        ],
+        "probes": [
+          {
+            "pixel": [
+              110,
+              483
+            ],
+            "target_rgb": [
+              238,
+              224,
+              211
+            ],
+            "render_rgb": [
+              261.95,
+              252.39,
+              237.38
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "google_roof": {
+        "base_color": [
+          0.780827522277832,
+          0.6741920113563538,
+          0.5981455445289612
+        ],
+        "probes": [
+          {
+            "pixel": [
+              110,
+              483
+            ],
+            "target_rgb": [
+              238,
+              224,
+              211
+            ],
+            "render_rgb": [
+              241.39,
+              228.13,
+              214.99
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "google_roof": {
+        "base_color": [
+          0.7586310505867004,
+          0.6495718359947205,
+          0.5758561491966248
+        ],
+        "probes": [
+          {
+            "pixel": [
+              110,
+              483
+            ],
+            "target_rgb": [
+              238,
+              224,
+              211
+            ],
+            "render_rgb": [
+              238.52,
+              224.66,
+              211.68
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

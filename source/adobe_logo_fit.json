@@ -1,0 +1,10 @@
+{
+  "scope": "White symbol and wordmark mask only, excluding red wall, building, shadows and material response.",
+  "baseline": [
+    1228.1246444699307,
+    457.65342481224974
+  ],
+  "width_pixels": 33.99762554352135,
+  "height_pixels_per_svg_unit": 39.907030534813565,
+  "mask_iou": 0.8413764162819974
+}

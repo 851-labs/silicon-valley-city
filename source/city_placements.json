@@ -1,0 +1,1082 @@
+[
+  {
+    "name": "Title Towers",
+    "asset": "title_towers",
+    "reference_pixel": [
+      892.2740650504024,
+      169.63049882166925
+    ],
+    "model_anchor": [
+      0.0,
+      0.0,
+      14.750399999999999
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      -39.68320846557617,
+      105.66973876953125,
+      0.0
+    ]
+  },
+  {
+    "name": "Youtube",
+    "asset": "youtube",
+    "reference_pixel": [
+      627,
+      304
+    ],
+    "model_anchor": [
+      3.14,
+      -4.27,
+      17.7
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      -30.22056007385254,
+      25.857343673706055,
+      0.0
+    ]
+  },
+  {
+    "name": "Netscape Digg",
+    "asset": "netscape_digg",
+    "reference_pixel": [
+      352,
+      400
+    ],
+    "model_anchor": [
+      -3.2479731308,
+      -26.1933317,
+      8.643
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation_degrees": 4.602836563370225,
+    "world_origin": [
+      -45.07149124145508,
+      -9.330303192138672,
+      0.0
+    ]
+  },
+  {
+    "name": "Google",
+    "asset": "google",
+    "reference_pixel": [
+      433,
+      512
+    ],
+    "model_anchor": [
+      3.2550000000000003,
+      13.274999999999999,
+      12.92
+    ],
+    "scale": [
+      0.9999999403953552,
+      0.9999999403953552,
+      1.0
+    ],
+    "rotation_degrees": 9,
+    "world_origin": [
+      6.951269149780273,
+      -77.61308288574219,
+      0.0
+    ]
+  },
+  {
+    "name": "Facebook",
+    "asset": "facebook",
+    "reference_pixel": [
+      375,
+      262
+    ],
+    "model_anchor": [
+      0.0,
+      0.0,
+      4.7488
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation_degrees": 24,
+    "world_origin": [
+      -94.36664581298828,
+      15.275259017944336,
+      0.0
+    ]
+  },
+  {
+    "name": "Intel",
+    "asset": "intel",
+    "reference_pixel": [
+      504,
+      432
+    ],
+    "model_anchor": [
+      -7,
+      -6,
+      9.07
+    ],
+    "scale": [
+      0.8999999761581421,
+      0.8999999761581421,
+      0.8999999761581421
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      -9.377418518066406,
+      -17.159421920776367,
+      0.0
+    ]
+  },
+  {
+    "name": "Ebay",
+    "asset": "ebay",
+    "reference_pixel": [
+      718,
+      508
+    ],
+    "model_anchor": [
+      0.0,
+      0.0,
+      7.964000000000001
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      38.22087097167969,
+      -14.190600395202637,
+      0.0
+    ]
+  },
+  {
+    "name": "Twitter",
+    "asset": "twitter",
+    "reference_pixel": [
+      769,
+      287
+    ],
+    "model_anchor": [
+      7.9,
+      -3.5,
+      14.6
+    ],
+    "scale": [
+      0.9900000095367432,
+      0.9900000095367432,
+      0.9900000095367432
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      -25.988292694091797,
+      55.5270881652832,
+      0.0
+    ]
+  },
+  {
+    "name": "Apple",
+    "asset": "apple",
+    "reference_pixel": [
+      1065,
+      374
+    ],
+    "model_anchor": [
+      0,
+      0,
+      2.5
+    ],
+    "scale": [
+      1.1799999475479126,
+      1.1799999475479126,
+      1.1799999475479126
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      33.80830764770508,
+      84.59077453613281,
+      0.0
+    ]
+  },
+  {
+    "name": "Yahoo Oracle",
+    "asset": "yahoo_oracle",
+    "reference_pixel": [
+      875,
+      23
+    ],
+    "model_anchor": [
+      -12.5,
+      1.2,
+      12.92
+    ],
+    "scale": [
+      1.0499999523162842,
+      1.0499999523162842,
+      1.0499999523162842
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      -79.0399398803711,
+      148.40676879882812,
+      0.0
+    ]
+  },
+  {
+    "name": "Hooli",
+    "asset": "hooli",
+    "reference_pixel": [
+      1143,
+      161
+    ],
+    "model_anchor": [
+      0.0,
+      -3.67,
+      21.06
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      0.9999999403953552
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      0.9076392650604248,
+      140.0811767578125,
+      0.0
+    ]
+  },
+  {
+    "name": "Myspace",
+    "asset": "myspace",
+    "reference_pixel": [
+      750,
+      408
+    ],
+    "model_anchor": [
+      -10,
+      0,
+      13.53
+    ],
+    "scale": [
+      0.9200000166893005,
+      0.9200000166893005,
+      0.9200000166893005
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      25.406295776367188,
+      14.973926544189453,
+      0.0
+    ]
+  },
+  {
+    "name": "Energy Pod",
+    "asset": "energy_pod",
+    "reference_pixel": [
+      1000,
+      530
+    ],
+    "model_anchor": [
+      0.0,
+      -2.58,
+      24.18
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      107.81499481201172,
+      0.7453898191452026,
+      0.0
+    ]
+  },
+  {
+    "name": "Adobe",
+    "asset": "adobe",
+    "reference_pixel": [
+      1241,
+      433
+    ],
+    "model_anchor": [
+      14.82,
+      0,
+      37.35
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      113.24459075927734,
+      45.13252258300781,
+      0.0
+    ]
+  },
+  {
+    "name": "Pets Com",
+    "asset": "pets_com",
+    "reference_pixel": [
+      338,
+      324
+    ],
+    "model_anchor": [
+      0,
+      0,
+      10.23
+    ],
+    "scale": [
+      0.949999988079071,
+      0.949999988079071,
+      0.949999988079071
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      -71.5985336303711,
+      -15.953010559082031,
+      0.0
+    ]
+  },
+  {
+    "name": "Paypal",
+    "asset": "paypal",
+    "reference_pixel": [
+      141,
+      308
+    ],
+    "model_anchor": [
+      0,
+      0,
+      7.98
+    ],
+    "scale": [
+      1.100000023841858,
+      1.100000023841858,
+      1.100000023841858
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      -105.07095336914062,
+      -38.64118194580078,
+      0.0
+    ]
+  },
+  {
+    "name": "Linkedin",
+    "asset": "linkedin",
+    "reference_pixel": [
+      95,
+      380
+    ],
+    "model_anchor": [
+      0,
+      -5.4,
+      6.1
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      -91.53113555908203,
+      -58.3600959777832,
+      0.0
+    ]
+  },
+  {
+    "name": "West Solar",
+    "asset": "west_solar",
+    "reference_pixel": [
+      245,
+      414
+    ],
+    "model_anchor": [
+      0,
+      0,
+      7.16
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation_degrees": -35,
+    "world_origin": [
+      -58.337623596191406,
+      -53.63794708251953,
+      0.0
+    ]
+  },
+  {
+    "name": "Blue Sculpture",
+    "asset": "blue_sculpture",
+    "reference_pixel": [
+      978,
+      450
+    ],
+    "model_anchor": [
+      0,
+      0,
+      0.8
+    ],
+    "scale": [
+      1.2999999523162842,
+      1.2999999523162842,
+      1.2999999523162842
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      44.2247200012207,
+      51.183162689208984,
+      0.0
+    ]
+  },
+  {
+    "name": "Small Offices",
+    "asset": "small_offices",
+    "reference_pixel": [
+      225,
+      357
+    ],
+    "model_anchor": [
+      -10,
+      -2,
+      3.4
+    ],
+    "scale": [
+      0.8999999761581421,
+      0.8999999761581421,
+      0.8999999761581421
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      -76.92578887939453,
+      -31.68956756591797,
+      0.0
+    ]
+  },
+  {
+    "name": "Zynga",
+    "asset": "zynga",
+    "reference_pixel": [
+      800,
+      614
+    ],
+    "model_anchor": [
+      -7,
+      1.7,
+      14.4
+    ],
+    "scale": [
+      1.0499999523162842,
+      1.0499999523162842,
+      1.0499999523162842
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      102.27892303466797,
+      -46.233482360839844,
+      0.0
+    ]
+  },
+  {
+    "name": "Legacy Hp",
+    "asset": "legacy_hp",
+    "reference_pixel": [
+      130,
+      636
+    ],
+    "model_anchor": [
+      2,
+      2,
+      31
+    ],
+    "scale": [
+      1.100000023841858,
+      1.100000023841858,
+      1.100000023841858
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      36.882408142089844,
+      -177.63778686523438,
+      0.0
+    ]
+  },
+  {
+    "name": "Western security tower",
+    "asset": "security_tower",
+    "reference_pixel": [
+      290,
+      83
+    ],
+    "model_anchor": [
+      0,
+      0,
+      16
+    ],
+    "scale": [
+      1.149999976158142,
+      1.149999976158142,
+      1.149999976158142
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      -144.8162841796875,
+      38.905826568603516,
+      0.0
+    ]
+  },
+  {
+    "name": "Eastern security tower",
+    "asset": "security_tower",
+    "reference_pixel": [
+      1193,
+      238
+    ],
+    "model_anchor": [
+      0,
+      0,
+      16
+    ],
+    "scale": [
+      1.100000023841858,
+      1.100000023841858,
+      1.100000023841858
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      28.002849578857422,
+      124.90643310546875,
+      0.0
+    ]
+  },
+  {
+    "name": "Northern security tower",
+    "asset": "security_tower",
+    "reference_pixel": [
+      725,
+      -26
+    ],
+    "model_anchor": [
+      0,
+      0,
+      16
+    ],
+    "scale": [
+      1.0800000429153442,
+      1.0800000429153442,
+      1.0800000429153442
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      -123.25175476074219,
+      137.5892791748047,
+      0.0
+    ]
+  },
+  {
+    "name": "Framing Tower",
+    "asset": "framing_tower",
+    "reference_pixel": [
+      200,
+      10
+    ],
+    "model_anchor": [
+      0.0,
+      0.0,
+      36.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      -155.13504028320312,
+      23.9248104095459,
+      0.0
+    ]
+  },
+  {
+    "name": "Stadium",
+    "asset": "stadium",
+    "reference_pixel": [
+      43,
+      55
+    ],
+    "model_anchor": [
+      0,
+      0,
+      13.8
+    ],
+    "scale": [
+      0.949999988079071,
+      0.949999988079071,
+      0.949999988079071
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      -195.47950744628906,
+      18.529695510864258,
+      0.0
+    ]
+  },
+  {
+    "name": "White Corner Office",
+    "asset": "white_corner_office",
+    "reference_pixel": [
+      66,
+      185
+    ],
+    "model_anchor": [
+      0,
+      0,
+      19.4
+    ],
+    "scale": [
+      1.149999976158142,
+      1.149999976158142,
+      1.149999976158142
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      -135.8589324951172,
+      -30.530763626098633,
+      0.0
+    ]
+  },
+  {
+    "name": "Southeast terraced office 1",
+    "asset": "terrace_office",
+    "reference_pixel": [
+      1190,
+      560
+    ],
+    "model_anchor": [
+      0,
+      0,
+      7.9
+    ],
+    "scale": [
+      0.9800000190734863,
+      0.9800000190734863,
+      0.9800000190734863
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      119.2689208984375,
+      39.379798889160156,
+      0.0
+    ]
+  },
+  {
+    "name": "Southeast terraced office 2",
+    "asset": "terrace_office",
+    "reference_pixel": [
+      1285,
+      541
+    ],
+    "model_anchor": [
+      0,
+      0,
+      7.9
+    ],
+    "scale": [
+      0.9800000190734863,
+      0.9800000190734863,
+      0.9800000190734863
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      125.92520904541016,
+      59.124446868896484,
+      0.0
+    ]
+  },
+  {
+    "name": "Southeast terraced office 3",
+    "asset": "terrace_office",
+    "reference_pixel": [
+      1108,
+      602
+    ],
+    "model_anchor": [
+      0,
+      0,
+      7.9
+    ],
+    "scale": [
+      0.9800000190734863,
+      0.9800000190734863,
+      0.9800000190734863
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      121.9702377319336,
+      14.497241973876953,
+      0.0
+    ]
+  },
+  {
+    "name": "Southeast terraced office 4",
+    "asset": "terrace_office",
+    "reference_pixel": [
+      1201,
+      621
+    ],
+    "model_anchor": [
+      0,
+      0,
+      7.9
+    ],
+    "scale": [
+      0.9800000190734863,
+      0.9800000190734863,
+      0.9800000190734863
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      140.892578125,
+      22.311504364013672,
+      0.0
+    ]
+  },
+  {
+    "name": "Southeast terraced office 5",
+    "asset": "terrace_office",
+    "reference_pixel": [
+      1298,
+      639
+    ],
+    "model_anchor": [
+      0,
+      0,
+      7.9
+    ],
+    "scale": [
+      0.9800000190734863,
+      0.9800000190734863,
+      0.9800000190734863
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      160.02919006347656,
+      31.018367767333984,
+      0.0
+    ]
+  },
+  {
+    "name": "Southeast terraced office 6",
+    "asset": "terrace_office",
+    "reference_pixel": [
+      1027,
+      658
+    ],
+    "model_anchor": [
+      0,
+      0,
+      7.9
+    ],
+    "scale": [
+      0.9800000190734863,
+      0.9800000190734863,
+      0.9800000190734863
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      129.42694091796875,
+      -14.526115417480469,
+      0.0
+    ]
+  },
+  {
+    "name": "Southeast terraced office 7",
+    "asset": "terrace_office",
+    "reference_pixel": [
+      1121,
+      677
+    ],
+    "model_anchor": [
+      0,
+      0,
+      7.9
+    ],
+    "scale": [
+      0.9800000190734863,
+      0.9800000190734863,
+      0.9800000190734863
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      148.48533630371094,
+      -6.565263748168945,
+      0.0
+    ]
+  },
+  {
+    "name": "Southeast terraced office 8",
+    "asset": "terrace_office",
+    "reference_pixel": [
+      1217,
+      696
+    ],
+    "model_anchor": [
+      0,
+      0,
+      7.9
+    ],
+    "scale": [
+      0.9800000190734863,
+      0.9800000190734863,
+      0.9800000190734863
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      167.8158416748047,
+      1.6887677907943726,
+      0.0
+    ]
+  },
+  {
+    "name": "Southeast terraced office 9",
+    "asset": "terrace_office",
+    "reference_pixel": [
+      1313,
+      715
+    ],
+    "model_anchor": [
+      0,
+      0,
+      7.9
+    ],
+    "scale": [
+      0.9800000190734863,
+      0.9800000190734863,
+      0.9800000190734863
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      187.14634704589844,
+      9.94279956817627,
+      0.0
+    ]
+  },
+  {
+    "name": "Southeast terraced office 10",
+    "asset": "terrace_office",
+    "reference_pixel": [
+      950,
+      715
+    ],
+    "model_anchor": [
+      0,
+      0,
+      7.9
+    ],
+    "scale": [
+      0.9800000190734863,
+      0.9800000190734863,
+      0.9800000190734863
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      137.7578125,
+      -43.26935577392578,
+      0.0
+    ]
+  },
+  {
+    "name": "Northern solar office 1",
+    "asset": "terrace_office",
+    "reference_pixel": [
+      307,
+      46
+    ],
+    "model_anchor": [
+      0,
+      0,
+      7.9
+    ],
+    "scale": [
+      1.149999976158142,
+      1.149999976158142,
+      0.550000011920929
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      -175.4848175048828,
+      72.00941467285156,
+      0.0
+    ]
+  },
+  {
+    "name": "Northern solar office 2",
+    "asset": "terrace_office",
+    "reference_pixel": [
+      397,
+      10
+    ],
+    "model_anchor": [
+      0,
+      0,
+      7.9
+    ],
+    "scale": [
+      1.149999976158142,
+      1.149999976158142,
+      0.550000011920929
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      -175.11798095703125,
+      96.22724151611328,
+      0.0
+    ]
+  },
+  {
+    "name": "Northern solar office 3",
+    "asset": "terrace_office",
+    "reference_pixel": [
+      487,
+      -26
+    ],
+    "model_anchor": [
+      0,
+      0,
+      7.9
+    ],
+    "scale": [
+      1.149999976158142,
+      1.149999976158142,
+      0.550000011920929
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      -174.7511444091797,
+      120.44506072998047,
+      0.0
+    ]
+  },
+  {
+    "name": "Northern solar office 4",
+    "asset": "terrace_office",
+    "reference_pixel": [
+      577,
+      -63
+    ],
+    "model_anchor": [
+      0,
+      0,
+      7.9
+    ],
+    "scale": [
+      1.149999976158142,
+      1.149999976158142,
+      0.550000011920929
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      -174.71424865722656,
+      144.9691162109375,
+      0.0
+    ]
+  },
+  {
+    "name": "Northern solar office 5",
+    "asset": "terrace_office",
+    "reference_pixel": [
+      1154,
+      12
+    ],
+    "model_anchor": [
+      0,
+      0,
+      7.9
+    ],
+    "scale": [
+      1.149999976158142,
+      1.149999976158142,
+      0.550000011920929
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      -71.46326446533203,
+      206.58335876464844,
+      0.0
+    ]
+  },
+  {
+    "name": "Northern solar office 6",
+    "asset": "terrace_office",
+    "reference_pixel": [
+      1251,
+      52
+    ],
+    "model_anchor": [
+      0,
+      0,
+      7.9
+    ],
+    "scale": [
+      1.149999976158142,
+      1.149999976158142,
+      0.550000011920929
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      -45.067726135253906,
+      208.55288696289062,
+      0.0
+    ]
+  },
+  {
+    "name": "Northern solar office 7",
+    "asset": "terrace_office",
+    "reference_pixel": [
+      1348,
+      92
+    ],
+    "model_anchor": [
+      0,
+      0,
+      7.9
+    ],
+    "scale": [
+      1.149999976158142,
+      1.149999976158142,
+      0.550000011920929
+    ],
+    "rotation_degrees": 0,
+    "world_origin": [
+      -18.672182083129883,
+      210.5224151611328,
+      0.0
+    ]
+  }
+]
