@@ -1,0 +1,130 @@
+{
+  "reference": "original_wide.webp",
+  "anchor": [
+    808,
+    635,
+    21.8
+  ],
+  "crop": [
+    733,
+    580,
+    983,
+    720
+  ],
+  "volumes": [
+    {
+      "name": "Three-storey stepped western base",
+      "roof": [
+        [
+          741,
+          630
+        ],
+        [
+          794,
+          607
+        ],
+        [
+          880,
+          646
+        ],
+        [
+          827,
+          670
+        ]
+      ],
+      "height": 16.35,
+      "floors": 2,
+      "bottom": 5.45
+    },
+    {
+      "name": "Tall party-roof wing",
+      "roof": [
+        [
+          758,
+          611
+        ],
+        [
+          795,
+          594
+        ],
+        [
+          845,
+          618
+        ],
+        [
+          808,
+          635
+        ]
+      ],
+      "height": 21.8,
+      "floors": 4
+    },
+    {
+      "name": "Low eastern connector",
+      "roof": [
+        [
+          850,
+          668
+        ],
+        [
+          934,
+          631
+        ],
+        [
+          973,
+          651
+        ],
+        [
+          889,
+          689
+        ]
+      ],
+      "height": 10.9,
+      "floors": 2
+    },
+    {
+      "name": "Raised eastern wing",
+      "roof": [
+        [
+          878,
+          625
+        ],
+        [
+          920,
+          608
+        ],
+        [
+          952,
+          623
+        ],
+        [
+          918,
+          641
+        ]
+      ],
+      "height": 16.35,
+      "floors": 3
+    }
+  ],
+  "sign_bottom_left": [
+    886,
+    648
+  ],
+  "sign_bottom_right": [
+    920,
+    663
+  ],
+  "sign_base": 10.9,
+  "sign_height": 7.6,
+  "status": "Visible stepped roofs, tall inset windows, party deck and red dog billboard measured from the original frame; lowest floors are partly outside the frame.",
+  "sign_wall": [
+    [
+      878,
+      625
+    ],
+    [
+      918,
+      641
+    ]
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "front_roof_pixel": [
+    352,
+    400
+  ],
+  "back_roof_pixel": [
+    553,
+    324
+  ],
+  "scale_xy": 1.0477332681486693,
+  "scale_z": 0.86,
+  "rotation": 4.602836563370225,
+  "canopy_end_y": -3.958163471037257,
+  "canopy_peak_z": 27.42232330271998
+}

@@ -1,0 +1,201 @@
+{
+  "reference": "original_wide.webp",
+  "anchor": [
+    190,
+    659,
+    30.5
+  ],
+  "crop": [
+    0,
+    561,
+    250,
+    720
+  ],
+  "volumes": [
+    {
+      "name": "HP monogram slab",
+      "roof": [
+        [
+          24,
+          582
+        ],
+        [
+          49,
+          570
+        ],
+        [
+          103,
+          593
+        ],
+        [
+          77,
+          606
+        ]
+      ],
+      "height": 30.5
+    },
+    {
+      "name": "Long Hewlett Packard sign slab",
+      "roof": [
+        [
+          81,
+          611
+        ],
+        [
+          105,
+          593
+        ],
+        [
+          215,
+          641
+        ],
+        [
+          190,
+          659
+        ]
+      ],
+      "height": 30.5
+    },
+    {
+      "name": "Western lower office slab",
+      "roof": [
+        [
+          -44,
+          600
+        ],
+        [
+          3,
+          578
+        ],
+        [
+          78,
+          619
+        ],
+        [
+          34,
+          641
+        ]
+      ],
+      "height": 26.0
+    },
+    {
+      "name": "Eastern lower office slab",
+      "roof": [
+        [
+          56,
+          648
+        ],
+        [
+          83,
+          632
+        ],
+        [
+          157,
+          667
+        ],
+        [
+          120,
+          683
+        ]
+      ],
+      "height": 26.0
+    },
+    {
+      "name": "Lower western projecting bay",
+      "roof": [
+        [
+          38,
+          662
+        ],
+        [
+          58,
+          651
+        ],
+        [
+          67,
+          657
+        ],
+        [
+          46,
+          669
+        ]
+      ],
+      "height": 21.0
+    },
+    {
+      "name": "Lower eastern projecting bay",
+      "roof": [
+        [
+          124,
+          692
+        ],
+        [
+          146,
+          681
+        ],
+        [
+          170,
+          692
+        ],
+        [
+          146,
+          705
+        ]
+      ],
+      "height": 21.0
+    },
+    {
+      "name": "Far eastern stepped bay",
+      "roof": [
+        [
+          187,
+          674
+        ],
+        [
+          210,
+          663
+        ],
+        [
+          224,
+          670
+        ],
+        [
+          201,
+          682
+        ]
+      ],
+      "height": 26.0
+    }
+  ],
+  "wordmark": {
+    "origin": [
+      88,
+      612
+    ],
+    "u_end": [
+      193,
+      657
+    ],
+    "v_end": [
+      104,
+      599
+    ],
+    "height": 30.65
+  },
+  "monogram": {
+    "origin": [
+      28,
+      583
+    ],
+    "u_end": [
+      80,
+      605
+    ],
+    "v_end": [
+      50,
+      573
+    ],
+    "height": 30.65
+  },
+  "status": "Independent measured foreground slab roofs and projecting bays. Total heights below the crop are extrapolated; upper facade bands and original flat roof artwork are visible."
+}

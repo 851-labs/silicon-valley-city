@@ -1,0 +1,135 @@
+{
+  "reference": "original_wide.webp",
+  "anchor": [
+    994,
+    566,
+    19.0
+  ],
+  "crop": [
+    895,
+    443,
+    1100,
+    665
+  ],
+  "main_roof": [
+    [
+      946,
+      497
+    ],
+    [
+      1063,
+      544
+    ],
+    [
+      994,
+      575
+    ],
+    [
+      908,
+      532
+    ]
+  ],
+  "main_height": 19.0,
+  "helipad_roof": [
+    [
+      943,
+      480
+    ],
+    [
+      997,
+      455
+    ],
+    [
+      1095,
+      499
+    ],
+    [
+      1043,
+      523
+    ]
+  ],
+  "helipad_height": 19.2,
+  "pylon_roofs": [
+    [
+      [
+        932,
+        484
+      ],
+      [
+        946,
+        478
+      ],
+      [
+        968,
+        487
+      ],
+      [
+        954,
+        494
+      ]
+    ],
+    [
+      [
+        904,
+        530
+      ],
+      [
+        920,
+        523
+      ],
+      [
+        941,
+        532
+      ],
+      [
+        925,
+        539
+      ]
+    ],
+    [
+      [
+        960,
+        553
+      ],
+      [
+        977,
+        546
+      ],
+      [
+        996,
+        554
+      ],
+      [
+        980,
+        562
+      ]
+    ],
+    [
+      [
+        1037,
+        548
+      ],
+      [
+        1048,
+        544
+      ],
+      [
+        1060,
+        550
+      ],
+      [
+        1049,
+        555
+      ]
+    ]
+  ],
+  "pylon_height": 20.2,
+  "pod_center": [
+    991,
+    536
+  ],
+  "pod_base": 19.35,
+  "pod_radius": 7.1,
+  "pod_height": 7.4,
+  "status": "Separately measured rounded pod building, projecting corner pylons and lower red helipad. The back pylon is partly obscured by the pod and railing."
+}

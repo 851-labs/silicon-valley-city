@@ -1,0 +1,126 @@
+{
+  "reference": "original_wide.webp",
+  "anchor": [
+    1201,
+    383,
+    33.3
+  ],
+  "crop": [
+    1080,
+    325,
+    1280,
+    584
+  ],
+  "volumes": [
+    {
+      "name": "Low western setback",
+      "roof": [
+        [
+          1097,
+          457
+        ],
+        [
+          1116,
+          448
+        ],
+        [
+          1147,
+          464
+        ],
+        [
+          1129,
+          473
+        ]
+      ],
+      "height": 19.0,
+      "floors": 12
+    },
+    {
+      "name": "Broad western setback",
+      "roof": [
+        [
+          1110,
+          436
+        ],
+        [
+          1144,
+          421
+        ],
+        [
+          1182,
+          438
+        ],
+        [
+          1148,
+          454
+        ]
+      ],
+      "height": 22.2,
+      "floors": 14
+    },
+    {
+      "name": "Upper projecting bay",
+      "roof": [
+        [
+          1150,
+          390
+        ],
+        [
+          1170,
+          382
+        ],
+        [
+          1204,
+          397
+        ],
+        [
+          1184,
+          405
+        ]
+      ],
+      "height": 29.5,
+      "floors": 19
+    },
+    {
+      "name": "Main red-wall tower",
+      "roof": [
+        [
+          1167,
+          365
+        ],
+        [
+          1245,
+          333
+        ],
+        [
+          1280,
+          351
+        ],
+        [
+          1201,
+          383
+        ]
+      ],
+      "height": 33.3,
+      "floors": 21
+    }
+  ],
+  "sign_edge": [
+    [
+      1201,
+      383
+    ],
+    [
+      1280,
+      351
+    ]
+  ],
+  "sign_bottom": 13.6,
+  "logo_bottom_left": [
+    1228.1246444699307,
+    457.65342481224974
+  ],
+  "logo_width_pixels": 33.99762554352135,
+  "status": "Four independently measured setbacks. Lower front elevations are partly concealed by the terrace district; the long ground line supplies a consistent height datum.",
+  "logo_height_pixels_per_svg_unit": 39.907030534813565
+}
