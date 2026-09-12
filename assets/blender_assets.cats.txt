@@ -1,0 +1,8 @@
+# Blender Asset Catalog Definition File
+VERSION 1
+
+8b9882da-fff0-53c9-973c-3036aca7d19f:Title architecture:Title architecture
+c2f9a45c-9449-5396-85f9-108aa0e5ae90:Principal campuses:Principal campuses
+1c127615-bece-562b-a30e-70975dd04df6:Branded offices:Branded offices
+6fcd2635-eeaa-5b69-89af-78cbb7081d46:District architecture:District architecture
+8e7c0e92-8edb-5cf6-9015-86ce5046f0a0:Sculptures:Sculptures

@@ -1,0 +1,73 @@
+{
+  "reference": "original_wide.webp",
+  "method": "Three source-to-source roof matches; cropped repeats extrapolate the observed row spacing and remain under comparison.",
+  "anchor_height": 8.0,
+  "placements": [
+    {
+      "anchor": [
+        367,
+        48
+      ],
+      "score": 1.0,
+      "coverage": 1.0
+    },
+    {
+      "anchor": [
+        431,
+        20
+      ],
+      "score": 0.9814,
+      "coverage": 0.396
+    },
+    {
+      "anchor": [
+        303,
+        76
+      ],
+      "score": 0.9082,
+      "coverage": 1.0
+    },
+    {
+      "anchor": [
+        495,
+        -8
+      ],
+      "score": null,
+      "note": "Cropped continuation of measured front row."
+    },
+    {
+      "anchor": [
+        239,
+        48
+      ],
+      "score": null,
+      "note": "Partly hidden back-row block."
+    },
+    {
+      "anchor": [
+        303,
+        20
+      ],
+      "score": null,
+      "note": "Partly cropped back-row block."
+    },
+    {
+      "anchor": [
+        367,
+        -8
+      ],
+      "score": null,
+      "note": "Partly cropped back-row block."
+    },
+    {
+      "anchor": [
+        1278,
+        121
+      ],
+      "score": 0.8081584422950846,
+      "coverage": 0.5792479771537363,
+      "name": "Northeast partial solar office",
+      "note": "Repeated roof located from the six PV fields and its visible eaves. Most of the eastern roof lies outside the frame."
+    }
+  ]
+}

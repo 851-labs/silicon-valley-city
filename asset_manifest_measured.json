@@ -1,0 +1,1176 @@
+[
+  {
+    "id": "adobe",
+    "label": "Adobe \u2022 measured stepped tower and vector end wall",
+    "category": "Branded offices",
+    "file": "assets/adobe/adobe.blend",
+    "preview": "assets/adobe/preview.png",
+    "references": "Original wide frame, YU11",
+    "objects": 22,
+    "mesh_vertices": 33322,
+    "version": "fidelity-4-measured",
+    "changes": [
+      "Adobe \u2022 measured stepped tower and vector end wall"
+    ],
+    "camera": {
+      "anchor": [
+        1201.0,
+        383.0,
+        33.3
+      ],
+      "crop": [
+        1080,
+        325,
+        1280,
+        584
+      ],
+      "scale": "unit scale in the shared reference coordinate system"
+    },
+    "notes": [
+      "Refine projecting bays and the broad continuous lower glazing",
+      "Match rooftop equipment sections and antenna thickness",
+      "Match blue facade reflections and horizontal rail colours",
+      "Review fitted artwork against the final extruded Blender render"
+    ]
+  },
+  {
+    "id": "apple",
+    "label": "Apple \u2022 measured ring terrace, glass rail and centr",
+    "category": "Principal campuses",
+    "file": "assets/apple/apple.blend",
+    "preview": "assets/apple/preview.png",
+    "references": "Original wide frame, YU14, YU18",
+    "objects": 23,
+    "mesh_vertices": 26668,
+    "version": "fidelity-4-measured",
+    "changes": [
+      "Apple \u2022 measured ring terrace, glass rail and centr"
+    ],
+    "camera": {
+      "anchor": [
+        1055.0,
+        369.0,
+        5.1
+      ],
+      "crop": [
+        905,
+        300,
+        1193,
+        461
+      ],
+      "scale": "unit scale in the shared reference coordinate system"
+    },
+    "notes": [
+      "Check annular terrace section against both source views",
+      "Refine ring boundary and facade height",
+      "Complete and colour-match courtyard planting",
+      "Verify separate leaf height and sculpture extrusion"
+    ]
+  },
+  {
+    "id": "blue_sculpture",
+    "label": "Collapsed balloon \u2022 measured cloth crests and white",
+    "category": "Sculptures",
+    "file": "assets/blue_sculpture/blue_sculpture.blend",
+    "preview": "assets/blue_sculpture/preview.png",
+    "references": "Original wide frame, YU11",
+    "objects": 1,
+    "mesh_vertices": 2646,
+    "version": "fidelity-4-measured",
+    "changes": [
+      "Collapsed balloon \u2022 measured cloth crests and white"
+    ],
+    "camera": {
+      "anchor": [
+        963,
+        452,
+        0
+      ],
+      "crop": [
+        928,
+        425,
+        1001,
+        467
+      ],
+      "scale": "unit scale in the shared reference coordinate system"
+    },
+    "notes": [
+      "Compare major cloth crests and troughs",
+      "Refine white fabric patch boundaries",
+      "Fit blue and white cloth shading",
+      "Complete fabric hidden by surrounding trees"
+    ]
+  },
+  {
+    "id": "ebay",
+    "label": "eBay \u2022 measured polygonal warehouse and original ra",
+    "category": "Branded offices",
+    "file": "assets/ebay/ebay.blend",
+    "preview": "assets/ebay/preview.png",
+    "references": "Original wide frame, YU24, YU16",
+    "objects": 22,
+    "mesh_vertices": 22582,
+    "version": "fidelity-4-measured",
+    "changes": [
+      "eBay \u2022 measured polygonal warehouse and original ra"
+    ],
+    "camera": {
+      "anchor": [
+        734.0,
+        574.0,
+        9.2
+      ],
+      "crop": [
+        580,
+        438,
+        850,
+        637
+      ],
+      "scale": "unit scale in the shared reference coordinate system"
+    },
+    "notes": [
+      "Correct sign extent and mast spike",
+      "Refine inferred PV modules and gaps",
+      "Match window bays and entrance position",
+      "Match materials and surroundings"
+    ]
+  },
+  {
+    "id": "energy_pod",
+    "label": "EnergyPod \u2022 measured rounded tower, pylons and slic",
+    "category": "Branded offices",
+    "file": "assets/energy_pod/energy_pod.blend",
+    "preview": "assets/energy_pod/preview.png",
+    "references": "Original wide frame, YU11",
+    "objects": 92,
+    "mesh_vertices": 31248,
+    "version": "fidelity-4-measured",
+    "changes": [
+      "EnergyPod \u2022 measured rounded tower, pylons and slic"
+    ],
+    "camera": {
+      "anchor": [
+        994.0,
+        566.0,
+        19.0
+      ],
+      "crop": [
+        895,
+        443,
+        1100,
+        665
+      ],
+      "scale": "unit scale in the shared reference coordinate system"
+    },
+    "notes": [
+      "Refine sliced pod cowl and recessed glazing",
+      "Check pylon locations and contrasting glazed faces",
+      "Match curved EnergyPod letters and helicopter orientation",
+      "Fit roof hardware, glass bands and pale materials"
+    ]
+  },
+  {
+    "id": "facebook",
+    "label": "Facebook campus \u2022 nine measured roof contours",
+    "category": "Principal campuses",
+    "file": "assets/facebook/facebook.blend",
+    "preview": "assets/facebook/preview.png",
+    "references": "Original wide frame, YU15",
+    "objects": 71,
+    "mesh_vertices": 36714,
+    "version": "fidelity-4-measured",
+    "changes": [
+      "Facebook campus \u2022 nine measured roof contours"
+    ],
+    "camera": {
+      "anchor": [
+        375.0,
+        262.0,
+        4.5
+      ],
+      "crop": [
+        290,
+        45,
+        755,
+        325
+      ],
+      "scale": "unit scale in the shared reference coordinate system"
+    },
+    "notes": [
+      "Check the historical vector wordmark in the final extruded render",
+      "Match the blue glazing, cream louvers and copper equipment colours",
+      "Replace procedural rooftop planting with source-located vegetation",
+      "Refine the Like relief, paving boundary and nearby tree placement"
+    ]
+  },
+  {
+    "id": "framing_tower",
+    "label": "Western framed high-rise \u2022 measured ground lines an",
+    "category": "District architecture",
+    "file": "assets/framing_tower/framing_tower.blend",
+    "preview": "assets/framing_tower/preview.png",
+    "references": "Original wide frame",
+    "objects": 4,
+    "mesh_vertices": 2768,
+    "version": "fidelity-4-measured",
+    "changes": [
+      "Western framed high-rise \u2022 measured ground lines an"
+    ],
+    "camera": {
+      "anchor": [
+        173.0,
+        164.0,
+        0.0
+      ],
+      "crop": [
+        126,
+        0,
+        268,
+        184
+      ],
+      "scale": "unit scale in the shared reference coordinate system"
+    },
+    "notes": [
+      "Check the visible projecting-bay roof and upper extension",
+      "Refine broad horizontal facade ribbons",
+      "Complete glazing reflection variation",
+      "Upper tower termination is outside the frame"
+    ]
+  },
+  {
+    "id": "google",
+    "label": "Google campus \u2022 measured articulated roof plans",
+    "category": "Principal campuses",
+    "file": "assets/google/google.blend",
+    "preview": "assets/google/preview.png",
+    "references": "Original wide frame, YU27, YU16",
+    "objects": 124,
+    "mesh_vertices": 77660,
+    "version": "fidelity-4-measured",
+    "changes": [
+      "Google campus \u2022 measured articulated roof plans"
+    ],
+    "camera": {
+      "anchor": [
+        433.0,
+        512.0,
+        12.9
+      ],
+      "crop": [
+        0,
+        430,
+        680,
+        720
+      ],
+      "scale": "unit scale in the shared reference coordinate system"
+    },
+    "notes": [
+      "Refine roof outlines against close crops",
+      "Check roof intersections around deep Google sign",
+      "Match facade contrast and measured pier spacing",
+      "Complete rooftop hardware and greenery",
+      "Photometric match and city context"
+    ]
+  },
+  {
+    "id": "historic_apple",
+    "label": "Historic Apple masonry block and Pets.com sign",
+    "category": "Branded offices",
+    "file": "assets/historic_apple/historic_apple.blend",
+    "preview": "assets/historic_apple/preview.png",
+    "references": "YU09, Original wide frame",
+    "objects": 31,
+    "mesh_vertices": 19562,
+    "version": "fidelity-3",
+    "changes": [
+      "Deep window reveals and tilted-open awning panes",
+      "Rounded capsule Pets.com sign with heavier pedestals",
+      "Textured turquoise masonry"
+    ],
+    "camera": [
+      47.134,
+      26.377
+    ],
+    "notes": "Rainbow Apple is a historical variant absent from the supplied wide frame."
+  },
+  {
+    "id": "hooli",
+    "label": "Hooli \u2022 measured colonnade, roof plant and vector l",
+    "category": "Principal campuses",
+    "file": "assets/hooli/hooli.blend",
+    "preview": "assets/hooli/preview.png",
+    "references": "Original wide frame, YU18, YU14",
+    "objects": 38,
+    "mesh_vertices": 25562,
+    "version": "fidelity-4-measured",
+    "changes": [
+      "Hooli \u2022 measured colonnade, roof plant and vector l"
+    ],
+    "camera": {
+      "anchor": [
+        1186.0,
+        208.0,
+        14.8
+      ],
+      "crop": [
+        1040,
+        80,
+        1280,
+        286
+      ],
+      "scale": "unit scale in the shared reference coordinate system"
+    },
+    "notes": [
+      "Refine front fascia profile and exact column positions",
+      "Refine finned roof enclosures and rear/annex limits",
+      "Check fitted lettering counters, placement and material response",
+      "Complete source-aligned foreground planting"
+    ]
+  },
+  {
+    "id": "hp",
+    "label": "HP office slab with raised helipad",
+    "category": "Branded offices",
+    "file": "assets/hp/hp.blend",
+    "preview": "assets/hp/preview.png",
+    "references": "YU18, Original wide frame",
+    "objects": 15,
+    "mesh_vertices": 8026,
+    "version": "fidelity-3",
+    "changes": [
+      "Refined raised mechanical skylights and support frames",
+      "Improved facade surface response and helipad shading"
+    ],
+    "camera": [
+      47.134,
+      26.377
+    ],
+    "notes": "An alternate intro variant, retained separately from Hooli."
+  },
+  {
+    "id": "intel",
+    "label": "Intel \u2022 measured stepped wings and vector roof mark",
+    "category": "Branded offices",
+    "file": "assets/intel/intel.blend",
+    "preview": "assets/intel/preview.png",
+    "references": "Original wide frame, YU16, YU09",
+    "objects": 15,
+    "mesh_vertices": 16580,
+    "version": "fidelity-4-measured",
+    "changes": [
+      "Intel \u2022 measured stepped wings and vector roof mark"
+    ],
+    "camera": {
+      "anchor": [
+        514.0,
+        444.0,
+        10.2
+      ],
+      "crop": [
+        422,
+        379,
+        609,
+        521
+      ],
+      "scale": "unit scale in the shared reference coordinate system"
+    },
+    "notes": [
+      "Resolve the upper/lower wing intersection and concealed rear roof boundary",
+      "Refine enclosure depths, visible facade returns and ground-level entrances",
+      "Refine the roof logo thickness, colour and glyph alignment",
+      "Match reflected glazing variation and source-located avenue trees"
+    ]
+  },
+  {
+    "id": "legacy_hp",
+    "label": "Hewlett Packard \u2022 measured foreground slab roofs an",
+    "category": "Branded offices",
+    "file": "assets/legacy_hp/legacy_hp.blend",
+    "preview": "assets/legacy_hp/preview.png",
+    "references": "Original wide frame",
+    "objects": 31,
+    "mesh_vertices": 158256,
+    "version": "fidelity-4-measured",
+    "changes": [
+      "Hewlett Packard \u2022 measured foreground slab roofs an"
+    ],
+    "camera": {
+      "anchor": [
+        190.0,
+        659.0,
+        30.5
+      ],
+      "crop": [
+        0,
+        561,
+        250,
+        720
+      ],
+      "scale": "unit scale in the shared reference coordinate system"
+    },
+    "notes": [
+      "Fit the plaque and raised wordmark positions to source pixels",
+      "Match blue curtain-wall reflection and upper fin spacing",
+      "Replace simplified roof plant with the observed equipment",
+      "Resolve obscured lower facade and projecting bay heights"
+    ]
+  },
+  {
+    "id": "linkedin",
+    "label": "LinkedIn \u2022 measured stepped wings and original roof",
+    "category": "Branded offices",
+    "file": "assets/linkedin/linkedin.blend",
+    "preview": "assets/linkedin/preview.png",
+    "references": "Original wide frame, YU16",
+    "objects": 20,
+    "mesh_vertices": 17920,
+    "version": "fidelity-4-measured",
+    "changes": [
+      "LinkedIn \u2022 measured stepped wings and original roof"
+    ],
+    "camera": {
+      "anchor": [
+        82.0,
+        395.0,
+        9.5
+      ],
+      "crop": [
+        19,
+        327,
+        157,
+        461
+      ],
+      "scale": "unit scale in the shared reference coordinate system"
+    },
+    "notes": [
+      "Check facade band heights and reflected glass colours",
+      "Refine PV module boundaries and cell density",
+      "Fit roof wordmark extrusion and surrounding landscape"
+    ]
+  },
+  {
+    "id": "myspace",
+    "label": "Myspace \u2022 measured roof party, braced entrance and ",
+    "category": "Branded offices",
+    "file": "assets/myspace/myspace.blend",
+    "preview": "assets/myspace/preview.png",
+    "references": "Original wide frame, YU11",
+    "objects": 43,
+    "mesh_vertices": 63380,
+    "version": "fidelity-4-measured",
+    "changes": [
+      "Myspace \u2022 measured roof party, braced entrance and "
+    ],
+    "camera": {
+      "anchor": [
+        768.0,
+        432.0,
+        14.4
+      ],
+      "crop": [
+        678,
+        353,
+        958,
+        560
+      ],
+      "scale": "unit scale in the shared reference coordinate system"
+    },
+    "notes": [
+      "Refine individual raised rack edges, cell contrast and roof shadows",
+      "Refine party guests, rooftop planters and tree positions",
+      "Fit reflected glazing patterns and round stair bands",
+      "Verify sign depth and the detailed braced entrance"
+    ]
+  },
+  {
+    "id": "netscape",
+    "label": "Netscape and Android curved pavilion",
+    "category": "Principal campuses",
+    "file": "assets/netscape/netscape.blend",
+    "preview": "assets/netscape/preview.png",
+    "references": "YU20, YU09, YU16",
+    "objects": 114,
+    "mesh_vertices": 33008,
+    "version": "fidelity-3",
+    "changes": [
+      "Warped floor and fascia sections along the curved plan",
+      "Added vertical curvature to roof pool and parapet",
+      "Rebuilt arched sail lattice and rounded facade rims"
+    ],
+    "camera": [
+      56,
+      27
+    ],
+    "notes": "Isolated production still includes a later LED board; the library retains original architecture without it."
+  },
+  {
+    "id": "netscape_digg",
+    "label": "Digg \u2022 measured sinuous floor plates and swept glas",
+    "category": "Principal campuses",
+    "file": "assets/netscape_digg/netscape_digg.blend",
+    "preview": "assets/netscape_digg/preview.png",
+    "references": "Original wide frame, YU09, YU20",
+    "objects": 64,
+    "mesh_vertices": 16308,
+    "version": "fidelity-4-measured",
+    "changes": [
+      "Digg \u2022 measured sinuous floor plates and swept glas"
+    ],
+    "camera": {
+      "anchor": [
+        352.0,
+        392.0,
+        9.9
+      ],
+      "crop": [
+        328,
+        285,
+        584,
+        470
+      ],
+      "scale": "unit scale in the shared reference coordinate system"
+    },
+    "notes": [
+      "Refine the open canopy arch, glass response and lattice shadows",
+      "Match individual floor outlines, rounded fascia sections and window ribbons",
+      "Refine the original Digg wordmark placement, sign depth and blue shading",
+      "Complete source terrace furniture, people and lower access"
+    ]
+  },
+  {
+    "id": "north_solar_office",
+    "label": "Northern solar office \u2022 measured two-storey row mod",
+    "category": "District architecture",
+    "file": "assets/north_solar_office/north_solar_office.blend",
+    "preview": "assets/north_solar_office/preview.png",
+    "references": "Original wide frame",
+    "objects": 6,
+    "mesh_vertices": 6360,
+    "version": "fidelity-4-measured",
+    "changes": [
+      "Northern solar office \u2022 measured two-storey row mod"
+    ],
+    "camera": {
+      "anchor": [
+        367.0,
+        48.0,
+        8.0
+      ],
+      "crop": [
+        311,
+        0,
+        420,
+        91
+      ],
+      "scale": "unit scale in the shared reference coordinate system"
+    },
+    "notes": [
+      "Recheck the six individually measured PV fields",
+      "Fit brick, spandrel and glass colours",
+      "Verify partly occluded northern-row placements"
+    ]
+  },
+  {
+    "id": "northeast_campus",
+    "label": "Northeast courtyard campus \u2022 measured wings, open c",
+    "category": "District architecture",
+    "file": "assets/northeast_campus/northeast_campus.blend",
+    "preview": "assets/northeast_campus/preview.png",
+    "references": "Original wide frame",
+    "objects": 24,
+    "mesh_vertices": 3125,
+    "version": "fidelity-4-measured",
+    "changes": [
+      "Northeast courtyard campus \u2022 measured wings, open c"
+    ],
+    "camera": {
+      "anchor": [
+        1118.0,
+        84.0,
+        5.4
+      ],
+      "crop": [
+        1008,
+        0,
+        1280,
+        113
+      ],
+      "scale": "unit scale in the shared reference coordinate system"
+    },
+    "notes": [
+      "Fit the splayed cowls and recessed roof apertures to the source",
+      "Refine courtyard path widths, shelter, pool and circular disc",
+      "Rebuild the rear gallery and connecting entrance",
+      "Resolve facade details and contextual cast shadows"
+    ]
+  },
+  {
+    "id": "northeast_house",
+    "label": "Northeast olive house \u2022 measured eaves, hipped roof",
+    "category": "District architecture",
+    "file": "assets/northeast_house/northeast_house.blend",
+    "preview": "assets/northeast_house/preview.png",
+    "references": "Original wide frame",
+    "objects": 6,
+    "mesh_vertices": 278,
+    "version": "fidelity-4-measured",
+    "changes": [
+      "Northeast olive house \u2022 measured eaves, hipped roof"
+    ],
+    "camera": {
+      "anchor": [
+        998.0,
+        29.0,
+        3.3
+      ],
+      "crop": [
+        961,
+        0,
+        1051,
+        55
+      ],
+      "scale": "unit scale in the shared reference coordinate system"
+    },
+    "notes": [
+      "Refine hipped roof ridge and eave overlap",
+      "Fit olive wall and dark roof colours",
+      "Measure the window frames and chimney cap",
+      "Review house occlusion by the adjacent courtyard building"
+    ]
+  },
+  {
+    "id": "paypal",
+    "label": "PayPal \u2022 measured chamfered block and historical ro",
+    "category": "Branded offices",
+    "file": "assets/paypal/paypal.blend",
+    "preview": "assets/paypal/preview.png",
+    "references": "Original wide frame, YU09",
+    "objects": 15,
+    "mesh_vertices": 17934,
+    "version": "fidelity-4-measured",
+    "changes": [
+      "PayPal \u2022 measured chamfered block and historical ro"
+    ],
+    "camera": {
+      "anchor": [
+        141.0,
+        310.0,
+        10.0
+      ],
+      "crop": [
+        53,
+        254,
+        227,
+        383
+      ],
+      "scale": "unit scale in the shared reference coordinate system"
+    },
+    "notes": [
+      "Confirm service enclosure ramp and entrance projection",
+      "Refine raised wordmark plane and colour",
+      "Validate dark rooftop screens",
+      "Photometric match and surroundings"
+    ]
+  },
+  {
+    "id": "pets_com",
+    "label": "Pets.com \u2022 measured teal masonry and original sign",
+    "category": "Branded offices",
+    "file": "assets/pets_com/pets_com.blend",
+    "preview": "assets/pets_com/preview.png",
+    "references": "Original wide frame, YU09",
+    "objects": 21,
+    "mesh_vertices": 3198,
+    "version": "fidelity-4-measured",
+    "changes": [
+      "Pets.com \u2022 measured teal masonry and original sign"
+    ],
+    "camera": {
+      "anchor": [
+        328.0,
+        345.0,
+        9.1
+      ],
+      "crop": [
+        264,
+        258,
+        403,
+        403
+      ],
+      "scale": "unit scale in the shared reference coordinate system"
+    },
+    "notes": [
+      "Window course elevations and casement details",
+      "Roof coping and projecting parapets",
+      "Photometric match and surroundings"
+    ]
+  },
+  {
+    "id": "security_tower",
+    "label": "Eastern control tower \u2022 measured armored base and f",
+    "category": "District architecture",
+    "file": "assets/security_tower/security_tower.blend",
+    "preview": "assets/security_tower/preview.png",
+    "references": "Original wide frame, YU11",
+    "objects": 8,
+    "mesh_vertices": 1840,
+    "version": "fidelity-4-measured",
+    "changes": [
+      "Eastern control tower \u2022 measured armored base and f"
+    ],
+    "camera": {
+      "anchor": [
+        1195.0,
+        248.0,
+        22.0
+      ],
+      "crop": [
+        1145,
+        208,
+        1248,
+        351
+      ],
+      "scale": "unit scale in the shared reference coordinate system"
+    },
+    "notes": [
+      "Refine armored base top edge and sloping panels",
+      "Match floor-band widths and glazing response",
+      "Add measured base equipment and foreground planting"
+    ]
+  },
+  {
+    "id": "security_tower_north",
+    "label": "Northern control tower \u2022 measured armored base and ",
+    "category": "District architecture",
+    "file": "assets/security_tower_north/security_tower_north.blend",
+    "preview": "assets/security_tower_north/preview.png",
+    "references": "Original wide frame, YU11",
+    "objects": 8,
+    "mesh_vertices": 1840,
+    "version": "fidelity-4-measured",
+    "changes": [
+      "Northern control tower \u2022 measured armored base and "
+    ],
+    "camera": {
+      "anchor": [
+        728.0,
+        -47.0,
+        22.0
+      ],
+      "crop": [
+        644,
+        0,
+        838,
+        101
+      ],
+      "scale": "unit scale in the shared reference coordinate system"
+    },
+    "notes": [
+      "Refine armored base top edge and sloping panels",
+      "Match floor-band widths and glazing response",
+      "Add measured base equipment and foreground planting"
+    ]
+  },
+  {
+    "id": "security_tower_west",
+    "label": "Western control tower \u2022 measured armored base and f",
+    "category": "District architecture",
+    "file": "assets/security_tower_west/security_tower_west.blend",
+    "preview": "assets/security_tower_west/preview.png",
+    "references": "Original wide frame, YU11",
+    "objects": 8,
+    "mesh_vertices": 1840,
+    "version": "fidelity-4-measured",
+    "changes": [
+      "Western control tower \u2022 measured armored base and f"
+    ],
+    "camera": {
+      "anchor": [
+        290.0,
+        96.0,
+        22.0
+      ],
+      "crop": [
+        241,
+        54,
+        344,
+        201
+      ],
+      "scale": "unit scale in the shared reference coordinate system"
+    },
+    "notes": [
+      "Refine armored base top edge and sloping panels",
+      "Match floor-band widths and glazing response",
+      "Add measured base equipment and foreground planting"
+    ]
+  },
+  {
+    "id": "service_office",
+    "label": "Central service office \u2022 recessed roof, dish and en",
+    "category": "District architecture",
+    "file": "assets/service_office/service_office.blend",
+    "preview": "assets/service_office/preview.png",
+    "references": "Original wide frame",
+    "objects": 9,
+    "mesh_vertices": 448,
+    "version": "fidelity-4-measured",
+    "changes": [
+      "Central service office \u2022 recessed roof, dish and en"
+    ],
+    "camera": {
+      "anchor": [
+        477.0,
+        293.0,
+        4.9
+      ],
+      "crop": [
+        449,
+        260,
+        525,
+        320
+      ],
+      "scale": "unit scale in the shared reference coordinate system"
+    },
+    "notes": [
+      "Fit the recessed roof, window spacing and facade colours",
+      "Verify satellite dish orientation and supporting mast",
+      "Refine entrance canopy depth and ground contact",
+      "Infer hidden elevations only where assembly requires them"
+    ]
+  },
+  {
+    "id": "small_offices",
+    "label": "Western pavilions \u2022 measured helipad and single-pit",
+    "category": "District architecture",
+    "file": "assets/small_offices/small_offices.blend",
+    "preview": "assets/small_offices/preview.png",
+    "references": "Original wide frame, YU09",
+    "objects": 15,
+    "mesh_vertices": 1800,
+    "version": "fidelity-4-measured",
+    "changes": [
+      "Western pavilions \u2022 measured helipad and single-pit"
+    ],
+    "camera": {
+      "anchor": [
+        224.0,
+        361.0,
+        6.3
+      ],
+      "crop": [
+        196,
+        320,
+        288,
+        389
+      ],
+      "scale": "unit scale in the shared reference coordinate system"
+    },
+    "notes": [
+      "Refine roof overhangs and lower structure",
+      "Match helipad emblem and helicopter orientation",
+      "Match glazing and masonry colours"
+    ]
+  },
+  {
+    "id": "stadium",
+    "label": "Western stadium \u2022 measured roof aperture, stepped b",
+    "category": "District architecture",
+    "file": "assets/stadium/stadium.blend",
+    "preview": "assets/stadium/preview.png",
+    "references": "Original wide frame",
+    "objects": 8,
+    "mesh_vertices": 39900,
+    "version": "fidelity-4-measured",
+    "changes": [
+      "Western stadium \u2022 measured roof aperture, stepped b"
+    ],
+    "camera": {
+      "anchor": [
+        35.5,
+        50.5,
+        16.0
+      ],
+      "crop": [
+        0,
+        0,
+        151,
+        180
+      ],
+      "scale": "unit scale in the shared reference coordinate system"
+    },
+    "notes": [
+      "Refine the notched outer roof edge and offset opening",
+      "Fit the interior truss depth and spacing",
+      "Match concourse wall steps and recessed ground entrances",
+      "Calibrate concrete, seating and shadow colours"
+    ]
+  },
+  {
+    "id": "terrace_office",
+    "label": "Terraced office \u2022 measured L roof and brick return ",
+    "category": "District architecture",
+    "file": "assets/terrace_office/terrace_office.blend",
+    "preview": "assets/terrace_office/preview.png",
+    "references": "Original wide frame",
+    "objects": 13,
+    "mesh_vertices": 4092,
+    "version": "fidelity-4-measured",
+    "changes": [
+      "Terraced office \u2022 measured L roof and brick return "
+    ],
+    "camera": {
+      "anchor": [
+        1115.0,
+        599.0,
+        10.5
+      ],
+      "crop": [
+        1065,
+        556,
+        1188,
+        648
+      ],
+      "scale": "unit scale in the shared reference coordinate system"
+    },
+    "notes": [
+      "Recheck the four PV field corners and module tilt",
+      "Refine the offset floor plates and narrow brick-side slots",
+      "Add source glazing reflections and surrounding planting"
+    ]
+  },
+  {
+    "id": "title_towers",
+    "label": "SILICON VALLEY title architecture",
+    "category": "Title architecture",
+    "file": "assets/title_towers/title_towers.blend",
+    "preview": "assets/title_towers/preview.png",
+    "references": "YU30, YU18, Season 1 final frame",
+    "objects": 97,
+    "mesh_vertices": 96665,
+    "version": "fidelity-4-measured",
+    "changes": [
+      "SILICON VALLEY title architecture"
+    ],
+    "camera": {
+      "anchor": [
+        892.2740650504024,
+        169.63049882166925,
+        14.750399999999999
+      ],
+      "crop": [
+        701,
+        76,
+        1081,
+        328
+      ],
+      "scale": "unit scale in the shared reference coordinate system"
+    },
+    "notes": [
+      "Refine parking-screen ledge and inset window extents",
+      "Match curtain-wall reflections and stone/metal brightness",
+      "Verify floor bands, source-visible stairs and ground interfaces"
+    ]
+  },
+  {
+    "id": "twitter",
+    "label": "Twitter and Blogger \u2022 measured pavilions and garden",
+    "category": "Principal campuses",
+    "file": "assets/twitter/twitter.blend",
+    "preview": "assets/twitter/preview.png",
+    "references": "Original wide frame, YU13, YU11",
+    "objects": 48,
+    "mesh_vertices": 25540,
+    "version": "fidelity-4-measured",
+    "changes": [
+      "Twitter and Blogger \u2022 measured pavilions and garden"
+    ],
+    "camera": {
+      "anchor": [
+        732.0,
+        330.0,
+        6.65
+      ],
+      "crop": [
+        623,
+        190,
+        921,
+        395
+      ],
+      "scale": "unit scale in the shared reference coordinate system"
+    },
+    "notes": [
+      "Match pavilion slot positions, roof comb density and projecting window bays",
+      "Refine glazed connector roof shapes and guard transparency",
+      "Fit the water-garden outline, bridge section and planting",
+      "Refine rooftop lantern, Google artwork placement and circular Twitter sign"
+    ]
+  },
+  {
+    "id": "west_solar",
+    "label": "Western solar office \u2022 measured masonry and six roo",
+    "category": "District architecture",
+    "file": "assets/west_solar/west_solar.blend",
+    "preview": "assets/west_solar/preview.png",
+    "references": "Original wide frame, YU09",
+    "objects": 18,
+    "mesh_vertices": 7240,
+    "version": "fidelity-4-measured",
+    "changes": [
+      "Western solar office \u2022 measured masonry and six roo"
+    ],
+    "camera": {
+      "anchor": [
+        245.0,
+        414.0,
+        7.8
+      ],
+      "crop": [
+        133,
+        360,
+        329,
+        490
+      ],
+      "scale": "unit scale in the shared reference coordinate system"
+    },
+    "notes": [
+      "Refine solar tilt, cell scale and array gaps",
+      "Match entrance depth and annex cornice",
+      "Finish source-aligned planting",
+      "Recheck materials after shadow-direction fit"
+    ]
+  },
+  {
+    "id": "white_corner_office",
+    "label": "Western pale office \u2022 measured roof, perforated pie",
+    "category": "District architecture",
+    "file": "assets/white_corner_office/white_corner_office.blend",
+    "preview": "assets/white_corner_office/preview.png",
+    "references": "Original wide frame",
+    "objects": 8,
+    "mesh_vertices": 4916,
+    "version": "fidelity-4-measured",
+    "changes": [
+      "Western pale office \u2022 measured roof, perforated pie"
+    ],
+    "camera": {
+      "anchor": [
+        43.0,
+        225.0,
+        17.6
+      ],
+      "crop": [
+        0,
+        134,
+        170,
+        314
+      ],
+      "scale": "unit scale in the shared reference coordinate system"
+    },
+    "notes": [
+      "Refine deep pierced corner returns and middle pier positions",
+      "Fit pale rooftop, cyan glazing and roof equipment colours",
+      "Check roof plant and rear service-bar height"
+    ]
+  },
+  {
+    "id": "yahoo_oracle",
+    "label": "Yahoo and Oracle \u2022 measured four-storey office pair",
+    "category": "Branded offices",
+    "file": "assets/yahoo_oracle/yahoo_oracle.blend",
+    "preview": "assets/yahoo_oracle/preview.png",
+    "references": "Original wide frame, YU26",
+    "objects": 27,
+    "mesh_vertices": 28858,
+    "version": "fidelity-4-measured",
+    "changes": [
+      "Yahoo and Oracle \u2022 measured four-storey office pair"
+    ],
+    "camera": {
+      "anchor": [
+        889.0,
+        49.0,
+        13.6
+      ],
+      "crop": [
+        800,
+        0,
+        1090,
+        185
+      ],
+      "scale": "unit scale in the shared reference coordinate system"
+    },
+    "notes": [
+      "Replace the jagged traced Yahoo Y with clean historical vector contours",
+      "Refine individual PV group corners, module pitch and tilt",
+      "Match broad window reflections and the core facade",
+      "Verify lower facade and ground connection behind the title"
+    ]
+  },
+  {
+    "id": "youtube",
+    "label": "YouTube \u2022 measured cantilever and original vector l",
+    "category": "Principal campuses",
+    "file": "assets/youtube/youtube.blend",
+    "preview": "assets/youtube/preview.png",
+    "references": "Original wide frame, YU25, YU16",
+    "objects": 38,
+    "mesh_vertices": 43802,
+    "version": "fidelity-4-measured",
+    "changes": [
+      "YouTube \u2022 measured cantilever and original vector l"
+    ],
+    "camera": {
+      "anchor": [
+        637.0,
+        333.0,
+        19.0
+      ],
+      "crop": [
+        567,
+        270,
+        707,
+        453
+      ],
+      "scale": "unit scale in the shared reference coordinate system"
+    },
+    "notes": [
+      "Glass upper floors and lobby need separate material fit",
+      "Slab shadow faces still too dark",
+      "Verify wordmark support posts and city shadowing"
+    ]
+  },
+  {
+    "id": "zynga",
+    "label": "Zynga \u2022 measured stepped studios, inset windows, pa",
+    "category": "Branded offices",
+    "file": "assets/zynga/zynga.blend",
+    "preview": "assets/zynga/preview.png",
+    "references": "Original wide frame, YU04",
+    "objects": 42,
+    "mesh_vertices": 32360,
+    "version": "fidelity-4-measured",
+    "changes": [
+      "Zynga \u2022 measured stepped studios, inset windows, pa"
+    ],
+    "camera": {
+      "anchor": [
+        808.0,
+        635.0,
+        21.8
+      ],
+      "crop": [
+        733,
+        580,
+        983,
+        720
+      ],
+      "scale": "unit scale in the shared reference coordinate system"
+    },
+    "notes": [
+      "Resolve intersecting facade pieces between stepped volumes",
+      "Refine window sizes, colour sequence and setback edges",
+      "Match rooftop guest poses and spa rim",
+      "Refine sign depth and corner radius"
+    ]
+  }
+]

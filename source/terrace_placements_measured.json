@@ -1,0 +1,153 @@
+{
+  "reference": "original_wide.webp",
+  "asset": "terrace_office",
+  "anchor_height": 10.5,
+  "method": "Masked source-to-source roof-pattern correlation, visually checked. Scores describe repeated reference roofs, not Blender fidelity.",
+  "placements": [
+    {
+      "anchor": [
+        1115,
+        599
+      ],
+      "score": 1.0,
+      "coverage": 1.0,
+      "shift": [
+        0,
+        0
+      ]
+    },
+    {
+      "anchor": [
+        1270,
+        673
+      ],
+      "score": 0.9267,
+      "coverage": 0.394,
+      "shift": [
+        155,
+        74
+      ]
+    },
+    {
+      "anchor": [
+        1075,
+        654
+      ],
+      "score": 0.8745,
+      "coverage": 1.0,
+      "shift": [
+        -40,
+        55
+      ]
+    },
+    {
+      "anchor": [
+        1193,
+        636
+      ],
+      "score": 0.8723,
+      "coverage": 1.0,
+      "shift": [
+        78,
+        37
+      ]
+    },
+    {
+      "anchor": [
+        994,
+        689
+      ],
+      "score": 0.8635,
+      "coverage": 1.0,
+      "shift": [
+        -121,
+        90
+      ]
+    },
+    {
+      "anchor": [
+        1152,
+        691
+      ],
+      "score": 0.8585,
+      "coverage": 1.0,
+      "shift": [
+        37,
+        92
+      ]
+    },
+    {
+      "anchor": [
+        1230,
+        728
+      ],
+      "score": 0.849,
+      "coverage": 0.881,
+      "shift": [
+        115,
+        129
+      ]
+    },
+    {
+      "anchor": [
+        1071,
+        726
+      ],
+      "score": 0.837,
+      "coverage": 0.956,
+      "shift": [
+        -44,
+        127
+      ]
+    },
+    {
+      "anchor": [
+        1196,
+        564
+      ],
+      "score": 0.6426,
+      "coverage": 1.0,
+      "shift": [
+        81,
+        -35
+      ]
+    },
+    {
+      "anchor": [
+        918,
+        723
+      ],
+      "score": 0.5706,
+      "coverage": 0.991,
+      "shift": [
+        -197,
+        124
+      ]
+    },
+    {
+      "anchor": [
+        1270,
+        601
+      ],
+      "score": 0.5518,
+      "coverage": 0.394,
+      "shift": [
+        155,
+        2
+      ]
+    },
+    {
+      "anchor": [
+        1277,
+        529
+      ],
+      "score": null,
+      "coverage": null,
+      "shift": [
+        162,
+        -70
+      ],
+      "note": "Partially cropped upper-right block; anchor extrapolated from the adjacent roof row."
+    }
+  ]
+}
