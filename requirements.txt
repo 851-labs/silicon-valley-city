@@ -1,0 +1,2 @@
+# Review image generation. Building geometry uses Blender's bundled Python.
+Pillow==11.3.0

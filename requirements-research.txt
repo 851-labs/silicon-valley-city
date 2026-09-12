@@ -1,0 +1,8 @@
+# Optional: rerun reference tracing, triangulation and numerical fitting.
+-r requirements.txt
+numpy==2.0.2
+opencv-python-headless==5.0.0.93
+scipy==1.13.1
+shapely==2.0.7
+mapbox_earcut==2.1.0
+svgpathtools==1.8.0

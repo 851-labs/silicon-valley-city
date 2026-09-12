@@ -1,0 +1,52 @@
+# Keep the public project focused on the current editable checkpoint.
+/*
+!/.gitignore
+!/.gitattributes
+!/LICENSE
+!/LICENSES/
+!/README.md
+!/THIRD_PARTY_NOTICES.md
+!/requirements*.txt
+!/docs/
+!/tools/
+!/source/
+!/assets/
+!/references/
+!/matching/
+!/renders/
+!/city_measured.blend
+!/city_measured_standalone.blend
+!/asset_manifest_measured.json
+!/validation_measured.json
+
+# Local environments, credentials, caches and generated scratch files.
+**/.DS_Store
+**/__pycache__/
+**/*.py[cod]
+**/.venv/
+**/.env
+**/.env.*
+**/.hunk/
+**/*.log
+**/*.blend[0-9]*
+**/*.exr
+**/*.tmp
+**/*.part
+
+# Third-party source media are optional local downloads, not MIT assets.
+/references/**
+!/references/**/
+!/references/**/*.md
+!/references/**/*.json
+
+# Keep reports; regenerate comparison images from the optional master frame.
+/matching/*
+!/matching/*_color_fit.json
+!/matching/google_logo_fit.json
+!/matching/google_logo_extruded_fit.json
+/assets/*/*
+!/assets/*/*.blend
+!/assets/*/preview.png
+/renders/*
+!/renders/city_measured.png
+!/renders/city_measured_sunrise.png
