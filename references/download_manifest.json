@@ -1,0 +1,261 @@
+[
+  {
+    "group": "master",
+    "file": "references/original_wide.webp",
+    "url": "https://silicon-valley-hunk.hunk.851.sh/references/original_wide.webp",
+    "sha256": "945537627a051c1caf040ec6dbd4bd572d4903aa63d25d2573dac74c287403a6",
+    "attribution": "HBO / yU+co; archived working master"
+  },
+  {
+    "group": "studio",
+    "file": "references/studio/YU01_Zisp_vPdc1huK26k_SiliconValleyS4_fullrez_1.jpg",
+    "url": "https://images.prismic.io/yuco/Zisp_vPdc1huK26k_SiliconValleyS4_fullrez_1.jpg",
+    "sha256": "746cb19edb06d5e659c7eaf8e12e576edf8cb7d9b8ad87ca3f297056b56fc2e8",
+    "attribution": "HBO / yU+co"
+  },
+  {
+    "group": "studio",
+    "file": "references/studio/YU02_Zgdhrct2UUcvBSan_sv1.jpg",
+    "url": "https://images.prismic.io/yuco/Zgdhrct2UUcvBSan_sv1.jpg",
+    "sha256": "9061ab6863abd971932aaf0f4bcda03ce80e799ddbf3a056d4492f33919a87ac",
+    "attribution": "HBO / yU+co"
+  },
+  {
+    "group": "studio",
+    "file": "references/studio/YU03_Zgdhrst2UUcvBSao_sv2.png",
+    "url": "https://images.prismic.io/yuco/Zgdhrst2UUcvBSao_sv2.png",
+    "sha256": "8304fb7c32eeabf45c62cd5883154349348fe1f43580333c49434ac2e0dd17a8",
+    "attribution": "HBO / yU+co"
+  },
+  {
+    "group": "studio",
+    "file": "references/studio/YU04_Zgdhwct2UUcvBSaq_sv3-1.jpg",
+    "url": "https://images.prismic.io/yuco/Zgdhwct2UUcvBSaq_sv3-1.jpg",
+    "sha256": "e1f36d8c673b57e334e5b8201db8e261cfb3750aebd6286a71125e36ee94cd1e",
+    "attribution": "HBO / yU+co"
+  },
+  {
+    "group": "studio",
+    "file": "references/studio/YU05_Zgdhwst2UUcvBSas_sv4.png",
+    "url": "https://images.prismic.io/yuco/Zgdhwst2UUcvBSas_sv4.png",
+    "sha256": "9a9a6100d8ea4ea1794d3c97b93e38389889afbead81bf1c072430e1ff5afdd1",
+    "attribution": "HBO / yU+co"
+  },
+  {
+    "group": "studio",
+    "file": "references/studio/YU06_ZekCC3Uurf2G3LWT_sv5_mt_final_v28-1.jpg",
+    "url": "https://images.prismic.io/yuco/ZekCC3Uurf2G3LWT_sv5_mt_final_v28-1.jpg",
+    "sha256": "ffe108359b2cfcec03bd0e5bfbd04b58faba6c6a9b8ed3c88deec256e6dcf034",
+    "attribution": "HBO / yU+co"
+  },
+  {
+    "group": "studio",
+    "file": "references/studio/YU07_Zgdhw8t2UUcvBSat_sv6.png",
+    "url": "https://images.prismic.io/yuco/Zgdhw8t2UUcvBSat_sv6.png",
+    "sha256": "7dbc85a39a78a0c2ddce954f7b56b7474e1c4cf1d60a4f5e2f9b0817761d670a",
+    "attribution": "HBO / yU+co"
+  },
+  {
+    "group": "studio",
+    "file": "references/studio/YU08_Zf480ccYqOFdyCso_SILICONVALLEY-BEHINDTHESCENES.mp4.00_00_04_03.Still003.jpg",
+    "url": "https://images.prismic.io/yuco/Zf480ccYqOFdyCso_SILICONVALLEY-BEHINDTHESCENES.mp4.00_00_04_03.Still003.jpg",
+    "sha256": "3c956f90b72093690ea906d8da200878ae4d8b544db9b78c085963e959bbc986",
+    "attribution": "HBO / yU+co"
+  },
+  {
+    "group": "studio",
+    "file": "references/studio/YU09_Zf4808cYqOFdyCsq_SILICONVALLEY-BEHINDTHESCENES.mp4.00_00_13_22.Still005.jpg",
+    "url": "https://images.prismic.io/yuco/Zf4808cYqOFdyCsq_SILICONVALLEY-BEHINDTHESCENES.mp4.00_00_13_22.Still005.jpg",
+    "sha256": "1c18a10274709f5d113b12a0b99c3f6f338e71f089eddb4756003d46f2bebe13",
+    "attribution": "HBO / yU+co"
+  },
+  {
+    "group": "studio",
+    "file": "references/studio/YU10_ZekCCnUurf2G3LWR_sv3-1.jpg",
+    "url": "https://images.prismic.io/yuco/ZekCCnUurf2G3LWR_sv3-1.jpg",
+    "sha256": "e1f36d8c673b57e334e5b8201db8e261cfb3750aebd6286a71125e36ee94cd1e",
+    "attribution": "HBO / yU+co"
+  },
+  {
+    "group": "studio",
+    "file": "references/studio/YU11_Zf481ccYqOFdyCss_SILICONVALLEY-BEHINDTHESCENES.mp4.00_00_32_12.Still013.jpg",
+    "url": "https://images.prismic.io/yuco/Zf481ccYqOFdyCss_SILICONVALLEY-BEHINDTHESCENES.mp4.00_00_32_12.Still013.jpg",
+    "sha256": "a3d94512b06c2f8d1b5c06346b2b89120bb3259b999eb966b78148b052c1b1fd",
+    "attribution": "HBO / yU+co"
+  },
+  {
+    "group": "studio",
+    "file": "references/studio/YU12_ZekCDHUurf2G3LWW_sv5_mt_final_v28-6.jpg",
+    "url": "https://images.prismic.io/yuco/ZekCDHUurf2G3LWW_sv5_mt_final_v28-6.jpg",
+    "sha256": "de4df4adf79046ef85f2bdfc79d2275e3da237cb5a5823c59a1a19a89c8c5d66",
+    "attribution": "HBO / yU+co"
+  },
+  {
+    "group": "studio",
+    "file": "references/studio/YU13_Zf49c8cYqOFdyCst_SILICONVALLEY-BEHINDTHESCENES.mp4.00_00_54_17.Still020.jpg",
+    "url": "https://images.prismic.io/yuco/Zf49c8cYqOFdyCst_SILICONVALLEY-BEHINDTHESCENES.mp4.00_00_54_17.Still020.jpg",
+    "sha256": "a69adccb05c6a1a0fe61f8536e3bf596f0b2d6b0da67fc0428f3c7fd118fb0ac",
+    "attribution": "HBO / yU+co"
+  },
+  {
+    "group": "studio",
+    "file": "references/studio/YU14_ZekCDXUurf2G3LWX_sv5_mt_final_v28-8.jpg",
+    "url": "https://images.prismic.io/yuco/ZekCDXUurf2G3LWX_sv5_mt_final_v28-8.jpg",
+    "sha256": "2cdeed9a1ed67787aa9527fe46013305b97b47c529a591ea9d2e072317d9e051",
+    "attribution": "HBO / yU+co"
+  },
+  {
+    "group": "studio",
+    "file": "references/studio/YU15_Zf49dMcYqOFdyCsu_SILICONVALLEY-BEHINDTHESCENES.mp4.00_00_55_23.Still021.jpg",
+    "url": "https://images.prismic.io/yuco/Zf49dMcYqOFdyCsu_SILICONVALLEY-BEHINDTHESCENES.mp4.00_00_55_23.Still021.jpg",
+    "sha256": "2860e4eceeee45ebe80deb4664aba39793f278c8c0b9e9339b83e5529e3ee82f",
+    "attribution": "HBO / yU+co"
+  },
+  {
+    "group": "studio",
+    "file": "references/studio/YU16_Zf481McYqOFdyCsr_SILICONVALLEY-BEHINDTHESCENES.mp4.00_00_21_05.Still008.jpg",
+    "url": "https://images.prismic.io/yuco/Zf481McYqOFdyCsr_SILICONVALLEY-BEHINDTHESCENES.mp4.00_00_21_05.Still008.jpg",
+    "sha256": "5f4fd17fbb0e86a330bd747edede21d25475eea636b84149a327d6f373062fe1",
+    "attribution": "HBO / yU+co"
+  },
+  {
+    "group": "studio",
+    "file": "references/studio/YU17_ZekCC3Uurf2G3LWV_sv5_mt_final_v28-3.jpg",
+    "url": "https://images.prismic.io/yuco/ZekCC3Uurf2G3LWV_sv5_mt_final_v28-3.jpg",
+    "sha256": "e12cf58510dfe4c12d3614f98b646f43044c591551da6df097c6a9bdead983a9",
+    "attribution": "HBO / yU+co"
+  },
+  {
+    "group": "studio",
+    "file": "references/studio/YU18_ZekCDnUurf2G3LWY_sv5_mt_final_v28-9.jpg",
+    "url": "https://images.prismic.io/yuco/ZekCDnUurf2G3LWY_sv5_mt_final_v28-9.jpg",
+    "sha256": "c42b9880bc165fc692150d361a56d1e2af2d0d7befcde4c70729ec59395e5654",
+    "attribution": "HBO / yU+co"
+  },
+  {
+    "group": "studio",
+    "file": "references/studio/YU19_Zf49yscYqOFdyCsv_SILICONVALLEY-BEHINDTHESCENES.mp4.00_00_03_02.Still002.jpg",
+    "url": "https://images.prismic.io/yuco/Zf49yscYqOFdyCsv_SILICONVALLEY-BEHINDTHESCENES.mp4.00_00_03_02.Still002.jpg",
+    "sha256": "f234f4cde0580ae875a1b1ebe70d8aa6dc549c6d4af3f18350b8e8cc5e4e579a",
+    "attribution": "HBO / yU+co"
+  },
+  {
+    "group": "studio",
+    "file": "references/studio/YU20_Zf49y8cYqOFdyCsw_SILICONVALLEY-BEHINDTHESCENES.mp4.00_00_15_06.Still006.jpg",
+    "url": "https://images.prismic.io/yuco/Zf49y8cYqOFdyCsw_SILICONVALLEY-BEHINDTHESCENES.mp4.00_00_15_06.Still006.jpg",
+    "sha256": "d46fc97bebd0a5f9d890722749911649a0339d38948dc8aa2ba07dab6444a770",
+    "attribution": "HBO / yU+co"
+  },
+  {
+    "group": "studio",
+    "file": "references/studio/YU21_Zf4_Y8cYqOFdyCtB_1_4_5_Theranos_Slack.mov.00_00_04_27.Still001.jpg",
+    "url": "https://images.prismic.io/yuco/Zf4_Y8cYqOFdyCtB_1_4_5_Theranos_Slack.mov.00_00_04_27.Still001.jpg",
+    "sha256": "5d2baf8eeb07a1e4724cb2f8c77a6613cc1e59b591be05d80ea5fb3f0c4457a2",
+    "attribution": "HBO / yU+co"
+  },
+  {
+    "group": "studio",
+    "file": "references/studio/YU22_Zf49zccYqOFdyCsy_SILICONVALLEY-BEHINDTHESCENES.mp4.00_00_22_00.Still009.jpg",
+    "url": "https://images.prismic.io/yuco/Zf49zccYqOFdyCsy_SILICONVALLEY-BEHINDTHESCENES.mp4.00_00_22_00.Still009.jpg",
+    "sha256": "bb27f7ed8939b70b4f7000c4ec99749037ac0d4c28b0442909b00ccb77cab96b",
+    "attribution": "HBO / yU+co"
+  },
+  {
+    "group": "studio",
+    "file": "references/studio/YU23_Zf491McYqOFdyCs5_SILICONVALLEY-BEHINDTHESCENES.mp4.00_00_46_20.Still017.jpg",
+    "url": "https://images.prismic.io/yuco/Zf491McYqOFdyCs5_SILICONVALLEY-BEHINDTHESCENES.mp4.00_00_46_20.Still017.jpg",
+    "sha256": "277a3449007da113e27ba0db8231cfe31f61f85f7e7ed149c4f4d54c212d9735",
+    "attribution": "HBO / yU+co"
+  },
+  {
+    "group": "studio",
+    "file": "references/studio/YU24_Zf4_ZMcYqOFdyCtC_7a_Ebay_LED.mov.00_00_01_09.Still001.jpg",
+    "url": "https://images.prismic.io/yuco/Zf4_ZMcYqOFdyCtC_7a_Ebay_LED.mov.00_00_01_09.Still001.jpg",
+    "sha256": "e21378088e8d57bad0422e44b7ce046a26f21fe7a61b953edd5b2021343d435d",
+    "attribution": "HBO / yU+co"
+  },
+  {
+    "group": "studio",
+    "file": "references/studio/YU25_Zf49zscYqOFdyCsz_SILICONVALLEY-BEHINDTHESCENES.mp4.00_00_24_01.Still010.jpg",
+    "url": "https://images.prismic.io/yuco/Zf49zscYqOFdyCsz_SILICONVALLEY-BEHINDTHESCENES.mp4.00_00_24_01.Still010.jpg",
+    "sha256": "1e839934251457d0f4a7ebe11681e6124a4880876b10907dcc5c1ff1f8999fc2",
+    "attribution": "HBO / yU+co"
+  },
+  {
+    "group": "studio",
+    "file": "references/studio/YU26_Zf491ccYqOFdyCs6_SILICONVALLEY-BEHINDTHESCENES.mp4.00_00_50_02.Still018.jpg",
+    "url": "https://images.prismic.io/yuco/Zf491ccYqOFdyCs6_SILICONVALLEY-BEHINDTHESCENES.mp4.00_00_50_02.Still018.jpg",
+    "sha256": "2777d6bbf1d4d994bdab988275c974bff0437eee04decc58e54ca39863e3031c",
+    "attribution": "HBO / yU+co"
+  },
+  {
+    "group": "studio",
+    "file": "references/studio/YU27_Zf4_ZccYqOFdyCtD_7b_GoogleWithLED.mov.00_00_02_24.Still001.jpg",
+    "url": "https://images.prismic.io/yuco/Zf4_ZccYqOFdyCtD_7b_GoogleWithLED.mov.00_00_02_24.Still001.jpg",
+    "sha256": "bbe4d1207b26e564a1d49992e07545ded15b017cd52863bc0d73a15113108b21",
+    "attribution": "HBO / yU+co"
+  },
+  {
+    "group": "studio",
+    "file": "references/studio/YU28_Zf4_cccYqOFdyCtG_Protest_2017.mov.00_00_04_24.Still001.jpg",
+    "url": "https://images.prismic.io/yuco/Zf4_cccYqOFdyCtG_Protest_2017.mov.00_00_04_24.Still001.jpg",
+    "sha256": "dcbd2ee5d27c34f50fe3a87aa880033725cc45cf00a264002d495f27df4db1b8",
+    "attribution": "HBO / yU+co"
+  },
+  {
+    "group": "studio",
+    "file": "references/studio/YU29_Zf4_e8cYqOFdyCtJ_TidalSpotify.mov.00_00_00_24.Still001.jpg",
+    "url": "https://images.prismic.io/yuco/Zf4_e8cYqOFdyCtJ_TidalSpotify.mov.00_00_00_24.Still001.jpg",
+    "sha256": "6ba84fe0289f073ede88c4070ccb1985ca6e48c46f9c792fb21e56d02124a1da",
+    "attribution": "HBO / yU+co"
+  },
+  {
+    "group": "studio",
+    "file": "references/studio/YU30_Zf5ACscYqOFdyCtO_HBOSV_logo_27x40_300dpi.jpg.00_00_00_00.Still001.jpg",
+    "url": "https://images.prismic.io/yuco/Zf5ACscYqOFdyCtO_HBOSV_logo_27x40_300dpi.jpg.00_00_00_00.Still001.jpg",
+    "sha256": "15a3bcf882335e2e3f1e942d5a78b97abdb499c14c7bcfba9185304d5c8549c7",
+    "attribution": "HBO / yU+co"
+  },
+  {
+    "group": "director",
+    "file": "references/director/B01.png",
+    "url": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/d5b86a22483561.59941159b4958.png",
+    "sha256": "1592661f4b4b23925140ed549a0ab0532d74cc57aaed1177e9393a6c4f83628b",
+    "attribution": "HBO / yU+co, Director's Cut on Behance"
+  },
+  {
+    "group": "director",
+    "file": "references/director/B02.png",
+    "url": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/972ca022483561.59941159b53d2.png",
+    "sha256": "8bff165b6170c69e4793c877297abf3a1a9e0eeb50d1ef7ab6f84db479d0e5b1",
+    "attribution": "HBO / yU+co, Director's Cut on Behance"
+  },
+  {
+    "group": "director",
+    "file": "references/director/B03.png",
+    "url": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/a4b78a22483561.59941159b446c.png",
+    "sha256": "c76cc123ba7ed3aa7dce8833af230c2dad455a59e102162cb20ee8c169a5a755",
+    "attribution": "HBO / yU+co, Director's Cut on Behance"
+  },
+  {
+    "group": "director",
+    "file": "references/director/B04.png",
+    "url": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/8ce88522483561.59941159b4e3e.png",
+    "sha256": "65c6a5aedb0204352e1aab59d442edb6d5be0e2e4eb7c8a0c72c57c2b4202353",
+    "attribution": "HBO / yU+co, Director's Cut on Behance"
+  },
+  {
+    "group": "director",
+    "file": "references/director/B05.png",
+    "url": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/bb747622483561.59941159b408a.png",
+    "sha256": "87039df561dc06be9112a02f6886e0ad307f9ba2941416367c66d8f55d921256",
+    "attribution": "HBO / yU+co, Director's Cut on Behance"
+  },
+  {
+    "group": "director",
+    "file": "references/director/B06.png",
+    "url": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/88e32122483561.59941159b5113.png",
+    "sha256": "0d33a03489dd03b22f4a322293a787d98d5f82bea1d8f22de829adf5432974fd",
+    "attribution": "HBO / yU+co, Director's Cut on Behance"
+  }
+]
